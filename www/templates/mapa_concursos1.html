@@ -1,0 +1,125 @@
+<ion-view title="Mapa dos Concursos" hide-nav-bar="false" id="mapa_concursos1" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <br />
+    <div class="list padding">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Localizar concursos Por:
+        </div>
+        <select>
+          <option>Área</option>
+          <option selected>Região</option>
+          <option>Situação</option>
+        </select>
+      </label>
+
+    </div>
+
+    <!-- <div class="search" style="margin: 0; position: relative; width: 100%">
+      <input placeholder="Procurar curso" type="text" style="width: 269px;">
+      <i class="sprite sprite-lupa" style="width: 27px;height: 27px;background-position: -232px -279px;position: absolute;top: 14px;left: 253px;"></i>
+    </div> -->
+
+    <div class="circleSearch" ng-class="{pesquisaAberta: pesquisa == 'aberta'}">
+      <input type="text" ng-show="pesquisa == 'aberta'" placeholder="Procure..."/>
+      <i class="sprite sprite-lupa" ng-show="pesquisa == 'fechada'" style="width: 27px;height: 27px;background-position: -232px -279px;position: absolute;top: 7px;left: 0;right: 0;margin: 0 auto;filter: grayscale(1) contrast(1) brightness(2);" ng-click="abrirPesquisa()"></i>
+    </div>
+
+    <div class="box-interesses clearfix mapa-concursos" style="margin-top: 70px">
+
+      <div class="box-area clearfix">
+        <div class="top clearfix">
+          <button class="btn half left" style="background-color: #57ae38 !important">Inscrições Abertas</button>
+          <p class="block right center-text">
+            <b>125.000</b> vagas em<br> <b>68</b> concursos
+          </p>
+        </div>
+        <div class="content clearfix">
+          <ul>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="right block ver-todos" style="color: #1e9ec5">ver todos</a>
+      </div>
+
+      <div class="box-area clearfix">
+        <div class="top clearfix">
+          <button class="btn btn-oceanblue half left" style="    padding: 18px 10px;">Previstos</button>
+          <p class="block right center-text" style="color: #1a678f !important">
+            <b>125.000</b> vagas em<br> <b>68</b> concursos
+          </p>
+        </div>
+        <div class="content clearfix">
+          <ul>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="right block ver-todos" style="color: #1e9ec5">ver todos</a>
+      </div>
+
+      <div class="box-area clearfix">
+        <div class="top clearfix">
+          <button class="btn bgr-oceanblue half left">Em Andamento</button>
+          <p class="block right center-text" style="color: #1e9ec5 !important">
+            <b>125.000</b> vagas em<br> <b>68</b> concursos
+          </p>
+        </div>
+        <div class="content clearfix">
+          <ul>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+            <li>
+              <a href="#">Nome do concurso cadastrado no admin  <span class="num-vagas">(78 vagas)</span></a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="right block ver-todos" style="color: #1e9ec5">ver todos</a>
+      </div>
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

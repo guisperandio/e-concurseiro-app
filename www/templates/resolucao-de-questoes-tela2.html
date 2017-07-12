@@ -1,0 +1,184 @@
+<ion-view title="ciclos-de-estudos" hide-nav-bar="false" id="resolucao">
+  <ion-content padding="false" class="manual-ios-statusbar-padding">
+  <div class="header-ciclos clearfix">
+    <a id="logo-resolucao" class="sprite spritesheet-resolucao resolucao-logo" href="#">resolucao de questoes</a>
+    <i class="sprite spritesheet-ciclos ciclos-info right"></i>
+    <i class="sprite spritesheet-ciclos ciclos-power right"></i>
+  </div>
+
+  <div class="content clearfix">
+
+
+
+    <div class="main-content clearfix padding">
+
+      <h2 class="content-title full block">Montando o simulado</h2>
+
+      <!-- <p class="center-text text-app">
+        Bem-vindo(a) ao aplicativo de resolução de questões. Nele é possível resolver e comentar questões, além de aprender por meio dos comentários de professores e outros concurseiros.
+      </p> -->
+      <div class="content-input">
+        <input class="input-resolucao" placeholder="Digite aqui um nome para o seu caderno de questões"/>
+        <p class="text-gray center-text" style="font-size: 12px;">
+          (apenas usuários logados podem salvar seus cadernos de questões)
+        </p>
+      </div>
+
+      <div class="box-filtro clearfix">
+        <span class="subtitle">FILTRO</span>
+        <div class="content-input clearfix margin-top no-margin-bottom">
+          <span class="subtitle block full text-left">Matéria</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom">
+          <span class="subtitle block full text-left">Assunto</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom">
+          <span class="subtitle block full text-left">órgão</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom">
+          <span class="subtitle block full text-left">Cargo</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom">
+          <span class="subtitle block full text-left">banca</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom half left">
+          <span class="subtitle block full text-left">ANO</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="content-input clearfix no-margin-bottom half right">
+          <span class="subtitle block full text-left">Tipo de questão</span>
+          <select class="margin-top">
+            <option>
+              Selecione um assunto
+            </option>
+          </select>
+        </div>
+        <div class="box-questoes clearfix">
+          <button class="botao botao-verde left">2.523.465 questões disponiveis</button>
+          <button class="botao botao-azulclaro right no-margin-right">Limpar Filtro</button>
+
+          <div class="filtros-selected clearfix left">
+            <div class="box-selected">
+              <span class="filter-name">nome da banca</span>
+              <span class="close-button">X</span>
+            </div>
+            <div class="box-selected">
+              <span class="filter-name">nome da banca</span>
+              <span class="close-button">X</span>
+            </div>
+            <div class="box-selected">
+              <span class="filter-name">nome da banca</span>
+              <span class="close-button">X</span>
+            </div>
+            <div class="box-selected">
+              <span class="filter-name">nome da banca</span>
+              <span class="close-button">X</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-filtro clearfix">
+        <span class="subtitle">FILTRO PERSONALIZADO</span>
+        <div class="content-input clearfix margin-top no-margin-bottom">
+          <span class="subtitle block full text-left margin-bottom">Por histórico</span>
+          <div class="input-radio left clearfix">
+            <input type="radio" name="historico" value="todos" id="radio01" checked>
+            <label for="radio01"><span class="radio-name sprite spritesheet-resolucao resolucao-radio">Todas as questões</span></label>
+          </div>
+          <div class="input-radio left clearfix">
+            <input type="radio" name="historico" value="nunca" id="radio02">
+            <label for="radio02"><span class="radio-name sprite spritesheet-resolucao resolucao-radio">Apenas questões que nunca respondi</span></label>
+          </div>
+          <div class="input-radio left clearfix">
+            <input type="radio" name="historico" value="erro" id="radio03">
+            <label for="radio03"><span class="radio-name sprite spritesheet-resolucao resolucao-radio">Apenas questões que errei</span></label>
+          </div>
+        </div>
+
+        <div class="content-input clearfix margin-top no-margin-bottom">
+          <span class="subtitle block full text-left margin-bottom">Por nível de dificuldade</span>
+          <div class="input-checkbox left clearfix">
+            <input type="checkbox" name="dificuldade" value="erro" id="check01">
+            <label for="check01"><span class="checkbox-name sprite spritesheet-resolucao resolucao-checkbox">FÁCIL <br />índice de acerto de 75 a 100%</span></label>
+          </div>
+          <div class="input-checkbox left clearfix">
+            <input type="checkbox" name="dificuldade" value="erro" id="check02">
+            <label for="check02"><span class="checkbox-name sprite spritesheet-resolucao resolucao-checkbox">INTERMEDIÁRIO <br />índice de acerto de 60 a 75%</span></label>
+          </div>
+          <div class="input-checkbox left clearfix">
+            <input type="checkbox" name="dificuldade" value="erro" id="check03">
+            <label for="check03"><span class="checkbox-name sprite spritesheet-resolucao resolucao-checkbox">AVANÇADO <br />índice de acerto abaixo de 60%</span></label>
+          </div>
+        </div>
+
+        <div class="content-input clearfix margin-top no-margin-bottom">
+          <span class="subtitle block full text-left margin-bottom">Por Registros</span>
+          <div class="input-checkbox left clearfix">
+            <input type="checkbox" name="dificuldade" value="erro" id="check04">
+            <label for="check04"><span class="checkbox-name sprite spritesheet-resolucao resolucao-checkbox">Apenas questões com comentários</span></label>
+          </div>
+          <div class="input-checkbox left clearfix">
+            <input type="checkbox" name="dificuldade" value="erro" id="check05">
+            <label for="check05"><span class="checkbox-name sprite spritesheet-resolucao resolucao-checkbox">Apenas questões que fiz anotações</span></label>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="content-input clearfix margin-top no-margin-bottom" style="padding: 10px; background-color: #fff">
+        <span class="subtitle block full text-left margin-bottom">Quantidade de questões</span>
+        <div class="input-radio left clearfix">
+          <input type="radio" name="historico" value="todos" id="radio04" checked>
+          <label for="radio04"><span class="radio-name sprite spritesheet-resolucao resolucao-radio">Total de questões do caderno</span></label>
+        </div>
+        <div class="input-radio left clearfix">
+          <span class="radio-name left margin-bottom text-gray" style="margin-left: 30px;">OU</span>
+        </div>
+        <div class="input-radio left clearfix">
+          <input type="radio" name="historico" value="nunca" id="radio05">
+          <label for="radio05"><span class="radio-name sprite spritesheet-resolucao resolucao-radio">Questões por matéria</span></label>
+        </div>
+        <button class="botao botao-azulescuro full">Gerar caderno de questões</button>
+        <p class="text-app center-text text-gray">
+          o caderno será gerado com <b style="font-size: 18px; color: #1e9ec5;">250 questões</b>
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  </ion-content>
+</ion-view>

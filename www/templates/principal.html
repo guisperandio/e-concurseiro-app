@@ -1,0 +1,285 @@
+<ion-view title="Boatos" hide-nav-bar="true" id="boatos" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle" style="top: 0 !important; background-color: #1e9ec5;">
+    <i class="sprite sprite-logo-interna center" style="margin-top: 100px;"></i>
+    <div class="content clearfix margin-top" style="background-color: transparent">
+
+      <h2 class="content-title full block left margin-top" style="color: #fff">Menu navegação</h2>
+
+      <style>
+        .menu-navegacao{
+          width: 80%;
+          margin: 0 auto;
+          padding: 10px;
+        }
+        .menu-navegacao ul{
+          width: 100&;
+          border-radius: 10px;
+          background-color: #f1f1f1;
+        }
+        .menu-navegacao ul li{
+          width: 100%;
+          border-bottom: 1px solid #d2d2d2;
+        }
+        .menu-navegacao ul li a{
+          padding: 10px;
+          width: 100%;
+
+
+        }
+        .menu-navegacao ul li:last-child{
+          border: 0
+        }
+        .menu-navegacao ul li a span{
+          font: 500 16px 'Muli';
+          color: #696969;
+        }
+      </style>
+      <nav class="menu-navegacao clearfix center" style="background-color: transparent">
+        <ul class="clearfix shadow">
+          <li>
+            <a menu-close ui-sref="bibliografia" ui-sref-active="active"><span class="menu-name">Bibliografia</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="boatos" ui-sref-active="active"><span class="menu-name">Boatos</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="chats" ui-sref-active="active"><span class="menu-name">Chats</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela1" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela2" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela3" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 3</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela3-modal1" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 3 - Modal 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela3-modal2" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 3 - Modal 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela3_1" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 3_1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela4" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 4</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela4-modal1" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 4 - Modal 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela4-modal2" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 4 - Modal 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela5" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 5</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela6" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 6</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela6-modal1" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 6 - Modal 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela6-modal2" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 6 - Modal 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela7" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 7</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela8" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 8</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela9" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 9</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela10" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 10</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudos-tela11" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 11</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudo-definicao" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Definição</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="ciclos-de-estudo-horas" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Horas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela1" ui-sref-active="active"><span class="menu-name">Cursos - TELA 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela2" ui-sref-active="active"><span class="menu-name">Cursos - TELA 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela3" ui-sref-active="active"><span class="menu-name">Cursos - TELA 3</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela4" ui-sref-active="active"><span class="menu-name">Cursos - TELA 4</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela5" ui-sref-active="active"><span class="menu-name">Cursos - TELA 5</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela6" ui-sref-active="active"><span class="menu-name">Cursos - TELA 6</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela7" ui-sref-active="active"><span class="menu-name">Cursos - TELA 7</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela8" ui-sref-active="active"><span class="menu-name">Cursos - TELA 8</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela9" ui-sref-active="active"><span class="menu-name">Cursos - TELA 9</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela10" ui-sref-active="active"><span class="menu-name">Cursos - TELA 10</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="desafios_home" ui-sref-active="active"><span class="menu-name">Desafios - Home</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="desafios" ui-sref-active="active"><span class="menu-name">Desafios</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="descontrair" ui-sref-active="active"><span class="menu-name">descontrair</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="dicas" ui-sref-active="active"><span class="menu-name">dicas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="editais" ui-sref-active="active"><span class="menu-name">editais</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="favoritos" ui-sref-active="active"><span class="menu-name">favoritos</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="feed" ui-sref-active="active"><span class="menu-name">feed</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="historias" ui-sref-active="active"><span class="menu-name">historias</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="interesses" ui-sref-active="active"><span class="menu-name">interesses</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="lista_professores" ui-sref-active="active"><span class="menu-name">lista_professores</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mapa_concursos1" ui-sref-active="active"><span class="menu-name">mapa_concursos1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mapa_concursos2" ui-sref-active="active"><span class="menu-name">mapa_concursos2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mapa_concursos3" ui-sref-active="active"><span class="menu-name">mapa_concursos3</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mapa_concursos4" ui-sref-active="active"><span class="menu-name">mapa_concursos4</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mapas" ui-sref-active="active"><span class="menu-name">mapas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="medalhas" ui-sref-active="active"><span class="menu-name">medalhas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mensagens" ui-sref-active="active"><span class="menu-name">mensagens</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="mensagem" ui-sref-active="active"><span class="menu-name">mensagem</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="minha-rede" ui-sref-active="active"><span class="menu-name">minha-rede</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="motivacao" ui-sref-active="active"><span class="menu-name">motivacao</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="papo_home" ui-sref-active="active"><span class="menu-name">papo_home</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="papo" ui-sref-active="active"><span class="menu-name">papo</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="perfil" ui-sref-active="active"><span class="menu-name">perfil</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="provas" ui-sref-active="active"><span class="menu-name">provas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela2" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela2_1" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 2.1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela2_2" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 2.2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela3" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 3</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela3_1" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 3.1</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="resolucao-de-questoes-tela3_2" ui-sref-active="active"><span class="menu-name">Resolução de Questões - Tela 3.2</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="tutoriais" ui-sref-active="active"><span class="menu-name">tutoriais</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao_visitante" ui-sref-active="active"><span class="menu-name">visao_visitante</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-cadastro" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-cadastro</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-desempenho" ui-sref-active="active"><span class="menu-name">Professor Desempenho</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-demonstrativo-vendas" ui-sref-active="active"><span class="menu-name">visao-professor-demonstrativo-vendas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-demonstrativo-periodo" ui-sref-active="active"><span class="menu-name">visao-professor-demonstrativo-periodo</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-demonstrativo-mensal" ui-sref-active="active"><span class="menu-name">visao-professor-demonstrativo-mensal</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-demonstrativo-listar" ui-sref-active="active"><span class="menu-name">visao-professor-demonstrativo-listar</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-financeiro" ui-sref-active="active"><span class="menu-name">visao-professor-financeiro</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-financeiro-ganhos" ui-sref-active="active"><span class="menu-name">visao-professor-financeiro-ganhos</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-visitante-detalhes-curso" ui-sref-active="active"><span class="menu-name">visao-visitante-detalhes-curso</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-visitante-listar-cursos" ui-sref-active="active"><span class="menu-name">visao-visitante-listar-cursos</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-visitante-listar-cursos-resultados" ui-sref-active="active"><span class="menu-name">visao-visitante-listar-cursos-resultados</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-visitante-seguidores-do-professor" ui-sref-active="active"><span class="menu-name">visao-visitante-seguidores-do-professor</span></a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <br />
+  </ion-content>
+</ion-view>

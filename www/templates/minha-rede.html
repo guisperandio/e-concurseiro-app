@@ -1,0 +1,486 @@
+<ion-view title="Minha Rede" hide-nav-bar="false" id="minha-rede" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="publicacao clearfix padding">
+      <h4>O que encontro nesta página?</h4>
+      <p>
+        Aqui você encontrará os concurseiros e professores que fazem parte da sua rede. Você irá  visualizar aqueles que já estão ativos na sua rede e os que desejam fazer parte dela.
+        <br />Nessa tela é possível autorizar os pedidos de outros usuários e excluir usuários que não deseja mais ter em sua rede de concurseiros.
+      </p>
+    </div>
+
+    <ul class="desafios clearfix rede">
+      <li class="ativos">
+        <a ng-click="changeTab('concurseiros')" ng-class="{active: tabActive == 'concurseiros'}">
+          <i class="sprite sprite5 sprite-btn_concurseiro"></i>
+          Concurseiros<br />
+          <span class="usr-info">(1.250)</span>
+        </a>
+      </li>
+      <li class="abertos">
+        <a class="desativado" ng-click="changeTab('professores')" ng-class="{active: tabActive == 'professores'}">
+          <i class="sprite sprite5 sprite-btn_professores"></i>
+          Professores<br />
+          <span class="usr-info">(1.250)</span>
+        </a>
+      </li>
+      <li class="expirados">
+        <a class="desativado" ng-click="changeTab('solicitacoes')" ng-class="{active: tabActive == 'solicitacoes'}">
+          <i class="sprite sprite5 sprite-btn_solicitacoes"></i>
+          Solicitações
+          <span class="usr-info-ballon">90</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="box-feed shadow clearfix des active padding" id="ativos" ng-show="tabActive == 'concurseiros'">
+      <div class="search minha-rede">
+        <input placeholder="Procurar" type="text">
+        <i class="sprite sprite-lupa"></i>
+      </div>
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small" >
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <button class="btn btn-aceitar">Aceitar</button>
+              <button class="btn btn-ignorar">Ignorar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- concurseiros -->
+
+    <!-- professores -->
+    <div class="box-feed shadow clearfix des active padding" id="ativos" ng-show="tabActive == 'professores'">
+      <div class="search minha-rede">
+        <input placeholder="Procurar" type="text">
+        <i class="sprite sprite-lupa"></i>
+      </div>
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small" >
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <button class="btn btn-aceitar">Aceitar</button>
+              <button class="btn btn-ignorar">Ignorar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- professores -->
+
+    <!-- solicitacoes -->
+    <div class="box-feed shadow clearfix des active padding" id="ativos" ng-show="tabActive == 'solicitacoes'">
+      <div class="search minha-rede">
+        <input placeholder="Procurar" type="text">
+        <i class="sprite sprite-lupa"></i>
+      </div>
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small" >
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio half no-margin">
+        <div class="box-seguidor">
+          <div class="feed-details clearfix">
+              <div class="user-details peq" style="position: relative">
+                  <div class="usuario p75 clearfix small">
+                      <div class="usr-alert" style="left: 46px !important">10</div>
+                      <div class="quarter-circle" style="background-color: transparent"></div>
+                      <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                  </div>
+                  <h3 class="usr-name">George Firmino</h3>
+                  <ul class="clearfix" >
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="perfil-porcentagem">75%</a>
+                    </li>
+                    <li>
+                      <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="list-seguidores left" style="margin: 10px 10px; width: 100%">
+                <span><b>3.555</b> pessoas conectadas</span>
+                <span><b>1.110</b> amigos em comum</span>
+                <span><b>2.200</b> publicações</span>
+              </div>
+              <button class="btn btn-aceitar">Aceitar</button>
+              <button class="btn btn-ignorar">Ignorar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- solicitacoes -->
+    <br />
+  </ion-content>
+</ion-view>

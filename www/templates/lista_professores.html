@@ -1,0 +1,188 @@
+<ion-view title="Lista Professores" hide-nav-bar="false" id="lista_professores" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <br />
+    <div class="list padding">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Ordenar Por:
+        </div>
+        <select>
+          <option>Nome</option>
+          <option selected>Avaliação dos Alunos</option>
+          <option>Nível</option>
+          <option>Reputação na rede</option>
+        </select>
+      </label>
+
+    </div>
+    
+    <div class="search" style="margin: 0; position: relative; width: 100%">
+      <input placeholder="Procurar curso" type="text" style="width: 269px;">
+      <i class="sprite sprite-lupa" style="width: 27px;height: 27px;background-position: -232px -279px;position: absolute;top: 14px;left: 253px;"></i>
+    </div>
+
+
+    <div class="box-interesse clearfix" id="prof-0">
+
+      <div class="box-lista-professor clearfix shadow">
+        <div class="channel-info">
+          <div class="usuario p75 clearfix small" style="position: relative; top: -3px; left: 4px;">
+              <div class="quarter-circle" style="background-color: transparent"></div>
+              <span class="usr-img" style="background-image: url('img/user.png');"><span class="alterar-foto">atualizar foto</span></span>
+          </div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+          <span class="attribuicoes clearfix"><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
+        </div>
+        <div class="pag-option clearfix margin-btns-pq">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite6 sprite-pagina"></i><span class="menu-name">Página</span></button>
+        </div>
+        <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId == 'prof-0'" ng-click='retractProf("prof-0")'></i>
+        <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+      </div>
+
+      <div class="box-lista-professor clearfix shadow expandido professor" ng-show="profId == 'prof-0' && profExpand == 'true'">
+        <div class="info-numbers clearfix">
+            <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
+            <span class="box-number"><b>58</b> eventos</span>
+            <span class="box-number"><b>234</b> vídeos</span>
+            <span class="box-number"><b>234</b> vídeos</span>
+            <span class="box-number no-padding-right"><b>234</b> vídeos</span>
+        </div>
+        <div class="avaliacao-alunos clearfix">
+            <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-avaliacao"></i><span class="menu-name">350 avaliações de alunos</span></span>
+            <ul class="clearfix">
+                <li>
+                    <a href="#" class="no-margin-left">
+                        <span class="avaliacao-name">Média Geral</span>
+                        <span class="avaliacao-nota geral"><span class="vertical-align">8,2</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Qualidade</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Pontualidade</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Fórum</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="no-margin-right">
+                        <span class="avaliacao-name">Aceitação</span>
+                        <span class="avaliacao-nota aceitacao"><span class="vertical-align">100%</span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-info">
+            <h5 class="clearfix"><i class="sprite sprite2 sprite-sobre"></i><span class="menu-name">Sobre George Firmino</span></h5>
+            <p>
+                Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim finibus. In sit amet
+                rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                <br />
+                <br /> Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim
+                finibus. In sit amet rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-interesse clearfix" id="prof-1">
+
+      <div class="box-lista-professor clearfix shadow">
+        <div class="channel-info">
+          <div class="usuario p75 clearfix small" style="position: relative; top: -3px; left: 4px;">
+              <div class="quarter-circle" style="background-color: transparent"></div>
+              <span class="usr-img" style="background-image: url('img/user.png');"><span class="alterar-foto">atualizar foto</span></span>
+          </div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+          <span class="attribuicoes clearfix"><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
+        </div>
+        <div class="pag-option clearfix margin-btns-pq">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite6 sprite-pagina"></i><span class="menu-name">Página</span></button>
+        </div>
+        <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId == 'prof-1' " ng-click='retractProf("prof-1")'></i>
+        <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-1'" ng-click='expandProf("prof-1")'></i>
+      </div>
+      <div class="box-lista-professor clearfix shadow expandido professor" ng-show="profId == 'prof-1' && profExpand == 'true'">
+        <div class="info-numbers clearfix">
+            <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
+            <span class="box-number"><b>58</b> eventos</span>
+            <span class="box-number"><b>234</b> vídeos</span>
+            <span class="box-number"><b>234</b> vídeos</span>
+            <span class="box-number no-padding-right"><b>234</b> vídeos</span>
+        </div>
+        <div class="avaliacao-alunos clearfix">
+            <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-avaliacao"></i><span class="menu-name">350 avaliações de alunos</span></span>
+            <ul class="clearfix">
+                <li>
+                    <a href="#" class="no-margin-left">
+                        <span class="avaliacao-name">Média Geral</span>
+                        <span class="avaliacao-nota geral"><span class="vertical-align">8,2</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Qualidade</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Pontualidade</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="avaliacao-name">Fórum</span>
+                        <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="no-margin-right">
+                        <span class="avaliacao-name">Aceitação</span>
+                        <span class="avaliacao-nota aceitacao"><span class="vertical-align">100%</span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-info">
+            <h5 class="clearfix"><i class="sprite sprite2 sprite-sobre"></i><span class="menu-name">Sobre George Firmino</span></h5>
+            <p>
+                Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim finibus. In sit amet
+                rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                <br />
+                <br /> Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim
+                finibus. In sit amet rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+  </ion-content>
+</ion-view>

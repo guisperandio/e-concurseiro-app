@@ -1,0 +1,405 @@
+<ion-view title="Historias" hide-nav-bar="false" id="desafios_home" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <div class="box-feed shadow clearfix no-margin-top">
+
+      <ul class="desafios clearfix">
+        <li class="ativos">
+          <a ng-click="changeTab('ativos')" ng-class="{active: tabActive == 'ativos'}">Desafios Ativos</a>
+        </li>
+        <li class="abertos">
+          <a ng-click="changeTab('abertos')" ng-class="{active: tabActive == 'abertos'}">Desafios Abertos</a>
+        </li>
+        <li class="expirados">
+          <a ng-click="changeTab('expirados')" ng-class="{active: tabActive == 'expirados'}">Desafios Expirados</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- ativos -->
+    <div class="box-feed shadow clearfix des active" id="ativos" ng-show="tabActive == 'ativos'">
+
+      <div class="box-desafio full no-margin">
+        <div class="box-top bgr-oceanblue">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <div class="status clearfix" style="position: relative">
+            <div class="box-ballon" style="top: -25px; left: 124px">4 <span class="arrow-down"></span></div>
+            <div class="status-bar-container">
+              <div class="status-bar-preenchimento p4"></div>
+            </div>
+          </div>
+          <button class="btn bgr-oceanblue btn-realizado half no-margin"><i class="sprite sprite3 sprite-adicionar-amigo"></i><span class="menu-name">Convidar amigo</span></button>
+          <div class="time-remain">
+            <i class="sprite sprite3 sprite-time"></i><span class="menu-name">00:00:00</span>
+          </div>
+          <div class="participantes clearfix">
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p6"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-green">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <div class="status clearfix" style="position: relative">
+            <div class="status-bar-container">
+              <div class="box-ballon bgr-green" style="top: -25px; left: 124px">4 <span class="arrow-down " style="border-top-color: #00ca18"></span></div>
+              <div class="status-bar-preenchimento p4 bgr-green"></div>
+            </div>
+          </div>
+          <button class="btn bgr-green btn-realizado half no-margin"><i class="sprite sprite3 sprite-adicionar-amigo"></i><span class="menu-name">Convidar amigo</span></button>
+          <div class="time-remain">
+            <i class="sprite sprite3 sprite-time"></i><span class="menu-name">00:00:00</span>
+          </div>
+          <div class="participantes clearfix">
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p4 bgr-green"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p6 bgr-green"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p1 bgr-green"></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-participantes clearfix">
+              <div class="usr-img" style="background-image: url('img/user.png')">
+              </div>
+              <div class="status clearfix">
+                <div class="status-bar-container">
+                  <div class="status-bar-preenchimento p2 bgr-green"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Abertos -->
+    <div class="box-feed shadow clearfix des" id="abertos" ng-show="tabActive == 'abertos'">
+
+      <div class="box-desafio full no-margin">
+        <div class="box-top bgr-oceanblue">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn bgr-oceanblue btn-realizado full no-margin"><span class="menu-name">Participar</span></button>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-green">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn bgr-green btn-realizado full no-margin"><span class="menu-name">Participar</span></button>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-darkyellow">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn bgr-darkyellow btn-realizado full no-margin"><span class="menu-name">Participar</span></button>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-red">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn bgr-red btn-realizado full no-margin"><span class="menu-name">Participar</span></button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Expirados -->
+    <div class="box-feed shadow clearfix des" id="expirados" ng-show="tabActive == 'expirados'">
+
+      <div class="box-desafio full no-margin">
+        <div class="box-top bgr-oceanblue">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn btn-ok btn-realizado full no-margin"><i class="sprite sprite-aprovar"></i><span class="menu-name">Desafio Realizado</span></button>
+          <span class="obj obj-realizado">Objetivo Alcançado</span>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-green">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn btn-danger btn-realizado full no-margin"><i class="sprite sprite-reprovar"></i><span class="menu-name">Desafio Não Realizado</span></button>
+          <span class="obj obj-nrealizado">Objetivo Não Alcançado</span>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-darkyellow">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn btn-ok btn-realizado full no-margin"><i class="sprite sprite-aprovar"></i><span class="menu-name">Desafio Realizado</span></button>
+          <span class="obj obj-realizado">Objetivo Alcançado</span>
+        </div>
+      </div>
+
+      <div class="box-desafio full no-margin margin-top">
+        <div class="box-top bgr-red">
+          <span class="box-title clearfix"><span class="title-publicacao">Desafio lorem ipsum dolor sit amet, consectur.</span></span>
+        </div>
+        <div class="box-content clearfix">
+          <div class="begin-end clearfix">
+            <span class="left">Início</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <div class="begin-end clearfix">
+            <span class="left">Término</span>
+            <span class="right">00/00/0000</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nibh urna. Sed vel sapien malesuada, pellentesque dui sit amet, blandit nunc. Praesent accumsan tellus eget metus molestie aliquam.
+          </p>
+          <div class="premiacao clearfix">
+            <i class="sprite sprite3 sprite-medal"></i>
+            <span class="menu-name">Premiação XxxxxxXxxxXxxxx</span>
+          </div>
+          <span>Participação <b>Voluntária</b></span>
+          <span>Desafio <b>Misto</b></span>
+          <span>Participantes <b>245</b></span>
+          <button class="btn btn-danger btn-realizado full no-margin"><i class="sprite sprite-reprovar"></i><span class="menu-name">Desafio Não Realizado</span></button>
+          <span class="obj obj-nrealizado">Objetivo Não Alcançado</span>
+        </div>
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

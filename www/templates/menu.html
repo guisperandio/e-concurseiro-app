@@ -1,0 +1,86 @@
+<ion-view title="Menu" hide-nav-bar="true" id="menu" ng-controller="scripts">
+  <ion-content padding="false" class="manual-ios-statusbar-padding no-padding-top">
+    <div class="user-details shadow clearfix">
+        <ul class="clearfix">
+            <li>
+                <a href="#" class="sprite sprite-perfil">Perfil</a>
+            </li>
+            <li>
+                <a href="#" class="sprite sprite-biblioteca">Perfil</a>
+            </li>
+            <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+            </li>
+            <li>
+                <a href="#" class="sprite sprite-medalha">Perfil</a>
+            </li>
+        </ul>
+        <div class="usuario p75 clearfix">
+          <div class="usr-alert">10</div>
+          <span class="usr-img" style="background-image: url('img/user.png');position: absolute;top: -3px;left: -3px;"></span>
+        </div>
+        <h3 class="usr-name">George Firmino</h3>
+        <span class="usr-nivel">Nível 1</span>
+        <div class="status clearfix">
+            <div class="box-ballon" style="width: 34px; left: 155px !important">4 <span class="arrow-down"></span></div>
+            <div class="line1 clearfix">
+                <span class="left">0</span><span class="right no-margin">7</span>
+            </div>
+            <div class="status-bar-container clearfix">
+                <div class="status-bar-preenchimento p4"></div>
+            </div>
+            <div class="line2 clearfix">
+                <span class="left">x 1</span><span class="multiplicador">multiplicador</span><span class="right no-margin">x 1,25</span>
+            </div>
+        </div>
+        <button ui-sref="perfil" ui-sref-active="active" menu-close="" class="btn btn-perfil btn-gray btn-block">PERFIL</button>
+        <!-- <button class="btn btn-pagina btn-green btn-block">MINHA PÁGINA <span class="menu-alert">12</span></button> -->
+        <button ui-sref="principal" ui-sref-active="active" menu-close="" class="btn btn-perfil btn-green btn-block margin-top" style="color: #fff">MENU PRINCIPAL</button>
+    </div>
+
+    <nav class="user-menu shadow">
+      <ul class="clearfix">
+        <li>
+          <a menu-close ui-sref="header2.feed" ui-sref-active="active"><i class="sprite sprite-feed"></i><span class="menu-name">Feed de Notícias</span> <span class="menu-alert">58</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="interesses" ui-sref-active="active"><i class="sprite sprite-interesses"></i><span class="menu-name">Meus Interesses</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="favoritos" ui-sref-active="active"><i class="sprite sprite-favoritos"></i><span class="menu-name">Favoritos</span><span class="menu-alert">58</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="minha-rede" ui-sref-active="active"><i class="sprite sprite-minha_rede"></i><span class="menu-name">Minha Rede</span><span class="menu-alert">58</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="bibliografia"ui-sref-active="active"><i class="sprite sprite-indicacoes"></i><span class="menu-name">Indicações/Bibliografia</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="boatos" ui-sref-active="active"><i class="sprite sprite-info_boatos"></i><span class="menu-name">Informações/Boatos</span><span class="menu-alert">58</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="dicas" ui-sref-active="active"><i class="sprite sprite-dicas"></i><span class="menu-name">Dicas de Estudo</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="mapas" ui-sref-active="active"><i class="sprite sprite-mapas"></i><span class="menu-name">Mapas mentais</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="provas" ui-sref-active="active"><i class="sprite sprite-provas"></i><span class="menu-name">Provas</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="editais" ui-sref-active="active"><i class="sprite sprite-editais"></i><span class="menu-name">Editais</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="historias" ui-sref-active="active"><i class="sprite sprite-sucesso"></i><span class="menu-name">Histórias de Sucesso</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="motivacao" ui-sref-active="active"><i class="sprite sprite-motivacao"></i><span class="menu-name">Motivação para Estudar</span></a>
+        </li>
+        <li>
+          <a menu-close ui-sref="descontrair" ui-sref-active="active"><i class="sprite sprite-descontrair"></i><span class="menu-name">Para Descontrair</span></a>
+        </li>
+
+      </ul>
+    </nav>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,141 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <i class="ion-arrow-left-c" ng-click="myGoBack()" ng-controller="scripts"></i>
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow" ng-controller="listaCtrl">
+
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+          <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-materias"></i><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
+          <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
+          <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+          <div class="box-lista-professor clearfix expandido professor no-padding" ng-show="profId == 'prof-0' && profExpand == 'true'">
+            <div class="info-numbers clearfix">
+                <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
+                <span class="box-number"><b>58</b> eventos</span>
+                <span class="box-number"><b>234</b> vídeos</span>
+                <span class="box-number no-padding-right"><b>234</b> vídeos</span>
+            </div>
+            <div class="avaliacao-alunos clearfix">
+                <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-avaliacao"></i><span class="menu-name">350 avaliações de alunos</span></span>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#" class="no-margin-left">
+                            <span class="avaliacao-name">Média Geral</span>
+                            <span class="avaliacao-nota geral"><span class="vertical-align">8,2</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Qualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Pontualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Fórum</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="no-margin-right">
+                            <span class="avaliacao-name">Aceitação</span>
+                            <span class="avaliacao-nota aceitacao"><span class="vertical-align">100%</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-info">
+                <h5 class="clearfix"><i class="sprite sprite2 sprite-sobre"></i><span class="menu-name">Sobre George Firmino</span></h5>
+                <p>
+                    Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim finibus. In sit amet
+                    rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                    <br />
+                    <br /> Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim
+                    finibus. In sit amet rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="box-interesse">
+          <div class="box-feed clearfix">
+              <fieldset>
+                  <div class="box-input">
+                      <span class="bigtitle">Nome do Evento</span>
+                      <input type="text" class="nome-evento" />
+                  </div>
+                  <div class="box-input">
+                      <span class="bigtitle">Data</span>
+                      <input type="text" class="data-evento" placeholder="00/00/0000" />
+                  </div>
+                  <div class="box-input">
+                      <span class="bigtitle">Início</span>
+                      <input type="text" class="inicio-evento" placeholder="00:00" />
+                  </div>
+                  <div class="box-input">
+                      <span class="bigtitle">Fim</span>
+                      <input type="text" class="fim-evento" placeholder="00:00" />
+                  </div>
+              </fieldset>
+              <fieldset>
+                  <div class="box-input" style="position: relative">
+                      <span class="bigtitle">SELECIONE UMA CHAMADA PARA O SEU EVENTO</span>
+                      <p>
+                          Imagem, vídeo ou documento, que ficará acima da descrição do evento.
+                      </p>
+                      <i class="sprite sprite-img_overlay left"></i>
+                      <i class="sprite sprite-video_overlay left"></i>
+                      <i class="sprite sprite-pdf_overlay left"></i>
+                      <div class="arq_add clearfix">
+                        <i class="sprite sprite-pdf_pq" style="margin-top: 11px;margin-right: 8px;filter: grayscale(1) saturate(18) brightness(1);"></i>
+                        <span class="nome-arquivo left">Edital.PDF</span>
+                        <i class="sprite sprite2 sprite-close_gray left"></i>
+                      </div>
+                      <div class="porcentagem clearfix">
+                        <div class="status-bar-container clearfix">
+                            <div class="status-bar-preenchimento p4"></div>
+
+                        </div>
+                        <span class="qtd_per">80%</span>
+                      </div>
+                  </div>
+              </fieldset>
+              <fieldset>
+                  <div class="box-input" style="width: 100%">
+                      <span class="bigtitle">Descrição do evento</span>
+                      <textarea style="width: 100%; height: 200px; padding: 10px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie bibendum condimentum. Donec neque urna, hendrerit ut tortor et, vehicula ornare risus. Nullam porta ex venenatis ultricies faucibus. Sed nulla mauris,congue a purus pellentesque, cursus viverra mi. Suspendisse feugiat tristique libero, id sollicitudin purus tincidunt fermentum. </textarea>
+                  </div>
+              </fieldset>
+              <button class="btn bgr-oceanblue btn-ir quarter center">SALVAR</button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

@@ -1,0 +1,68 @@
+<ion-view title="Mapa dos Concursos" hide-nav-bar="false" id="mapa_concursos1" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <br />
+    <div class="list padding">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Localizar concursos Por:
+        </div>
+        <select>
+          <option>Área</option>
+          <option selected>Região</option>
+          <option>Situação</option>
+        </select>
+      </label>
+
+    </div>
+
+    <div class="circleSearch" ng-class="{pesquisaAberta: pesquisa == 'aberta'}">
+      <input type="text" ng-show="pesquisa == 'aberta'" placeholder="Procure..."/>
+      <i class="sprite sprite-lupa" ng-show="pesquisa == 'fechada'" style="width: 27px;height: 27px;background-position: -232px -279px;position: absolute;top: 7px;left: 0;right: 0;margin: 0 auto;filter: grayscale(1) contrast(1) brightness(2);" ng-click="abrirPesquisa()"></i>
+    </div>
+
+
+    <div class="box-interesses clearfix mapa-concursos padding" >
+      <h5 class="bigtitle">Concursos por area</h5>
+      <div class="box-interesse clearfix" style="margin: 0 !important">
+        <div class="list" style="margin: 21px 0">
+
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Filtrar Por:
+            </div>
+            <select>
+              <option>Todos</option>
+              <option selected>Inscrições Abertas</option>
+              <option>Previstos</option>
+              <option>Em adandamento</option>
+              <option>Finalizados</option>
+            </select>
+          </label>
+
+        </div>
+
+      </div>
+      <div class="box-concurso clearfix area-conc">
+        <h6>Area Fiscal</h6>
+        <div class="num-concursos">
+          <b>52</b>
+          <span>concursos</span>
+        </div>
+      </div>
+      <div class="box-concurso clearfix area-conc">
+        <h6>Area Fiscal</h6>
+        <div class="num-concursos">
+          <b>52</b>
+          <span>concursos</span>
+        </div>
+      </div>
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

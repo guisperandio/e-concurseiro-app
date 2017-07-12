@@ -1,0 +1,88 @@
+
+<ion-view title="Mapa dos Concursos" hide-nav-bar="false" id="mapa_concursos1" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <br />
+    <div class="list padding">
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Localizar concursos Por:
+        </div>
+        <select>
+          <option>Área</option>
+          <option selected>Região</option>
+          <option>Situação</option>
+        </select>
+      </label>
+
+    </div>
+
+
+    <div class="circleSearch" ng-class="{pesquisaAberta: pesquisa == 'aberta'}">
+      <input type="text" ng-show="pesquisa == 'aberta'" placeholder="Procure..."/>
+      <i class="sprite sprite-lupa" ng-show="pesquisa == 'fechada'" style="width: 27px;height: 27px;background-position: -232px -279px;position: absolute;top: 7px;left: 0;right: 0;margin: 0 auto;filter: grayscale(1) contrast(1) brightness(2);" ng-click="abrirPesquisa()"></i>
+    </div>
+
+    <div class="box-interesses clearfix mapa-concursos" >
+      <h5 class="bigtitle">Nome do curso selecionado</h5>
+
+      <div class="box-area clearfix">
+        <p class="p-div">
+          <span class="span-title">Status</span><br>
+          <span class="span-desc">Aguardando Autorização</span>
+        </p>
+        <p class="p-div">
+          <span class="span-title">Último concurso</span><br>
+          <span class="span-desc">2014</span>
+        </p>
+        <p class="p-div">
+          <span class="span-title">Banca examinadora</span><br>
+          <span class="span-desc">ESAF</span>
+        </p>
+        <p class="p-div">
+          <span class="span-title">Situação Atual (atualizado em 00/00/0000)</span><br>
+          <span class="span-desc">Detalhes cadastrados na área administrativa do site, relatando a situação do concurso e os detalhes do andamento, definição da banca, data de realização das provas, histórico e etc.</span>
+        </p>
+        <p class="p-div clearfix">
+          <span class="span-div block left">
+            <span class="span-title">Edital mais recente</span><br>
+            <span class="span-desc">Publicado em 00/00/0000</span>
+          </span>
+          <span class="span-div block left">
+            <span class="span-title">Data das provas</span><br>
+            <span class="span-desc">00/00/0000</span>
+          </span>
+          <span class="span-div block left no-margin-right download-edital">
+           <i class="sprite sprite-pdf_pq"></i><span class="menu-name">Baixar Edital</span>
+          </span>
+        </p>
+        <p class="p-div clearfix">
+          <span class="span-div block left">
+            <span class="span-title">Edital anterior</span><br>
+            <span class="span-desc">Publicado em 00/00/0000</span>
+          </span>
+          <span class="span-div block left">
+            <span class="span-title">Data das provas</span><br>
+            <span class="span-desc">00/00/0000</span>
+          </span>
+          <span class="span-div block left no-margin-right download-edital">
+           <i class="sprite sprite-pdf_pq"></i><span class="menu-name">Baixar Edital</span>
+          </span>
+        </p>
+        <p class="p-div">
+          <span class="span-title">Acompanhe a análise do especialista</span><br>
+          <iframe class="center" width="100%" height="250" style="margin-top: 10px" src="https://www.youtube.com/embed/VRjYlUkcKtc" frameborder="0" allowfullscreen></iframe>
+        </p>
+        <p class="p-div">
+        <button class="btn btn-green center btn-cursos_disp" style="width: 100%; float: none; margin: 0 auto !important; text-transform: none">Veja aqui quais CURSOS DISPONÍVEIS para este concurso!</button>
+        </p>
+      </div>
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

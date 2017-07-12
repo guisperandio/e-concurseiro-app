@@ -1,0 +1,97 @@
+<ion-view title="Interesses" hide-nav-bar="false" id="interesses" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="publicacao clearfix padding">
+      <h4>O que encontro nesta página?</h4>
+      <p>
+Aqui você definirá as publicações que serão exibidas no seu feed de notícias.
+Serão exibidas as publicações dos concurseiros e professores que fazem parte da sua rede. </br> Além disso, ao definir os temas que são do seu interesse, as publicações de outros concurseiros e professores também serão exibidas, sempre que qualquer um dos seus interesses fizer parte da publicação.
+      </p>
+    </div>
+
+    <div class="box-interesses clearfix div-interesses padding">
+      <h5>Defina seus interesses no formulário abaixo</h5>
+      <div class="box-interesse clearfix">
+        <span class="title-interesse no-margin-bottom">Concurso dos sonhos</span>
+        <input type="text" placeholder="Concurseiro sem rumo definido" class="left" style="padding: 0px 10px;"/>
+        <button class="btn btn-oceanblue btn-ok left">OK</button>
+      </div>
+      <div class="box-interesse clearfix">
+        <span class="title-interesse no-margin-bottom">Tipos de publicação</span>
+        <p class="left no-margin-top">
+          Selecione abaixo os tipos de publicação que irão aparecer no seu feed de notícias.
+        </p>
+        <ion-list>
+
+          <ion-checkbox ng-model="filter.todos">Todos</ion-checkbox>
+          <ion-checkbox ng-model="filter.todos1">Todos</ion-checkbox>
+          <ion-checkbox ng-model="filter.todos2">Todos</ion-checkbox>
+
+        </ion-list>
+      </div>
+      <div class="box-interesse clearfix">
+        <span class="title-interesse no-margin-bottom">Interesses</span>
+        <p class="left no-margin-top">
+          Indique abaixo os seus interesses específicos. Isso permitirá que publicações de outros
+usuários sejam exibidas para você, sempre que os interesses forem comuns.
+        </p>
+      </div>
+      <div class="box-interesse clearfix box-interesse-app">
+        <span class="title-interesse no-margin-bottom">Áreas</span>
+        <input type="text" placeholder="Texto sendo digitado" class="left"/>
+        <i class="sprite sprite-plus"></i>
+      </div>
+      <div class="box-interesse clearfix box-interesse-app">
+        <span class="title-interesse no-margin-bottom">Concursos</span>
+        <input type="text" placeholder="Texto sendo digitado" class="left"/>
+        <i class="sprite sprite-plus"></i>
+      </div>
+      <div class="box-interesse clearfix box-interesse-app">
+        <span class="title-interesse no-margin-bottom">Matérias</span>
+        <input type="text" placeholder="Texto sendo digitado" class="left"/>
+        <i class="sprite sprite-plus"></i>
+      </div>
+      <div class="box-interesse clearfix box-interesse-app">
+        <span class="title-interesse no-margin-bottom">Bancas</span>
+        <input type="text" placeholder="Texto sendo digitado" class="left"/>
+        <i class="sprite sprite-plus"></i>
+      </div>
+      <div class="box-interesse clearfix">
+        <span class="title-interesse no-margin-bottom">Interesses Vinculados</span>
+        <div class="interesses">
+          <div class="interesse i0 clearfix">
+            <span class="text-interesse left">Dicas de estudo</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0 clearfix">
+            <span class="text-interesse left">Auditor Fiscal da Receita Federal</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0 clearfix">
+            <span class="text-interesse left">Direito Administrativo</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0 clearfix">
+            <span class="text-interesse left">Atos Administrativos</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+        </div>
+      </div>
+      <div class="box-interesse clearfix">
+        <span class="title-interesse no-margin-bottom">Publicações Oficiais</span>
+        <span class="select-option pub_oficiais"><i class="sprite sprite-select"></i></span>
+        <p style="font-size: 12px !important; line-height: 1 !important;">
+          Desejo ver no meu feed de notícias as publicações do PAPO DE CONCURSEIRO, canal oficial
+da rede sobre concursos públicos, com dicas, entrevistas, vídeos, aulões, eventos ao vivo e
+muito mais.
+        </p>
+      </div>
+      <button class="btn btn-blue btn-save left">SALVAR</button>
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

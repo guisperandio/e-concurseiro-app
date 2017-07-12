@@ -1,0 +1,436 @@
+<ion-view title="Feed" hide-nav-bar="false" id="visualizar_usuario" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+
+    <div class="box-feed shadow clearfix" id="user-view">
+      <div class="user-details clearfix" ng-controller="scripts">
+        <i class="ion-arrow-left-c" ng-click="myGoBack()"></i>
+        <div class="usuario p75 clearfix" style="position: absolute; top: 19px; left: 34px;">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle" style="background-color: transparent"></div>
+            <span class="usr-img" style="background-image: url('img/user.png'); left: -3px;right: 0;margin: 0 auto;top: -3px;"><span class="alterar-foto">atualizar foto</span></span>
+        </div>
+        <h3 class="usr-name">George Firmino</h3>
+        <ul class="clearfix">
+          <li>
+            <a href="#" class="sprite sprite-perfil">Perfil</a>
+          </li>
+          <li>
+            <a href="#" class="sprite sprite-biblioteca">Perfil</a>
+          </li>
+          <li>
+            <a href="#" class="perfil-porcentagem">75%</a>
+          </li>
+          <li>
+            <a href="#" class="sprite sprite-medalha">Perfil</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="nav-user clearfix visualizar_professor">
+        <li class="adicionar-btn">
+          <a href="#"><i class="sprite sprite3 sprite-adicionar"></i><span class="menu-name">Adicionar a minha rede</span></a>
+        </li>
+        <li class="msg-btn">
+          <a href="#"><i class="sprite sprite3 sprite-msg-grande"></i><span class="menu-name">Enviar Mensagem</span></a>
+        </li>
+        <li class="perfil-btn">
+          <a href="#"><i class="sprite sprite3 sprite-perfil-completo"></i><span class="menu-name">Ver perfil completo</span></a>
+        </li>
+        <li class="professor-btn">
+          <a href="#"><i class="sprite sprite3 sprite-pag-professor"></i><span class="menu-name">Página do professor</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="box-feed shadow clearfix">
+      <div class="box-top">
+        <span class="box-title clearfix"><i class="sprite sprite-indicacao"></i><span class="title-publicacao">Indicação de Bibliografia</span><span class="publish-up">Publicado em 25/10/2015 19:25</span></span>
+      </div>
+      <div class="box-content">
+        <div class="feed-details clearfix">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle"></div>
+            <span class="usr-img" style="background-image: url('img/user.png');"></span>
+          </div>
+          <div class="user-details peq">
+            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <ul class="clearfix">
+              <li>
+                <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="feed-info">
+
+            <span class="publish-accepted">Esta publicação tem 98,5% de aceitação.</span>
+          </div>
+        </div>
+        <div class="feed-text clearfix">
+          <h2>Titulo da publicação, caso exista</h2>
+          <p class="feed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu.
+          </p>
+          <span class="expand">expandir</span>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+    <div class="box-feed shadow clearfix pub-papo">
+      <div class="box-top bgr-oceanblue">
+        <span class="box-title clearfix"><i class="sprite sprite2 sprite-papo_concurseiro"></i><span class="title-publicacao" ui-sref="papo_home">Papo de Concurseiro</span><span class="publish-up">Publicado em 25/10/2015 19:25</span></span>
+      </div>
+      <div class="box-content">
+
+        <div class="feed-text clearfix">
+          <h2>Titulo da publicação, caso exista</h2>
+          <div class="banner-publish" style="background-image: url('banners/banner.jpg')">
+
+          </div>
+          <p class="feed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet.
+          </p>
+          <span class="expand">expandir</span>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+    <div class="anuncio padding">
+      <h4>Anúncio Patrocinado</h4>
+      <div class="banner-patrocinio" style="background-image: url('banners/banner.jpg')"></div>
+      <span class="name-anunciantes">Nome do anunciante</span>
+      <span class="site-anunciante">www.nomedoanunciante.com.br</span>
+      <p class="text-anunciantes">
+        Texto do anúncio enviado pelo anunciante, com quantidade limitada de caracteres, de modo que ocupe até 3 linhas de texto (Muli 12). Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+
+    <div class="box-feed shadow clearfix">
+      <div class="box-top">
+        <span class="box-title clearfix"><i class="sprite sprite-editais_gd"></i><span class="title-publicacao">Editais</span><span class="publish-up">Publicado em 25/10/2015 19:25</span></span>
+      </div>
+      <div class="box-content">
+        <div class="feed-details clearfix">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle"></div>
+            <span class="usr-img" style="background-image: url('img/user.png');"></span>
+          </div>
+          <div class="user-details peq">
+            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <ul class="clearfix">
+              <li>
+                <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="feed-info">
+
+            <span class="publish-accepted">Esta publicação tem 98,5% de aceitação.</span>
+          </div>
+        </div>
+        <div class="feed-text clearfix">
+          <div class="edital clearfix">
+            <div class="imagem" style="background-image: url('banners/revista.jpg')"></div>
+            <a href="#" class="sprite sprite-pdf">Baixar Edital</a>
+            <div class="edital-info">
+              <span class="nome-concurso">Nome do Concurso cadastrado pelo usuário</span>
+              <span class="nome-banca">Nome da banca</span>
+              <span class="ano">Ano</span>
+            </div>
+          </div>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+    <div class="box-feed shadow clearfix artigo">
+      <div class="box-top bgr-oceanblue">
+        <span class="box-title clearfix">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <span class="usr-img" style="background-image: url('img/user.png');"></span>
+          </div>
+          <span class="title-publicacao">Artigo</span>
+          <h3 class="usr-name">Prof. George Firmino</h3>
+        </span>
+      </div>
+      <div class="box-content">
+
+        <div class="feed-text clearfix">
+          <h2>Titulo da publicação, caso exista</h2>
+          <p class="feed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu. Integer vitae nibh imperdiet, ornare magna eget, rutrum leo. Duis sollicitudin, sapien nec facilisis fringilla, magna nunc ultricies purus, maximus feugiat risus sapien in tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In laoreet mi nulla, sit amet condimentum metus aliquet vel. Vivamus odio mi, varius vitae lacus et, posuere pulvinar purus. Nunc mattis risus et commodo scelerisque.
+          </p>
+          <span class="expand">expandir</span>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+    <div class="box-feed shadow clearfix">
+      <div class="box-top">
+        <span class="box-title clearfix"><i class="sprite sprite-boato"></i><span class="title-publicacao">Boato</span><span class="publish-up">Publicado em 25/10/2015 19:25</span></span>
+      </div>
+      <div class="box-content">
+        <div class="feed-details clearfix">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle"></div>
+            <span class="usr-img" style="background-image: url('img/user.png');"></span>
+          </div>
+          <div class="user-details peq">
+            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <ul class="clearfix">
+              <li>
+                <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="feed-info">
+
+            <span class="publish-accepted">Esta publicação tem 98,5% de aceitação.</span>
+          </div>
+        </div>
+        <div class="feed-text clearfix">
+          <h2>Titulo da publicação, caso exista</h2>
+          <p class="feed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu.
+          </p>
+          <span class="expand">expandir</span>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve clearfix">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <!-- <span class="clearfix">Você e <b>1.200 Aprovaram</b></span> -->
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <!-- <span class="clearfix">Você e <b>1.200 Aprovaram</b></span> -->
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <!-- <span class="clearfix">Você e <b>1.200 Aprovaram</b></span> -->
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <!-- <span class="clearfix">Você e <b>1.200 Aprovaram</b></span> -->
+        </div>
+      </div>
+      <div class="box-comment comment-0">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle"></div>
+            <span class="usr-img" style="background-image: url('img/user.png'); border-color: #fef3e2"></span>
+          </div>
+          <div class="user-details peq left" style="width: 168px">
+            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <ul class="clearfix">
+              <li>
+                <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="feed-info">
+            <span class="publish-up">Publicado em 25/10/2015 19:25</span>
+
+          </div>
+        <p class="feed block left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu. Integer vitae nibh imperdiet, ornare magna eget, rutrum leo.
+        </p>
+        <hr />
+      </div>
+      <div class="box-comment comment-0">
+          <div class="usuario p75 clearfix small" style="position: relative">
+            <div class="usr-alert">10</div>
+            <div class="quarter-circle"></div>
+            <span class="usr-img" style="background-image: url('img/user.png'); border-color: #fef3e2"></span>
+          </div>
+          <div class="user-details peq left" style="width: 168px">
+            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <ul class="clearfix">
+              <li>
+                <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-lib_icon_pq">Perfil</a>
+              </li>
+              <li>
+                <a href="#" class="perfil-porcentagem">75%</a>
+              </li>
+              <li>
+                <a href="#" class="sprite sprite5 sprite-medal_icon_pq">Perfil</a>
+              </li>
+            </ul>
+          </div>
+          <div class="feed-info">
+            <span class="publish-up">Publicado em 25/10/2015 19:25</span>
+
+          </div>
+        <p class="feed block left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu. Integer vitae nibh imperdiet, ornare magna eget, rutrum leo.
+        </p>
+        <hr />
+      </div>
+      <div class="box-comment comment-0 clearfix">
+        <div class="usuario p75 clearfix small" style="position: relative; border: 0; top: 16px; margin-right: 10px">
+          <span class="usr-img" style="background-image: url('img/user.png'); border-color: #fef3e2"></span>
+        </div>
+        <input type="text" placeholder="Digite aqui seu comentário" style="border: 0"/>
+        <i class="sprite sprite-image"></i>
+        <i class="sprite sprite-seta"></i>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

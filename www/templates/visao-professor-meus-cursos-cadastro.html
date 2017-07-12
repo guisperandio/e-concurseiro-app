@@ -1,0 +1,286 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow" ng-controller="listaCtrl">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+          <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-materias"></i><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
+          <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
+          <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+          <div class="box-lista-professor clearfix expandido professor no-padding" ng-show="profId == 'prof-0' && profExpand == 'true'">
+            <div class="info-numbers clearfix">
+                <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
+                <span class="box-number"><b>58</b> eventos</span>
+                <span class="box-number"><b>234</b> vídeos</span>
+                <span class="box-number no-padding-right"><b>234</b> vídeos</span>
+            </div>
+            <div class="avaliacao-alunos clearfix">
+                <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-avaliacao"></i><span class="menu-name">350 avaliações de alunos</span></span>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#" class="no-margin-left">
+                            <span class="avaliacao-name">Média Geral</span>
+                            <span class="avaliacao-nota geral"><span class="vertical-align">8,2</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Qualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Pontualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Fórum</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="no-margin-right">
+                            <span class="avaliacao-name">Aceitação</span>
+                            <span class="avaliacao-nota aceitacao"><span class="vertical-align">100%</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-info">
+                <h5 class="clearfix"><i class="sprite sprite2 sprite-sobre"></i><span class="menu-name">Sobre George Firmino</span></h5>
+                <p>
+                    Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim finibus. In sit amet
+                    rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                    <br />
+                    <br /> Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim
+                    finibus. In sit amet rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-financeiro"><i class="sprite sprite2 sprite-financeiro"></i><span class="menu-name">Financeiro</span> <div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        <div class="box-interesse padding">
+            <h5 class="bigtitle align-left">Cadastro de curso</h5>
+
+            <div class="box-interesse clearfix">
+                <span class="title-interesse">Código do curso</span>
+                <input type="text" placeholder="535" class="left input-small center-text" />
+                <span class="text-obs left">gerado automaticamente quando salvar o curso</span>
+                <!-- <button class="btn btn-oceanblue btn-ok left">OK</button> -->
+            </div>
+            <div class="box-interesse clearfix">
+                <div class="left same-line">
+                    <span class="title-interesse">Nome do Curso</span>
+                    <input type="text" placeholder="Ética no Serviço Público p/ INSS 2015/2016 - pós edital" class="left " style="padding: 12px 8px !important;
+                width: 100% !important; background-position: -532px -440px !important;
+                border: 0;
+                background-color: #fff;"/>
+                </div>
+                <div class="left same-line" style="margin-top: 10px; margin-bottom: -33px">
+                    <span class="title-interesse">Tipo de Curso</span>
+                    <div class="option-group tipos-curso">
+                      <!-- <ion-list>
+                        <ion-radio ng-model="choice" ng-value="'A'">Apenas PDF</ion-radio>
+                        <ion-radio ng-model="choice" ng-value="'B'">Apenas Vídeo</ion-radio>
+                        <ion-radio ng-model="choice" ng-value="'C'">PDF + Vídeo</ion-radio>
+                      </ion-list> -->
+                      <ul class="payment-methods clearfix left no-margin">
+                        <li class="payment-method certo clearfix">
+                          <input name="payment_methods" type="radio" id="certo">
+                          <label for="certo"><span class="block left">Apenas PDF</span><i class="sprite sprite4 sprite-radio_button left"></i></label>
+                        </li>
+                        <li class="payment-method errado clearfix">
+                          <input name="payment_methods" type="radio" id="errado">
+                          <label for="errado"><span class="block left">PDF + Video</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                        </li>
+                        <li class="payment-method errado clearfix">
+                          <input name="payment_methods" type="radio" id="todo">
+                          <label for="todo"><span class="block left">Apenas Video</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box-interesse clearfix no-margin-bottom" style="">
+                <div class="left same-line select-div">
+                    <span class="title-interesse">Matéria</span>
+                    <div class="publicacao clearfix no-margin-bottom" >
+                      <div class="select-option" style="width: 100% !important">
+                        <select class="sprite4 sprite-seta_option" style="padding: 12px 8px !important;
+                width: 100% !important; background-position: -532px -440px !important;
+                border: 0;
+                background-color: #fff;">
+                          <option>
+                            Ética no serviço público
+                          </option>
+                          <option>
+                            Teste
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                </div>
+                <div class="left same-line select-div">
+                    <span class="title-interesse">Concurso</span>
+                    <div class="publicacao clearfix no-margin-bottom" >
+                      <div class="select-option" style="width: 100% !important">
+                        <select class="sprite4 sprite-seta_option" style="padding: 12px 8px !important;
+                width: 100% !important; background-position: -532px -440px !important;
+                border: 0;
+                background-color: #fff;">
+                          <option>
+                            Auditor Fiscal da Receita Federal do Brasil - AFRFB
+                          </option>
+                          <option>
+                            Teste
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-interesse clearfix no-margin" >
+                <fieldset class="no-margin">
+                    <div class="box-input">
+                        <span class="bigtitle">Valor</span>
+                        <input type="text" class="data-evento" placeholder="R$ 4.500,00" />
+                    </div>
+                    <div class="box-input">
+                        <span class="bigtitle">Vendas até</span>
+                        <input type="text" class="inicio-evento" style="width: 120px" placeholder="00/00/0000" />
+                    </div>
+                    <div class="box-input">
+                        <span class="bigtitle">Corporta Fórum</span>
+                        <div class="option-group radio-padrao">
+                          <ul class="payment-methods clearfix left double">
+                            <li class="payment-method certo clearfix">
+                              <input name="payment_methods" type="radio" id="nao">
+                              <label for="nao"><span class="block left">Não</span><i class="sprite sprite4 sprite-radio_button left"></i></label>
+                            </li>
+                            <li class="payment-method errado clearfix">
+                              <input name="payment_methods" type="radio" id="sim">
+                              <label for="sim"><span class="block left">Sim</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="box-input">
+                        <span class="bigtitle">Fórum Até</span>
+                        <input type="text" class="inicio-evento" style="width: 120px" placeholder="00/00/0000" />
+                    </div>
+                    <div class="box-input">
+                        <span class="bigtitle">Turmas limitadas?</span>
+                        <div class="option-group radio-padrao">
+                          <ul class="payment-methods clearfix left double">
+                            <li class="payment-method certo clearfix">
+                              <input name="payment_methods" type="radio" id="nao1">
+                              <label for="nao1"><span class="block left">Não</span><i class="sprite sprite4 sprite-radio_button left"></i></label>
+                            </li>
+                            <li class="payment-method errado clearfix">
+                              <input name="payment_methods" type="radio" id="sim1">
+                              <label for="sim1"><span class="block left">Sim</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="box-input">
+                        <span class="bigtitle">Limites de alunos</span>
+                        <input type="text" class="data-evento" placeholder="20" />
+                    </div>
+                </fieldset>
+            </div>
+            <div class="box-interesse clearfix no-margin">
+                <span class="title-interesse">Descrição do curso</span>
+                <textarea class="text-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie bibendum condimentum. Donec neque urna, hendrerit ut tortor et, vehicula ornare risus. Nullam porta ex venenatis ultricies faucibus. Sed nulla mauris, congue a purus pellentesque, cursus viverra mi. Suspendisse feugiat tristique libero, id sollicitudin purus tincidunt fermentum. </textarea>
+            </div>
+            <div class="box-interesse clearfix">
+                <button class="btn btn-oceanblue btn-save left full"><i class="sprite sprite-plus_pq icon-white"></i><span class="menu-name">Adicionar Aulas</span></button>
+                <br />
+                <br />
+                <br />
+                <div class="box-aula clearfix full">
+                    <span class="bigtitle left">Aula 01</span>
+                    <span class="graytitle left">00/00/0000</span>
+                    <div class="box-aula-details" ng-show="details == 'active'">
+                      <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite-excluir_blue right"></i>
+                      <i class="sprite sprite2 sprite-aulas right"></i>
+                    </div>
+
+                </div>
+                <div class="box-aula clearfix full">
+                    <span class="bigtitle left">Aula 01</span>
+                    <span class="graytitle left">00/00/0000</span>
+                    <div class="box-aula-details" ng-show="details == 'active'">
+                      <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite-excluir_blue right"></i>
+                      <i class="sprite sprite2 sprite-aulas right"></i>
+                    </div>
+                </div>
+                <div class="box-aula clearfix full">
+                    <span class="bigtitle left">Aula 01</span>
+                    <span class="graytitle left">00/00/0000</span>
+                    <i class="sprite sprite-seta right" ng-click="openMenu($event, 'fechar', 2)"  ng-show="menuOpen == 'fechar'" style="transform: rotate(90deg);"></i>
+                    <i class="sprite sprite-seta right" ng-click="openMenu($event, 'abrir', 2)" ng-show="menuOpen == 'abrir'" style="transform: rotate(270deg);"></i>
+                    <div class="box-aula-details" ng-show="menuOpen == 'abrir' && menuId == 2">
+                      <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite-excluir_blue right"></i>
+                      <i class="sprite sprite2 sprite-aulas right"></i>
+                    </div>
+                </div>
+                <div class="box-aula clearfix full">
+                    <span class="bigtitle left">Aula 01</span>
+                    <span class="graytitle left">00/00/0000</span>
+                    <i class="sprite sprite-seta right" ng-click="openMenu($event, 'fechar', 3)"  ng-show="menuOpen == 'fechar'" style="transform: rotate(90deg);"></i>
+                    <i class="sprite sprite-seta right" ng-click="openMenu($event, 'abrir', 3)" ng-show="menuOpen == 'abrir'" style="transform: rotate(270deg);"></i>
+                    <div class="box-aula-details" ng-show="menuOpen == 'abrir' && menuId == 3">
+                      <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
+                      <i class="sprite sprite-excluir_blue right"></i>
+                      <i class="sprite sprite2 sprite-aulas right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-blue btn-save left full">SALVAR</button>
+
+
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

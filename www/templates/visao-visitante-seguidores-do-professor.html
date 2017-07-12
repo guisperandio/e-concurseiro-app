@@ -1,0 +1,225 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+          <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-materias"></i><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
+          <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
+          <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+          <div class="box-lista-professor clearfix expandido professor no-padding" ng-show="profId == 'prof-0' && profExpand == 'true'">
+            <div class="info-numbers clearfix">
+                <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
+                <span class="box-number"><b>58</b> eventos</span>
+                <span class="box-number"><b>234</b> vídeos</span>
+                <span class="box-number"><b>234</b> vídeos</span>
+                <span class="box-number no-padding-right"><b>234</b> vídeos</span>
+            </div>
+            <div class="avaliacao-alunos clearfix">
+                <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-avaliacao"></i><span class="menu-name">350 avaliações de alunos</span></span>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#" class="no-margin-left">
+                            <span class="avaliacao-name">Média Geral</span>
+                            <span class="avaliacao-nota geral"><span class="vertical-align">8,2</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Qualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Pontualidade</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="avaliacao-name">Fórum</span>
+                            <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="no-margin-right">
+                            <span class="avaliacao-name">Aceitação</span>
+                            <span class="avaliacao-nota aceitacao"><span class="vertical-align">100%</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-info">
+                <h5 class="clearfix"><i class="sprite sprite2 sprite-sobre"></i><span class="menu-name">Sobre George Firmino</span></h5>
+                <p>
+                    Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim finibus. In sit amet
+                    rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                    <br />
+                    <br /> Pellentesque vel nisl accumsan, mattis odio non, sodales est. Ut in nulla facilisis, pretium turpis at, ullamcorper urna. Cras non dictum libero, at condimentum felis. Morbi id dictum tellus. Vestibulum vel neque et enim dignissim
+                    finibus. In sit amet rhoncus lectus, vitae vehicula felis. Sed facilisis, nisi sed laoreet viverra
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        <div class="box-interesse padding">
+            <h5 class="smalltitle align-left">George Firmino tem 125.000 seguidores.</h5>
+            <div class="box-feed clearfix detalhes-curso">
+                <div class="box-content">
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span><b>3.555</b> pessoas conectadas</span>
+                          <span><b>1.110</b> amigos em comum</span>
+                          <span><b>2.200</b> publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+
+                    </div>
+                  </div>
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span>3.555 pessoas conectadas</span>
+                          <span>1.110 amigos em comum</span>
+                          <span>2.200 publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+                    </div>
+                  </div>
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span>3.555 pessoas conectadas</span>
+                          <span>1.110 amigos em comum</span>
+                          <span>2.200 publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+                    </div>
+                  </div>
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span>3.555 pessoas conectadas</span>
+                          <span>1.110 amigos em comum</span>
+                          <span>2.200 publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+                    </div>
+                  </div>
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span>3.555 pessoas conectadas</span>
+                          <span>1.110 amigos em comum</span>
+                          <span>2.200 publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+                    </div>
+                  </div>
+
+                  <div class="box-seguidor">
+                    <div class="feed-details clearfix">
+                        <div class="user-details peq" style="position: relative">
+                            <div class="usuario p75 clearfix small" style="position: absolute; top: -12px; left: 0;">
+                                <div class="usr-alert" style="left: 46px !important">10</div>
+                                <div class="quarter-circle" style="background-color: transparent"></div>
+                                <span class="usr-img" style="background-image: url('img/user.png');"></span>
+                            </div>
+                            <h3 class="usr-name">George Firmino</h3>
+
+                        </div>
+                        <div class="list-seguidores left" style="width: 50%; position: relative; left: 96px">
+                          <span>3.555 pessoas conectadas</span>
+                          <span>1.110 amigos em comum</span>
+                          <span>2.200 publicações</span>
+                        </div>
+                        <button class="button button-stable right"><i class="sprite sprite-plus_pq"></i>Adicionar à rede</button>
+                    </div>
+                  </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

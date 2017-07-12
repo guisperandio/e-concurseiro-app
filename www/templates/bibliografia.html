@@ -1,0 +1,91 @@
+<ion-view title="Bibliografia" hide-nav-bar="false" id="interesses" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding bibliografia" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="publicacao clearfix padding">
+      <h4>O que encontro nesta página?</h4>
+      <p>
+        Em INDICAÇÕES / BIBLIOGRAFIA você poderá pesquisar os materiais de estudo mais indicados pelos concurseiros.
+        <br />
+        Você também pode indicar livros, cursos ou vídeo aulas para determinada matéria ou para um concurso específico, basta clicar no botão abaixo.
+      </p>
+    </div>
+
+    <div class="box-feed clearfix block padding" id="published-indicacao">
+      <div class="clearfix padding ">
+        <span class="title-text">Encontrar/Indicar Materiais POR:</span>
+
+        <span class="label">Concursos</span>
+        <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+        <span class="label">Matérias</span>
+        <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+        <span class="label">Buscar um material específico</span>
+        <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+      </div>
+
+      <div class="box-indicacoes clearfix padding">
+        <p class="title center-text">Indicações específicas para o seu concurso:</p>
+        <p class="center-text">
+          Analise rapidamente os livros, cursos em PDF ou videoaulas mais recomendados para que você se torne
+        </p>
+        <p class="greentitle center-text">NOME DO CONCURSO DOS SONHOS</p>
+        <button class="btn bgr-oceanblue half center">ACESSAR INDICAÇÕES</button>
+      </div>
+
+      <div class="box-materiais clearfix padding">
+        <p class="title">
+          Os concurseiros recomendam <br />
+          Nome do concurso ou matéria
+        </p>
+        <button class="btn bgr-oceanblue full">Materiais mais indicados</button>
+        <span class="select-title">LISTAR:</span>
+        <select>
+          <option value="">TODOS</option>
+        </select>
+        <div class="materiais-boxes clearfix left">
+          <div class="materiais-box clearfix">
+            <img class="list-materiais" />
+            <p class="material-title">
+              <b>Nome do livro cadastrado</b><br />
+              Nome do Professor/Autor<br />
+              Nome da instituição
+            </p>
+            <p class="avaliacao">
+              <b>AVALIAÇÕES:</b> 45.000<br />
+              <b>Pontuação:</b> 45.000<br />
+              <b>Indicações:</b> 45.000<br />
+            </p>
+            <button class="btn btn-gray half left" style="font-size: 10px">COMENTÁRIOS</button>
+            <button class="btn btn-gray half right no-margin-right" style="font-size: 10px">CONCURSOS RELACIONADOS</button>
+            <button class="btn bgr-oceanblue full margin-top">INDICAR MATERIAL</button>
+            <button class="btn btn-oceanblue full margin-top">AVALIAR MATERIAL</button>
+            <button class="btn bgr-darkgreen full margin-top">COMPRAR ESTE <br /> MATERIAL</button>
+          </div>
+        </div>
+
+        <div class="materiais-boxes-anuncio clearfix left">
+          <div class="materiais-box clearfix">
+            <img class="list-materiais" />
+            <p class="material-title">
+              Nome do livro, curso em PDF ou VIDEOAULA
+            </p>
+            <p class="padrao">
+              Texto cadastrado pelo anunciantes para descrever o curso quantidade limitada de caracteres para ocupar 2 linhas.
+            </p>
+            <p>
+              NOME DO ANUNCIANTE
+            </p>
+            <button class="btn bgr-darkyellow half right no-margin-right" style="font-size: 11px">VEJA AQUI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <br />
+  </ion-content>
+</ion-view>

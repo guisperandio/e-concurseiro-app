@@ -1,0 +1,132 @@
+<ion-view title="Provas" hide-nav-bar="false" id="boatos" class="pg-interna">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <div class="publicacao clearfix padding">
+      <h4>O que encontro nesta página?</h4>
+      <p>
+        Em PROVAS você podrá baixar editais de concursos anteriores no formato PDF, postados por concurseiros e professores.
+        Você também poderá postar editais. Basta clicar no botão abaixo.
+      </p>
+      <button class="btn btn-indicar btn-cleanblue">Publicar</button>
+    </div>
+
+    <div class="box-feed box shadow clearfix editais block" id="published-indicacao">
+      <span class="text-alert">Recomendamos cadastrar as provas juntamente com o seu gabarito definitivo, ambos em formato PDF. Para provas aplicadas em etapas (P1, P2..., discursiva), cadastrar cada uma delas, destacando no campo observação.</span>
+      <div class="upload clearfix">
+        <div class="upload-option clearfix">
+          <i class="sprite sprite3 sprite-procurar"></i>
+          <i class="sprite sprite-pdf_pq" style="margin-top: 11px;margin-right: 8px;filter: grayscale(1) saturate(18) brightness(1);"></i>
+          <span class="nome-arquivo">Edital.PDF</span>
+        </div>
+
+        <div class="input-editais clearfix">
+            <label>Título. (ex.: P1, P2, Gabarito)</label>
+            <input type="text" class="input-edital" style="width: 157px"/>
+            <span class="caracteres">20 caracteres</span>
+            <button class="btn btn-oceanblue right">Anexar</button>
+        </div>
+
+
+      </div>
+      <fieldset class="clearfix">
+
+        <span class="title-text">Arquivos Anexados</span>
+        <div class="interesses">
+          <div class="interesse i0">
+            <span class="text-interesse left">Prova 1.PDF</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0">
+            <span class="text-interesse left">Prova 1.PDF</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0">
+            <span class="text-interesse left">Prova 1.PDF</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+          <div class="interesse i0">
+            <span class="text-interesse left">Prova 1.PDF</span>
+            <i class="sprite sprite2 sprite-close_gray"></i>
+          </div>
+        </div>
+      </fieldset>
+      <p>
+        As publicações devem respeitar os direitos autorais, os demais membros da comunidade e os termos de uso do e-concurseiro.
+      </p>
+      <button class="btn btn-voltar btn-oceanblue quarter">Voltar</button>
+      <button class="btn btn-voltar btn-blue right quarter">Enviar</button>
+    </div>
+
+    <div class="box-feed shadow clearfix">
+      <div class="box-top">
+        <span class="box-title clearfix"><i class="sprite sprite-provas_gd"></i><span class="title-publicacao">Provas</span><span class="publish-up">Publicado em 25/10/2015 19:25</span></span>
+      </div>
+      <div class="box-content">
+        <div class="feed-details clearfix">
+          <div class="user-details">
+            <div class="usr-img-status">
+              <div class="c100 p75 small">
+                  <span class="usr-img" style="background-image: url('../img/user.png');"></span>
+              </div>
+            </div>
+            <h3 class="usr-name">George Firmino</h3>
+            <span class="nivel-usr">Concurseiro Experiente</span>
+            <span class="conf-usr">Confiabilidade 95%</span>
+          </div>
+          <div class="feed-info">
+            <span class="publish-accepted">Esta publicação tem 98,5% de aceitação.</span>
+          </div>
+        </div>
+        <div class="feed-text clearfix">
+          <div class="edital clearfix">
+            <div class="edital-info">
+              <span class="nome-concurso">Nome do Concurso cadastrado pelo usuário</span>
+              <span class="nome-banca">Nome da banca</span>
+              <span class="ano">Ano</span>
+            </div>
+            <div class="imagem" style="background-image: url('banners/revista.jpg')"></div>
+            <a href="#" class="sprite sprite-pdf">Baixar</a>
+
+          </div>
+          <div class="edital clearfix" style="margin: 20px 0">
+            <div class="imagem" style="background-image: url('banners/revista.jpg')"></div>
+            <a href="#" class="sprite sprite-pdf">Baixar</a>
+
+          </div>
+        </div>
+        <div class="feed-tags">
+          <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+        </div>
+      </div>
+      <div class="box-approve">
+        <div class="box-button button-aprovar quarter">
+            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-reprovar quarter">
+            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-share quarter">
+            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+        <div class="box-button button-comment quarter">
+            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
+            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+        </div>
+      </div>
+      <div class="publish-details-list">
+        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
+        <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
+      </div>
+    </div>
+
+
+    <br />
+  </ion-content>
+</ion-view>
