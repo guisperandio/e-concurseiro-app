@@ -34,8 +34,48 @@
             </div>
         </div>
         <button ui-sref="perfil" ui-sref-active="active" menu-close="" class="btn btn-perfil btn-gray btn-block">PERFIL</button>
-        <!-- <button class="btn btn-pagina btn-green btn-block">MINHA PÁGINA <span class="menu-alert">12</span></button> -->
+        <button ng-if="professor == 'header2.feed_professor'" class="btn btn-pagina btn-green btn-block">MINHA PÁGINA <span class="menu-alert" style="top: 3px !important; padding: 6px 3px !important">12</span></button>
         <button ui-sref="principal" ui-sref-active="active" menu-close="" class="btn btn-perfil btn-green btn-block margin-top" style="color: #fff">MENU PRINCIPAL</button>
+        <div class="desempenho_pagina full left margin-top" ng-if="view == 'visao-professor'">
+          <div class="box-desempenho">
+                <span class="title-text">Desempenho da página</span>
+                <span class="title-text-small">Últimos 7 dias</span>
+                <span class="ver-mais">(ver mais)</span>
+                <div class="desempenho-num">
+                    <div class="box-desemp">
+                        <span>1.250</span>
+                        <span>visitas à página</span>
+                        <div class="num-desempenho good">
+                            <i class="sprite sprite2 sprite-arrow"></i>
+                            <span class="good-num">90,25%</span>
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="box-desemp">
+                        <span>1.250</span>
+                        <span>visitas à página</span>
+                        <div class="num-desempenho bad">
+                            <i class="sprite sprite2 sprite-arrow"></i>
+                            <span class="bad-num">90,25%</span>
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="box-desemp">
+                        <span>1.250</span>
+                        <span>visitas à página</span>
+                        <div class="num-desempenho bad">
+                            <i class="sprite sprite2 sprite-arrow"></i>
+                            <span class="bad-num">90,25%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interacoes clearfix">
+                    <div class="alert-icon">10</div>
+                    <span class="alert-msg">novas interações</span>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <nav class="user-menu shadow">

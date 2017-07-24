@@ -397,6 +397,14 @@ ion-header-bar{
   float: left;
   margin-right: 10px;
 }
+.bibliografia .box-materiais .materiais-box img.img-professor{
+  height: 98px;
+  margin-right: 10px;
+  border-radius: 100px;
+  background-color: #f1f1f1;
+  border: 0 !important
+}
+
 .bibliografia .box-materiais .materiais-box p{
   float: left;
 }
@@ -412,7 +420,7 @@ ion-header-bar{
 }
 
 .materiais-boxes-anuncio .materiais-box img{
-  width: 377px !important;
+  width: 100% !important;
   height: 105px !important;
   margin-bottom: 10px;
 }
@@ -421,4 +429,13 @@ ion-header-bar{
 }
 .materiais-boxes-anuncio .materiais-box .padrao{
   color: #1e9ec5;
+}
+.fnt-darkgray{
+  color: #696969
+}
+.fnt-green{
+  color: #359d2a ;
+}
+.fnt-yellow{
+  color: #ff9c00
 }

@@ -29,6 +29,20 @@ angular.module('app.routes', [])
       }
     }
   })
+  .state('header2.feed_professor', {
+    url: '/feed_professor',
+    views: {
+      'tab6': {
+        templateUrl: 'templates/feed_professor.html',
+        controller: 'professor_feedCtrl'
+      }
+    }
+  })
+  // .state('feed_professor', {
+  //   url: '/feed_professor',
+  //   templateUrl: 'templates/feed_professor.html',
+  //   controller: 'professor_feedCtrl'
+  // })
 
   .state('header2.desafios', {
     url: '/desafios',
@@ -213,6 +227,21 @@ angular.module('app.routes', [])
     url: '/visao-professor',
     templateUrl: 'templates/visao-professor.html',
     controller: 'ctrlPadrao'
+  })
+  .state('visao-professor-listar-cursos', {
+    url: '/visao-professor-listar-cursos',
+    templateUrl: 'templates/visao-professor-listar-cursos.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-listar-cursos-resultados', {
+    url: '/visao-professor-listar-cursos-resultados',
+    templateUrl: 'templates/visao-professor-listar-cursos-resultados.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos', {
+    url: '/visao-professor-meus-cursos',
+    templateUrl: 'templates/visao-professor-meus-cursos.html',
+    controller: 'visaoProfessorCtrl'
   })
   .state('visao-professor-desempenho', {
     url: '/visao-professor-desempenho',
@@ -482,6 +511,16 @@ angular.module('app.routes', [])
   .state('bibliografia', {
     url: '/bibliografia',
     templateUrl: 'templates/bibliografia.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('bibliografia_instituicoes', {
+    url: '/bibliografia_instituicoes',
+    templateUrl: 'templates/bibliografia_instituicoes.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('bibliografia_professores', {
+    url: '/bibliografia_professores',
+    templateUrl: 'templates/bibliografia_professores.html',
     controller: 'ctrlPadrao'
   })
   .state('principal', {

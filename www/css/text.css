@@ -56,6 +56,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 input,
 option,
 p,
@@ -2024,4 +2025,20 @@ top: -2px;
   background-position: -48px -201px;
   width: 21px;
   height: 21px;
+}
+.bgr-darkgray{
+  background-color: #d4d2d2;
+}
+.bgr-lightgray{
+  background-color: #e1dfdf;
+}
+
+.box-meus-cursos > span{
+  padding: 10px;
+}
+.bgr-darkred{
+  background-color: #fdc2c5;
+}
+.bgr-lightred{
+  background-color: #ffd8da;
 }

@@ -2810,7 +2810,7 @@ width: 76px;
   padding: 10px;
   position: relative;
   margin: 32px auto !important;
-  width: 90% !important
+  width: 100% !important
 }
 .box-concurso h6 {
   color: #004570;
@@ -3178,14 +3178,14 @@ width: 76px;
   display: block;
   font-size: 15px;
   font-weight: bold;
-  text-align: right;
+  text-align: left;
 }
 .box-desempenho .title-text-small {
   color: #868686;
   display: block;
   font-size: 12px;
   font-weight: bold;
-  text-align: right;
+  text-align: left;
 }
 .box-desempenho .interacoes {
   position: relative;
@@ -3193,12 +3193,12 @@ width: 76px;
 .box-desempenho .interacoes .alert-icon {
   float: left;
   font: 400 15px 'Muli';
-  height: 20px;
+  height: 40px;
   left: 0;
   padding: 8px 9px 10px 10px;
   position: relative;
   top: 0;
-  width: 20px;
+  width: 40px;
 }
 .box-desempenho .interacoes .alert-msg {
   color: #1e9ec5;
@@ -3215,7 +3215,7 @@ width: 76px;
   color: #1e9ec5;
   display: block;
   font-size: 12px;
-  text-align: right;
+  text-align: left;
 }
 .box-desempenho .box-desemp {
   background-color: #ffffff;

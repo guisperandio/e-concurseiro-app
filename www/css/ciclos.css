@@ -3,9 +3,9 @@
   padding: 4px !important;
 }
 select{
-  -webkit-appearance: menulist !important;
-  -moz-appearance: menulist !important;
-  appearance: menulist !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
 }
 .uppercase{
   text-transform: uppercase;
