@@ -243,6 +243,11 @@ angular.module('app.routes', [])
     templateUrl: 'templates/visao-professor-meus-cursos.html',
     controller: 'visaoProfessorCtrl'
   })
+  .state('visao-visitante-medalhas-do-professor', {
+    url: '/visao-visitante-medalhas-do-professor',
+    templateUrl: 'templates/visao-visitante-medalhas-do-professor.html',
+    controller: 'ctrlPadrao'
+  })
   .state('visao-professor-desempenho', {
     url: '/visao-professor-desempenho',
     templateUrl: 'templates/visao-professor-desempenho.html',
@@ -306,6 +311,11 @@ angular.module('app.routes', [])
   .state('visao-professor-meus-cursos-cadastro', {
     url: '/visao-professor-meus-cursos-cadastro',
     templateUrl: 'templates/visao-professor-meus-cursos-cadastro.html',
+    controller: 'visao-professor'
+  })
+  .state('visao-professor-meus-cursos-cadastro2', {
+    url: '/visao-professor-meus-cursos-cadastro2',
+    templateUrl: 'templates/visao-professor-meus-cursos-cadastro2.html',
     controller: 'visao-professor'
   })
   .state('visao-professor-eventos', {
