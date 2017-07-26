@@ -1,0 +1,69 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <style>
+      .box-video{
+        position: relative;
+        margin: 20px 0;
+      }
+      .box-video .smalltitle{
+        position: absolute;
+        left: 168px;
+        top: 0;
+      }
+    </style>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+        </div> 
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        
+        <div class="grid_12" id="content-middle">
+          <div class="box-feed clearfix meus-cursos-aulas">
+            <span class="smalltitle margin-bottom">NOME DO VIDEO</span>
+            <iframe class="margin-top" width="100%" height="350" src="https://www.youtube.com/embed/UVJqSlNBGO4" frameborder="0" allowfullscreen></iframe>
+            <div class="more-videos clearfix">
+              <div class="box-video">
+                <iframe width="160" height="100" src="https://www.youtube.com/embed/UVJqSlNBGO4" frameborder="0" allowfullscreen></iframe>
+                <span class="smalltitle">NOME DO VIDEO</span>
+              </div>
+              <div class="box-video">
+                <iframe width="160" height="100" src="https://www.youtube.com/embed/UVJqSlNBGO4" frameborder="0" allowfullscreen></iframe>
+                <span class="smalltitle">NOME DO VIDEO</span>
+              </div>
+              <div class="box-video">
+                <iframe width="160" height="100" src="https://www.youtube.com/embed/UVJqSlNBGO4" frameborder="0" allowfullscreen></iframe>
+                <span class="smalltitle">NOME DO VIDEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

@@ -1,0 +1,165 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <style>
+      .nome-option{
+        position: relative;
+      }
+      .options{
+        position: absolute;
+        top: 20px;
+        right: 0;
+      }
+      .curso-title{
+        width: 100%
+      }
+      .details span{
+        width: 100%;
+        display: block;
+      }
+    </style>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+        </div> 
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        <div class="box-interesse clearfix">
+          
+        </div>
+        <div class="grid_12" id="content-middle">
+
+                <div class="box-interesse">
+                    <div class="box-feed clearfix detalhes-curso">
+                        <ul id="expand-list" class="clearfix expand-big green padding">
+                            <li>
+                                <a href="#" class="expand">Aulas</a>
+                            </li>
+                            <li>
+                                <a href="#" class="list expand">Nome do Curso</a>
+                            </li>
+                        </ul>
+                        <div class="box-content">
+                            <div class="feed-text clearfix">
+                                <i class="sprite sprite2 sprite-forum right"></i>
+                                <i class="sprite sprite2 sprite-editar_videos right"></i>
+                                <i class="sprite sprite2 sprite-ver_videos right"></i>
+                                <i class="sprite sprite2 sprite-excluir_aula right"></i>
+                                <i class="sprite sprite2 sprite-baixar_aula right"></i>
+
+                            </div>
+
+                            <div class="feed-text clearfix no-padding">
+
+                                <div class="curso-desc clearfix">
+
+                                    <div class="box-cursos">
+                                        <div class="nome-option clearfix">
+                                            <span class="curso-title left">Nome da aula</span>
+                                            <span class="disponibilidade left disp-ok">Disponível</span>
+                                            <div class="options right">
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download_del"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play_edit"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-forum_blue"></i><span class="alert-icon">10</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <span class=""><b>Prevista para:</b> 00/00/0000</span>
+                                            <span class=""><b>Liberada em:</b> 00/00/0000</span>
+                                            <span class=""><b>Atualizada em:</b> 00/00/0000</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-cursos">
+                                        <div class="nome-option clearfix">
+                                            <span class="curso-title left">Nome da aula</span>
+                                            <span class="disponibilidade left disp-ok">Disponível</span>
+                                            <div class="options right">
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download_del"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play_edit"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-forum_blue"></i><span class="alert-icon">10</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <span class=""><b>Prevista para:</b> 00/00/0000</span>
+                                            <span class=""><b>Liberada em:</b> 00/00/0000</span>
+                                            <span class=""><b>Atualizada em:</b> 00/00/0000</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-cursos expirados">
+                                        <div class="nome-option clearfix">
+                                            <span class="curso-title left">Nome da aula</span>
+                                            <span class="disponibilidade left disp-late">Atraso de XX dias</span>
+                                            <div class="options right">
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download_del"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play_edit"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-forum_blue"></i><span class="alert-icon">10</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <span class=""><b>Prevista para:</b> 00/00/0000</span>
+                                            <span class=""><b>Atualizada em:</b> 00/00/0000</span>
+                                        </div>
+                                    </div>
+                                    <div class="box-cursos aguardar">
+                                        <div class="nome-option clearfix">
+                                            <span class="curso-title left">Nome da aula</span>
+                                            <span class="disponibilidade left disp-aguardar">Aguardar Cronograma</span>
+                                            <div class="options right">
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-download_del"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-play_edit"></i></div>
+                                                <div class="clearfix"><i class="sprite sprite2 sprite-forum_blue"></i><span class="alert-icon">10</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <span class=""><b>Prevista para:</b> 00/00/0000</span>
+                                            <span class=""><b>Atualizada em:</b> 00/00/0000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

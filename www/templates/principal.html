@@ -37,13 +37,25 @@
       <nav class="menu-navegacao clearfix center" style="background-color: transparent">
         <ul class="clearfix shadow">
           <li>
-            <a menu-close ui-sref="feed_professor" ui-sref-active="active"><span class="menu-name">Home_professor</span></a>
+            <a menu-close ui-sref="index" ui-sref-active="active"><span class="menu-name">Tela Inicial APP</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="index-cadastro-usuario" ui-sref-active="active"><span class="menu-name">Cadastro Usuario</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="index-cadastro-professor" ui-sref-active="active"><span class="menu-name">Cadastro Professor</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="index-cadastro-anunciantes" ui-sref-active="active"><span class="menu-name">Cadastro Anunciante</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="header2.feed_professor" ui-sref-active="active"><span class="menu-name">Home_professor</span></a>
           </li>
           <li>
             <a menu-close ui-sref="visualizar_professor" ui-sref-active="active"><span class="menu-name">Visualizar Professor</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="visualizar_aluno" ui-sref-active="active"><span class="menu-name">Visualizar Aluno</span></a>
+            <a menu-close ui-sref="visualizar_usuario" ui-sref-active="active"><span class="menu-name">Visualizar Aluno</span></a>
           </li>
           <li>
             <a menu-close ui-sref="bibliografia_instituicoes" ui-sref-active="active"><span class="menu-name">Bibliografia Instituicoes</span></a>
@@ -67,6 +79,25 @@
             <a menu-close ui-sref="visao-professor-meus-cursos-cadastro2" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-cadastro2</span></a>
           </li>
           <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-aulas" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-aulas</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-aulas-modal-videos" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-aulas-modal-videos</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-aulas-modal-adicionar" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-aulas-modal-adicionar</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-aulas-avaliacoes" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-aulas-avaliacoes</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="visao-professor-meus-cursos-forum" ui-sref-active="active"><span class="menu-name">visao-professor-meus-cursos-forum</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="modal-sobre" ui-sref-active="active"><span class="menu-name">modal-sobre</span></a>
+          </li>
+
+          <li>
             <a menu-close ui-sref="visao-visitante-medalhas-do-professor" ui-sref-active="active"><span class="menu-name">visao-visitante-medalhas-do-professor</span></a>
           </li>
           <li>
@@ -76,7 +107,7 @@
             <a menu-close ui-sref="boatos" ui-sref-active="active"><span class="menu-name">Boatos</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="chats" ui-sref-active="active"><span class="menu-name">Chats</span></a>
+            <a menu-close ui-sref="header2.chats" ui-sref-active="active"><span class="menu-name">Chats</span></a>
           </li>
           <li>
             <a menu-close ui-sref="ciclos-de-estudos" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo</span></a>
@@ -136,12 +167,6 @@
             <a menu-close ui-sref="ciclos-de-estudos-tela11" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Tela 11</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="ciclos-de-estudo-definicao" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Definição</span></a>
-          </li>
-          <li>
-            <a menu-close ui-sref="ciclos-de-estudo-horas" ui-sref-active="active"><span class="menu-name">Ciclos de Estudo - Horas</span></a>
-          </li>
-          <li>
             <a menu-close ui-sref="cursos-tela1" ui-sref-active="active"><span class="menu-name">Cursos - TELA 1</span></a>
           </li>
           <li>
@@ -163,7 +188,16 @@
             <a menu-close ui-sref="cursos-tela7" ui-sref-active="active"><span class="menu-name">Cursos - TELA 7</span></a>
           </li>
           <li>
+            <a menu-close ui-sref="cursos-tela7-modal-publicar" ui-sref-active="active"><span class="menu-name">Cursos - TELA 7 - Modal Publicar</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela7-modal-avaliacao" ui-sref-active="active"><span class="menu-name">Cursos - TELA 7 - Modal Avaliação</span></a>
+          </li>
+          <li>
             <a menu-close ui-sref="cursos-tela8" ui-sref-active="active"><span class="menu-name">Cursos - TELA 8</span></a>
+          </li>
+          <li>
+            <a menu-close ui-sref="cursos-tela8-modal-mensagem" ui-sref-active="active"><span class="menu-name">Cursos - TELA 8 - Modal Mensagem</span></a>
           </li>
           <li>
             <a menu-close ui-sref="cursos-tela9" ui-sref-active="active"><span class="menu-name">Cursos - TELA 9</span></a>
@@ -175,7 +209,7 @@
             <a menu-close ui-sref="desafios_home" ui-sref-active="active"><span class="menu-name">Desafios - Home</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="desafios" ui-sref-active="active"><span class="menu-name">Desafios</span></a>
+            <a menu-close ui-sref="header2.desafios" ui-sref-active="active"><span class="menu-name">Desafios</span></a>
           </li>
           <li>
             <a menu-close ui-sref="descontrair" ui-sref-active="active"><span class="menu-name">descontrair</span></a>
@@ -190,7 +224,7 @@
             <a menu-close ui-sref="favoritos" ui-sref-active="active"><span class="menu-name">favoritos</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="feed" ui-sref-active="active"><span class="menu-name">feed</span></a>
+            <a menu-close ui-sref="hreader2.feed" ui-sref-active="active"><span class="menu-name">feed</span></a>
           </li>
           <li>
             <a menu-close ui-sref="historias" ui-sref-active="active"><span class="menu-name">historias</span></a>
@@ -235,7 +269,7 @@
             <a menu-close ui-sref="papo_home" ui-sref-active="active"><span class="menu-name">papo_home</span></a>
           </li>
           <li>
-            <a menu-close ui-sref="papo" ui-sref-active="active"><span class="menu-name">papo</span></a>
+            <a menu-close ui-sref="header2.papo" ui-sref-active="active"><span class="menu-name">papo</span></a>
           </li>
           <li>
             <a menu-close ui-sref="perfil" ui-sref-active="active"><span class="menu-name">perfil</span></a>

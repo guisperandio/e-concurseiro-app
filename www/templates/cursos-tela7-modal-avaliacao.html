@@ -1,0 +1,109 @@
+<ion-view title="ciclos-de-estudos" hide-nav-bar="false" id="cursos">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="true">
+  <style>
+    .overlay .box-feed{
+      width: 100%;
+      top: 0;
+      margin: 0 !important;
+    }
+    select {
+         -webkit-appearance: menulist !important; 
+        -moz-appearance: menulist !important;
+        appearance: menulist !important;
+    }
+    .content-input{
+      margin: 0 !important;
+      width: 100% !important
+    }
+    textarea{
+      padding: 4px;
+      width: 100%;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+    }
+  </style>
+  <div class="content clearfix padding">
+    <div class="top-destaque clearfix">
+      <div class="info-user clearfix">
+        <div class="img-usr clearfix left">
+
+        </div>
+        <div class="infos-usr clearfix left">
+          <span class="seta-esquerda"></span>
+          <p>
+            <b>FULANO DE TAL DA SILVA</b> <br /><br />
+            Assinante E-PAPIRO: <b style="color: yellow">SIM</b><br />
+            Acesso até: <b style="color: yellow">00/00/0000</b><br />
+            Cursos ativos: <b style="color: yellow">326</b>
+          </p>
+        </div>
+        <button class="botao botao-azulescuro full margin-top">Meus cursos</button>
+        <button class="botao botao-verde full margin-top">Renovar acesso</button>
+      </div>
+    </div>
+
+    <div class="spacer-gray"></div>
+
+
+
+
+  </div>
+
+  <div class="content clearfix">
+    <div class="main-content clearfix ">
+
+    <div class="overlay bloco-aulas block">
+          <div class="box-feed clearfix shadow">
+            <span class="bigtitle center">avaliação do curso - nome do curso</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus congue justo id ultrices. Donec eu tortor urna. Aliquam et convallis odio. Ut aliquam congue arcu, ut efficitur metus rutrum id. Pellentesque non nisi vulputate, sollicitudin ligula sit amet, ornare est. Nulla risus sapien, lobortis sed libero in, commodo tristique lacus.
+            </p>
+            <br />
+            <p>
+              <span class="medtitle">Que nota você dá à qualidade do curso (0 a 10)?</span>
+              <span class="content-input clearfix margin-top no-margin left">
+                <select class="margin-top">
+                  <option>
+                    0
+                  </option>
+                </select>
+              </span>
+            </p>
+            <br /><br />
+            <p style="margin-top: 20px">
+              <span class="medtitle">Que nota você dá ao atendimento via fórum de dúvidas (0 a 10)?</span>
+              <span class="content-input clearfix margin-top no-margin left">
+                <select class="margin-top">
+                  <option>
+                    0
+                  </option>
+                </select>
+              </span>
+            </p>
+            <p style="margin-top: 20px">
+              <span class="medtitle">VocÊ faria outro curso com este professor?</span>
+              <span class="content-input clearfix margin-top no-margin left">
+                <select class="margin-top">
+                  <option>
+                    Sim
+                  </option>
+                </select>
+              </span>
+            </p>
+            <br /><br />
+            <p style="margin-top: 20px">
+              <span class="medtitle" style="display: block;">Comentários</span>
+              <textarea class="area-comentarios">Texto digitado</textarea>
+            </p>
+            <p>
+              <button class="btn btn-oceanblue half left">Enviar</button>
+            </p>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+
+  </ion-content>
+</ion-view>

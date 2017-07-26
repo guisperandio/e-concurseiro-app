@@ -8,8 +8,6 @@ angular.module('app.routes', [])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
-
-
   .state('header2.papo', {
     url: '/papo',
     views: {
@@ -213,6 +211,12 @@ angular.module('app.routes', [])
     controller: 'desafios_homeCtrl'
 
   })
+  .state('modal-sobre', {
+    url: '/modal-sobre',
+    templateUrl: 'templates/modal-sobre.html',
+    controller: 'ctrlPadrao'
+
+  })
   .state('lista_professores', {
     url: '/lista_professores',
     templateUrl: 'templates/lista_professores.html',
@@ -241,6 +245,31 @@ angular.module('app.routes', [])
   .state('visao-professor-meus-cursos', {
     url: '/visao-professor-meus-cursos',
     templateUrl: 'templates/visao-professor-meus-cursos.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos-aulas', {
+    url: '/visao-professor-meus-cursos-aulas',
+    templateUrl: 'templates/visao-professor-meus-cursos-aulas.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos-aulas-modal-videos', {
+    url: '/visao-professor-meus-cursos-aulas-modal-videos',
+    templateUrl: 'templates/visao-professor-meus-cursos-aulas-modal-videos.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos-aulas-modal-adicionar', {
+    url: '/visao-professor-meus-cursos-aulas-modal-adicionar',
+    templateUrl: 'templates/visao-professor-meus-cursos-aulas-modal-adicionar.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos-aulas-avaliacoes', {
+    url: '/visao-professor-meus-cursos-aulas-avaliacoes',
+    templateUrl: 'templates/visao-professor-meus-cursos-aulas-avaliacoes.html',
+    controller: 'visaoProfessorCtrl'
+  })
+  .state('visao-professor-meus-cursos-forum', {
+    url: '/visao-professor-meus-cursos-forum',
+    templateUrl: 'templates/visao-professor-meus-cursos-forum.html',
     controller: 'visaoProfessorCtrl'
   })
   .state('visao-visitante-medalhas-do-professor', {
@@ -503,9 +532,24 @@ angular.module('app.routes', [])
     templateUrl: 'templates/cursos-tela7.html',
     controller: 'ctrlPadrao'
   })
+  .state('cursos-tela7-modal-publicar', {
+    url: '/cursos-tela7-modal-publicar',
+    templateUrl: 'templates/cursos-tela7-modal-publicar.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('cursos-tela7-modal-avaliacao', {
+    url: '/cursos-tela7-modal-avaliacao',
+    templateUrl: 'templates/cursos-tela7-modal-avaliacao.html',
+    controller: 'ctrlPadrao'
+  })
   .state('cursos-tela8', {
     url: '/cursos-tela8',
     templateUrl: 'templates/cursos-tela8.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('cursos-tela8-modal-mensagem', {
+    url: '/cursos-tela8-modal-mensagem',
+    templateUrl: 'templates/cursos-tela8-modal-mensagem.html',
     controller: 'ctrlPadrao'
   })
   .state('cursos-tela9', {
@@ -536,6 +580,26 @@ angular.module('app.routes', [])
   .state('principal', {
     url: '/principal',
     templateUrl: 'templates/principal.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('index', {
+    url: '/index',
+    templateUrl: 'templates/index.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('index-cadastro-usuario', {
+    url: '/index-cadastro-usuario',
+    templateUrl: 'templates/index-cadastro-usuario.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('index-cadastro-professor', {
+    url: '/index-cadastro-professor',
+    templateUrl: 'templates/index-cadastro-professor.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('index-cadastro-anunciantes', {
+    url: '/index-cadastro-anunciantes',
+    templateUrl: 'templates/index-cadastro-anunciantes.html',
     controller: 'ctrlPadrao'
   })
 $urlRouterProvider.otherwise('principal')

@@ -1,0 +1,188 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <style>
+      .professor .avaliacao-alunos ul{
+        width: 100%;
+      }
+      .margin-b b{
+        width: 100%;
+        display: block;
+        margin: 0 !important;
+      }
+      .professor .attribuicoes .menu-name{
+            padding: 0;
+          width: 100% !important;
+          margin: 0 !important;
+          text-align: center;
+      }
+    .professor .avaliacao-alunos ul li{
+      width: 100%;
+    }
+      .professor .avaliacao-alunos ul li a{
+        margin: 0 !important;
+        width: 100% !important;
+
+      }
+      .professor .avaliacao-alunos ul li a .avaliacao-nota .vertical-align{
+        width: 100% !important;
+      }
+      .professor .avaliacao-alunos ul li a .avaliacao-nota{
+        height: 72px;
+        width: 100% !important
+      }
+      .right{
+        margin-right: 0 !important
+      }
+      .overlay{
+        background-color: #f1f1f1;
+      }
+      .overlay .box-feed{
+        position: relative;
+        top: 0 !important;
+        margin-top: 0 !important
+      }
+      .overlay .meus-cursos-editar{
+        width: 100%
+      }
+      .overlay .meus-cursos-editar input[type="text"]{
+        width: 100%;
+        background-color: #fff
+      }
+      .meus-cursos-avaliacoes ul li a{
+        width: 100%
+      }
+      .geral span{
+        width: 94px;
+      }
+    </style>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+        </div> 
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        
+        <div class="grid_12 padding professor gd" id="content-middle">
+
+                <div class="box-interesse">
+                    <h5 class="bigtitle align-left">Avaliações dos Cursos</h5>
+
+                    <div class="box-interesse clearfix">
+                        <div class="left same-line select-div full">
+                            <span class="title-interesse">Situação do curso</span>
+                            <div class="select-option full">
+                                <select class="full" >
+                                    <option>
+                                        Selecione
+                                    </option>
+                                    <option>
+                                        Teste
+                                    </option>
+                                </select>
+                                <span class="select-seta bgr-oceanblue"><i class="sprite sprite-select_option"></i></span>
+                            </div>
+                        </div>
+                        <div class="right same-line select-div">
+                            <span class="title-interesse">Curso</span>
+                            <div class="select-option full">
+                                <select class="">
+                                    <option>
+                                        Auditor Fiscal da Receita Federal do Brasil - AFRFB
+                                    </option>
+                                    <option>
+                                        Teste
+                                    </option>
+                                </select>
+                                <span class="select-seta bgr-oceanblue"><i class="sprite sprite-select_option"></i></span>
+                            </div>
+                        </div>
+                        <button class="btn btn-blue btn-save right full">Buscar</button>
+                    </div>
+
+                    <div class="box-interesse clearfix">
+                        <div class="avaliacao-alunos clearfix avaliacao-big meus-cursos-avaliacoes">
+
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="#" class="no-margin-left">
+                                        <span class="avaliacao-name">Média Geral</span>
+                                        <span class="avaliacao-nota geral clearfix"><span class="vertical-align">8,2</span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="avaliacao-name">Qualidade das aulas</span>
+                                        <span class="avaliacao-nota"><span class="vertical-align">10</span></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="avaliacao-name">Média do fórum</span>
+                                        <span class="avaliacao-nota"><span class="vertical-align">6,4</span></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="no-margin-right">
+                                        <span class="avaliacao-name">Índice de aceitação</span>
+                                        <span class="avaliacao-nota geral"><span class="vertical-align">100%</span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="attribuicoes clearfix aceitacao-prof"><span class="menu-name">350 avaliações de alunos</span></span>
+                        </div>
+                    </div>
+
+                    <div class="box-interesse clearfix">
+                        <div class="comment-aluno">
+                            <p>00/00/0000 às 00:00H - Mauricio anderson da silva</p>
+                            <p><b>Curso:</b> Questões comentadas cespe português/INSS 2015/2016 - Pós Edital</p>
+                            <br>
+                            <p class="margin-b"><b class="no-margin-left">Qualidade do curso: 10</b>  <b>Fórum Dúvidas: 10</b> <b class="no-margin-right">Faria outro curso? SIM</b></p>
+                        </div>
+
+                        <div class="comment-aluno">
+                            <p>00/00/0000 às 00:00H - Mauricio anderson da silva</p>
+                            <p><b>Curso:</b> Questões comentadas cespe português/INSS 2015/2016 - Pós Edital</p>
+                            <br>
+                            <p class="margin-b"><b class="no-margin-left">Qualidade do curso: 10</b>  <b>Fórum Dúvidas: 10</b> <b class="no-margin-right">Faria outro curso? SIM</b></p>
+                        </div>
+                        <div class="comentario-avaliacao">
+                            <p>Professor Fera!</p>
+                            <p>Recomendo a todos!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>

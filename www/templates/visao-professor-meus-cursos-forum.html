@@ -1,0 +1,104 @@
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
+    <ion-refresher
+      pulling-text="Solte para atualizar..."
+      on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
+    </ion-refresher>
+    <style>
+      .box-resposta{
+        width: 80% !important;
+      }
+    </style>
+    <div class="grid_12 no-margin">
+      <div class="grid_100">
+        <div class="img-topo" style="background-image: url('banners/topo-professor.jpg'); position: relative;">
+          <i class="sprite sprite-cam_icon_gd"></i>
+        </div>
+      </div>
+      <div class="grid_4" id="content-left">
+        <div class="channel-info shadow">
+          <div class="profile-img" style="background-image: url('img/adam.jpg')"></div>
+          <h3 class="usr-name">George Firmino</h3>
+          <span class="usr-nivel">Nível 5</span>
+        </div> 
+      </div>
+      <div class="grid_8" id="content-middle">
+
+        <div class="pag-option clearfix">
+          <button class="btn bgr-yellow btn-meus_cursos"><i class="sprite sprite2 sprite-btn_cursos"></i><span class="menu-name">Cursos</span></button>
+          <button class="btn btn-blue btn-follow"><i class="sprite sprite2 sprite-follow"></i><span class="menu-name">Seguir</span></button>
+          <button class="btn btn-blue btn-msg"><i class="sprite sprite2 sprite-msg-pq"></i><span class="menu-name">Mensagem</span><div class="alert-icon">10</div></button>
+          <button class="btn btn-blue btn-eventos"><i class="sprite sprite2 sprite-eventos"></i><span class="menu-name">Eventos</span></button>
+        </div>
+
+        
+        <div class="grid_12 padding professor gd" id="content-middle">
+
+                <div class="box-interesse">
+                    <div class="box-feed clearfix detalhes-curso">
+                      <ul id="expand-list" class="clearfix expand-big green">
+                        <li>
+                          <a href="#" class="expand">Fórum de Dúvidas</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list expand">Aula 00</a>
+                        </li>
+                        <li>
+                          <a href="#" class="list expand">Nome do curso</a>
+                        </li>
+                      </ul>
+                        <div class="box-content">
+                            <div class="feed-text clearfix no-padding-left no-padding-right">
+                              <div class="box-cursos bx-forum">
+                                <div class="nome-option clearfix bgr-oceanblue">
+                                  <span class="curso-title left">Dúvida Enviada em <b>00/00/0000 às 00:00H</b> por <b>NOME DO ALUNO FULANO DA SILVA</b></span>
+                                  <span class="disponibilidade right disp-ok">Respondida</span>
+
+                                </div>
+                                <div class="details bgr-white">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper leo vitae venenatis accumsan. In hac habitasse platea dictumst. Fusce a aliquet magna, accumsan posuere dolor. Vivamus vitae aliquam tortor, sed euismod massa. Nullam sit amet sapien tortor. Curabitur varius tellus ac neque sollicitudin, in suscipit erat consectetur. Morbi finibus quam eleifend turpis gravida, at vestibulum lectus euismod. Curabitur ut suscipit tellus. Quisque ultrices lacus a felis eleifend venenatis. Nam accumsan vitae magna vel dapibus. Vivamus vel feugiat erat.
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="box-cursos box-resposta">
+                                <i class="sprite sprite-resposta"></i>
+                                <div class="nome-option clearfix bgr-blue">
+                                  <span class="curso-title left">Resposta Enviada por <b>NOME DO ALUNO FULANO DA SILVA</b> EM <b>00/00/0000 às 00:00H</b> </span>
+                                </div>
+                                <div class="details bgr-lightblue">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper leo vitae venenatis accumsan. In hac habitasse platea dictumst. Fusce a aliquet magna, accumsan posuere dolor. Vivamus vitae aliquam tortor, sed euismod massa. Nullam sit amet sapien tortor. Curabitur varius tellus ac neque sollicitudin, in suscipit erat consectetur. Morbi finibus quam eleifend turpis gravida, at vestibulum lectus euismod.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="feed-text clearfix no-padding-left no-padding-right">
+                              <div class="box-cursos bx-forum">
+                                <div class="nome-option clearfix bgr-oceanblue">
+                                  <span class="curso-title left">Dúvida Enviada em <b>00/00/0000 às 00:00H</b> por <b>NOME DO ALUNO FULANO DA SILVA</b></span>
+                                  <span class="disponibilidade right disp-wait">Responder</span>
+
+                                </div>
+                                <div class="details bgr-white">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper leo vitae venenatis accumsan. In hac habitasse platea dictumst. Fusce a aliquet magna, accumsan posuere dolor. Vivamus vitae aliquam tortor, sed euismod massa. Nullam sit amet sapien tortor. Curabitur varius tellus ac neque sollicitudin, in suscipit erat consectetur. Morbi finibus quam eleifend turpis gravida, at vestibulum lectus euismod. Curabitur ut suscipit tellus. Quisque ultrices lacus a felis eleifend venenatis. Nam accumsan vitae magna vel dapibus. Vivamus vel feugiat erat.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <br />
+  </ion-content>
+</ion-view>
