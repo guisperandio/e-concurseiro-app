@@ -204,10 +204,10 @@ span.text {
 }
 .box-top .box-title span.publish-up{
   color: #fff;
-font-size: 11px;
-text-transform: none;
-position: absolute;
-top: 18px;
+  font-size: 11px;
+  text-transform: none;
+  position: absolute;
+  top: 22px;
     left: 55px;
 }
 .box-top .box-title span.title-publicacao {
@@ -2270,9 +2270,9 @@ ul.areas li a:hover .sprite-tik_gray {
 }
 .nvl-bar {
   float: left;
-  margin-right: 4px;
+  margin-right: 0;
   text-align: center;
-  width: 30px;
+  width: 11.11111%;
 }
 .nvl-bar:last-child {
   margin-right: 0;
@@ -2324,11 +2324,7 @@ ul.areas li a:hover .sprite-tik_gray {
 .no-right {
   margin-right: 0 !important;
 }
-.box-conq {
-  float: left;
-  margin: 0 6px;
-  width: 100px;
-}
+
 .box-conq p {
   font-size: 11px;
   line-height: 1.23;
@@ -2340,6 +2336,7 @@ ul.areas li a:hover .sprite-tik_gray {
   border-radius: 200px;
   height: 100px;
   width: 100px;
+  margin: 0 auto;
 }
 #user-view .usr-name {
   margin-bottom: 13px;
@@ -2506,12 +2503,23 @@ ul.desafios li:last-child a {
 }
 .box-desafio .box-content .btn-realizado {
   margin-top: 20px !important;
+  position: relative;
 }
 .box-desafio .box-content .btn .menu-name {
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  position: absolute;
+    width: 100%;
+    left: 2px;
+    right: 0;
+    top: 15px;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    height: 100%;
+    text-align: center;
 }
 .box-desafio .box-content .obj {
   display: block;
@@ -3611,7 +3619,7 @@ span.bluetitle {
 }
 .usuario .usr-img {
   background-position: top left;
-  background-size: contain;
+  background-size: cover;
   border-radius: 60px;
   float: left;
   height: 85px;

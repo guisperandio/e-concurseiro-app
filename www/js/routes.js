@@ -422,6 +422,7 @@ angular.module('app.routes', [])
     templateUrl: 'templates/ciclos-de-estudos-tela5.html',
     controller: 'visao-professor'
   })
+
   .state('ciclos-de-estudos-tela6', {
     url: '/ciclos-de-estudos-tela6',
     templateUrl: 'templates/ciclos-de-estudos-tela6.html',
@@ -521,6 +522,11 @@ angular.module('app.routes', [])
     url: '/cursos-tela5',
     templateUrl: 'templates/cursos-tela5.html',
     controller: 'ctrlPadrao'
+  })
+    .state('cursos-tela5-modal-compra', {
+    url: '/cursos-tela5-modal-compra',
+    templateUrl: 'templates/cursos-tela5-modal-compra.html',
+    controller: 'visao-professor'
   })
   .state('cursos-tela6', {
     url: '/cursos-tela6',

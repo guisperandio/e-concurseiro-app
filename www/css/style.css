@@ -16,12 +16,7 @@
 .has-header {
     top: 44px !important;
 }
-ul.desafios li{
-  width: 33.3333%;
-}
-fieldset {
-  border: 0
-}
+
 #content-middle ul.desafios li a{
   padding: 39px 25px 19px !important;
   width: 100%;
@@ -385,18 +380,17 @@ ion-header-bar{
   border: 0 !important;
   float: right;
 }
+.bibliografia .box-materiais .materiais-boxes{
+  width: 100%;
+}
 .bibliografia .box-materiais .materiais-box{
   padding: 10px;
   background-color: #fff;
   border: 1px solid #e8e8e8;
   margin-bottom: 20px;
+  width: 100%
 }
-.bibliografia .box-materiais .materiais-box img{
-  width: 98px;
-  height: 139px;
-  float: left;
-  margin-right: 10px;
-}
+
 .bibliografia .box-materiais .materiais-box img.img-professor{
   height: 98px;
   margin-right: 10px;

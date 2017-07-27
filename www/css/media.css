@@ -1,0 +1,44 @@
+@media (min-width: 377px){
+  .materiais-box p{
+    width: -webkit-calc(100% - 110px);
+    width:    -moz-calc(100% - 110px);
+    width:         calc(100% - 110px);
+  }
+  .box-conq {
+    float: left;
+    width: 33.33333%;
+  }
+  ul.desafios li{
+    width: 33.3333%;
+  }
+    .bibliografia .box-materiais .materiais-box img{
+        width: 98px;
+        height: 139px;
+        float: left;
+        margin-right: 10px;
+      }
+}
+@media (max-width: 376px){
+  ul.desafios li{
+    width: 100%;
+  }
+  .box-conq {
+    float: left;
+    width: 100%;
+  }
+  .bibliografia .box-materiais .materiais-box img{
+    width: 150px;
+    height: 200px;
+    margin: 10px auto;
+    float: none;
+    display: block;
+  }
+  .materiais-box p{
+    width: 100%;
+    text-align: center
+  }
+  .materiais-box button{
+      width: 100% !important;
+      margin-top: 3px;
+  }
+}
