@@ -1,6 +1,6 @@
 {
   "name": "appConcurseiro",
-  "app_id": "FEAD8639",
+  "app_id": "fead8639",
   "gulpStartupTasks": [
     "sass",
     "watch"

@@ -480,7 +480,7 @@ h3.sub-title{
 }
 
 .content-input input.total-input{
-  background-color: #3f678c;
+  background-color: #3f678c !important;
   color: #fff;
 }
 .content-input input.total-input::-webkit-input-placeholder{
@@ -583,7 +583,7 @@ h3.sub-title{
 }
 .tabela-tipo1 .tabela-titulo, .tabela-tipo2 .tabela-titulo{
   padding: 10px;
-  text-align: center;
+  text-align: left;
   color: #fff;
   background-color: #1e9ec5;
   text-transform: uppercase;
@@ -639,7 +639,7 @@ h3.sub-title{
   position: relative;
 }
 .tabela-container{
-  width: 1000px;
+  width: 100%;
   overflow-x:scroll;
 }
 .tabela-tipo2 .linha{
@@ -2129,10 +2129,11 @@ font-weight: bold;
 #ciclos .input-alterados .content-input label{
   position: absolute;
   right: 0;
-  left: -60px;
+  left: -100px;
   margin: 0 auto;
   width: 150px;
   line-height: 17px;
+  top: 8px;
 }
 #ciclos .input-alterados .content-input input{
   position: absolute;
@@ -2140,5 +2141,7 @@ font-weight: bold;
   left: 172px;
   margin: 0 auto;
   width: 73px;
-  top: -4px
+  top: -4px;
+  background-color: #f9f9f9;
+  padding: 10px
 }

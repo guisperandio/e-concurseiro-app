@@ -523,9 +523,14 @@ angular.module('app.routes', [])
     templateUrl: 'templates/cursos-tela5.html',
     controller: 'ctrlPadrao'
   })
-    .state('cursos-tela5-modal-compra', {
+  .state('cursos-tela5-modal-compra', {
     url: '/cursos-tela5-modal-compra',
     templateUrl: 'templates/cursos-tela5-modal-compra.html',
+    controller: 'visao-professor'
+  })
+  .state('cursos-tela5-modal-epapiro', {
+    url: '/cursos-tela5-modal-epapiro',
+    templateUrl: 'templates/cursos-tela5-modal-epapiro.html',
     controller: 'visao-professor'
   })
   .state('cursos-tela6', {
