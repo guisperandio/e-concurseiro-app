@@ -3,9 +3,9 @@
   padding: 4px !important;
 }
 select{
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menulist !important;
+  appearance: menulist !important;
 }
 .uppercase{
   text-transform: uppercase;
@@ -179,6 +179,7 @@ h3.sub-title{
   background-position: -73px -502px;
   width: 32px;
   height: 31px;
+  margin-top: 3px
 }
 .ciclos-edit{
   background-position: -132px -446px;
@@ -639,7 +640,7 @@ h3.sub-title{
   position: relative;
 }
 .tabela-container{
-  width: 100%;
+  width: 200%;
   overflow-x:scroll;
 }
 .tabela-tipo2 .linha{
@@ -655,7 +656,7 @@ h3.sub-title{
   font: 500 14px 'Muli';
   text-transform: uppercase;
   color: #004570;
-  min-width: 110px;
+  min-width: 20%;
   text-align: center;
 
 }
@@ -683,12 +684,13 @@ h3.sub-title{
   font: 400 14px 'Muli';
   text-transform: uppercase;
   color: #696969;
-  min-width: 110px;
+  min-width: 20%;
   text-align: center;
 }
 .tabela-tipo2 .linha .coluna:first-child, .tabela-tipo2 .linha-topo .coluna:first-child, .tabela-tipo1 .linha-topo .coluna:first-child{
-  min-width: 250px;
+  min-width: 200px;
   text-align: left;
+  max-width: 25%
 }
 
 .ul-tipo1 li{
@@ -751,12 +753,15 @@ h3.sub-title{
   float: left;
 }
 .data-inicial .inputs input[type="date"]{
-  margin: 0 0 0 45px;
+  margin: 0 0 0 50px;
   display: block;
   text-align: center;
   color: #1e9ec5;
   font-size: 14px;
-  width: 78%;
+  width: -moz-calc(100% - 50px);
+  width: -webkit-calc(100% - 50px);
+  width: -o-calc(100% - 50px);
+  width: calc(100% - 50px);
   border: 1px solid #d2d2d2
 }
 .modal-p{
@@ -769,7 +774,7 @@ h3.sub-title{
   line-height: 15px;
 }
 .cronometro{
-  padding-left: 19%
+  
 }
 .cronometro li{
   margin: 0 2px;
@@ -883,8 +888,8 @@ h3.sub-title{
   color: #fff !important;
 }
 .box-alert{
-  width: 30%;
-  margin: 10px 6.92px;
+  width: 33.3333%;
+  border: 1px solid #f1f1f1
 }
 .box-alert span{
   text-align: center;

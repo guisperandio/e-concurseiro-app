@@ -1,4 +1,17 @@
 @media (min-width: 377px){
+  .professor .avaliacao-alunos ul li {
+  display: inline-block;
+  width: 20%;
+  border: 6px solid #fff
+}
+  .input-editais {
+  float: right;
+  position: relative;
+  width: -moz-calc(100% - 170px);
+  width: -webkit-calc(100% - 170px);
+  width: -o-calc(100% - 170px);
+  width: calc(100% - 170px);
+}
   .materiais-box p{
     width: -webkit-calc(100% - 110px);
     width:    -moz-calc(100% - 110px);
@@ -18,7 +31,26 @@
         margin-right: 10px;
       }
 }
+@media(max-width: 450px){
+    .input-editais {
+  float: right;
+  position: relative;
+  width: 100%
+}
+}
 @media (max-width: 376px){
+  .mapa-concursos .box-area .btn{
+    width: 100% !important;
+    margin: 0 !important
+  }
+  .mapa-concursos .box-area p{
+    width: 100%;
+    position: relative !important;
+  }
+  .professor .avaliacao-alunos ul li {
+  display: inline-block;
+  width: 100%
+}
   ul.desafios li{
     width: 100%;
   }

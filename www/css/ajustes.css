@@ -1067,7 +1067,14 @@ table .user-details.usr-table ul {
   background-position: -1355px -193px;
 }
 .professor .avaliacao-alunos ul li a .avaliacao-nota {
-  width: 32px;
+  width: 100%;
+}
+.item-select:after{
+  display: none
+}
+.item-select select{
+  margin-bottom: 0;
+  direction: ltr;
 }
 .tituloDetalhesCurso {
   font: 500 24px 'Muli' !important;
@@ -1852,6 +1859,7 @@ top: 52px;
 }
 .mapa-concursos .box-concurso.box-concurso2 h6 {
   padding-top: 17px;
+  padding-bottom: 17px;
 }
 .no-margin-top {
   margin-top: 0 !important;
@@ -1866,13 +1874,16 @@ top: 52px;
   font: 400 13px 'Muli' !important;
   color: #696969 !important;
 }
+fieldset{
+  border: 0
+}
 .input-editais .input-edital {
   width: 157px;
 }
 .input-editais .caracteres {
   bottom: -20px;
 position: absolute;
-right: 82px;
+right: 10px;
 color: #696969;
 }
 .input-editais .btn{

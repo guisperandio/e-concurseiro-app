@@ -747,14 +747,16 @@ footer {
   width: 41px;
 }
 .edital .sprite-pdf {
-  color: #16678e;
-font-size: 16px;
-font-weight: bold;
-padding: 9px 9px 9px 40px;
-position: relative;
-top: 27px;
-width: 147px;
-left: 11px;
+    color: #16678e;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 9px 9px 40px;
+    position: relative;
+    top: -61px;
+    width: 147px;
+    left: 94px;
+    margin: 0 auto;
+    float: none;
 }
 .sprite-perfil {
   background-position: -430px -74px;

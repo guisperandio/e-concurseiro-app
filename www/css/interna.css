@@ -601,8 +601,8 @@ span.text {
 }
 #published-indicacao .sprite-plus {
   position: absolute;
-right: 42px;
-top: 30px;
+  right: 11px;
+  top: 28px;
 }
 #published-indicacao label {
   position: relative;
@@ -634,11 +634,11 @@ top: 30px;
   width: 20px;
 }
 #published-indicacao input.interesses {
-  display: block;
-  float: left;
-  margin-bottom: 0px;
-  width: 350px;
-  padding: 10px;
+      display: block;
+    float: left;
+    margin-bottom: 0px;
+    width: calc(100% - 51px);
+    padding: 10px;
 }
 #published-indicacao .input-editais label:before {
   display: none;
@@ -1128,7 +1128,7 @@ h5 {
   width: 100%;
 }
 .professor .info-numbers .box-number {
-  padding: 0 9px;
+  padding: 0 5px;
 }
 .professor .usr-name {
   font-size: 18px;
@@ -1158,13 +1158,10 @@ h5 {
   padding: 0;
   text-align: justify;
 }
-.professor .avaliacao-alunos ul li {
-  display: inline-block;
-}
+
 .professor .avaliacao-alunos ul li a {
   display: inline-block;
-  margin: 0 7px;
-  min-width: 36px;
+  width: 100%;
   text-align: center;
 }
 .professor .avaliacao-alunos ul li a:hover {
@@ -1188,12 +1185,13 @@ h5 {
 }
 .professor .avaliacao-alunos ul li a .avaliacao-nota .vertical-align {
   color: #1e9ec5;
-  display: table-cell;
+  display: block;
   font-size: 15px;
   height: 27px;
   text-align: center;
   vertical-align: middle;
-  width: 45px;
+  width: 100%;
+
 }
 .professor .avaliacao-alunos ul li a .avaliacao-nota.geral {
   background-color: #1e9ec5;
@@ -1646,16 +1644,19 @@ h5 {
   text-align: center;
 }
 .feed-text .edital .imagem {
-  background-repeat: no-repeat;
-background-size: contain;
-display: block;
-float: left;
-min-height: 89px;
-width: 31%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    /* float: left; */
+    min-height: 89px;
+    width: 70px;
+    margin: 0 auto;
+    position: relative;
+    left: -35px;
 }
 .edital-info {
   display: block;
-  float: left;
+  
   margin-top: 22px;
 }
 .edital-info span {
@@ -1965,11 +1966,8 @@ ul.areas li a:hover .sprite-tik_gray {
   padding: 10px 20px;
   text-transform: uppercase;
 }
-.input-editais {
-  float: left;
-  position: relative;
-  width: 62%;
-}
+
+
 .caracteres {
   bottom: -19px;
   position: absolute;
@@ -2724,10 +2722,10 @@ font-size: 13px;
 padding-left: 5px;
 padding-right: 5px;
 text-align: center;
-width: 76px;
+width: 20%;
 }
 .info-numbers .box-number:first-child {
-  width: 89px;
+  width: 20%;
 }
 .info-numbers .box-number:last-child {
   border-right: 0;
@@ -2818,7 +2816,7 @@ width: 76px;
   padding: 10px;
   position: relative;
   margin: 32px auto !important;
-  width: 100% !important
+  width: 95% !important
 }
 .box-concurso h6 {
   color: #004570;
@@ -2828,7 +2826,7 @@ width: 76px;
   text-transform: uppercase;
   width: 100%;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px !important;
   font-size: 15px;
 }
 .box-concurso .more-details {
@@ -2836,6 +2834,9 @@ width: 76px;
   float: right;
   text-align: center;
   width: 65px;
+  position: absolute;
+  right: 0;
+  top: 9px
 }
 .box-concurso .more-details i {
   float: none;
@@ -3100,17 +3101,17 @@ width: 76px;
   top: 0;
 }
 .num-concursos {
-  background-color: #1e9ec5;
-  border-radius: 80px;
-  color: #ffffff;
-  display: block;
-  height: 72px;
-  position: absolute;
-  right: -10px;
-  text-align: center;
-  top: -10px;
-  vertical-align: middle;
-  width: 72px;
+      background-color: #1e9ec5;
+    border-radius: 80px;
+    color: #ffffff;
+    display: block;
+    height: 72px;
+    position: absolute;
+    right: -19px;
+    text-align: center;
+    top: -7px;
+    vertical-align: middle;
+    width: 72px;
 }
 .num-concursos b {
   display: block;
