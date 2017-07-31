@@ -3056,11 +3056,11 @@ width: 20%;
   padding: 20px 10px;
 }
 .class-footer .box-info {
-  margin: 0 10px;
+  width: 33.3333%;
 }
 .class-footer .box-info span {
   display: block;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 .class-footer .box-info span:first-child {
@@ -3074,7 +3074,7 @@ width: 20%;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  width: 329px;
+  width: 100%;
 }
 .class-alert {
   margin: 35px auto;
