@@ -1,76 +1,178 @@
-@media (min-width: 377px){
-  .professor .avaliacao-alunos ul li {
-  display: inline-block;
-  width: 20%;
-  border: 6px solid #fff
-}
-  .input-editais {
-  float: right;
-  position: relative;
-  width: -moz-calc(100% - 170px);
-  width: -webkit-calc(100% - 170px);
-  width: -o-calc(100% - 170px);
-  width: calc(100% - 170px);
-}
-  .materiais-box p{
-    width: -webkit-calc(100% - 110px);
-    width:    -moz-calc(100% - 110px);
-    width:         calc(100% - 110px);
-  }
-  .box-conq {
-    float: left;
-    width: 33.33333%;
-  }
-  ul.desafios li{
-    width: 33.3333%;
-  }
-    .bibliografia .box-materiais .materiais-box img{
+@media (min-width: 377px) {
+    .professor .avaliacao-alunos ul li {
+        display: inline-block;
+        width: 20%;
+        border: 6px solid #fff
+    }
+    .input-editais {
+        float: right;
+        position: relative;
+        width: -moz-calc(100% - 170px);
+        width: -webkit-calc(100% - 170px);
+        width: -o-calc(100% - 170px);
+        width: calc(100% - 170px);
+    }
+    .materiais-box p {
+        width: -webkit-calc(100% - 110px);
+        width: -moz-calc(100% - 110px);
+        width: calc(100% - 110px);
+    }
+    .box-conq {
+        float: left;
+        width: 33.33333%;
+    }
+    ul.desafios li {
+        width: 33.3333%;
+    }
+    .bibliografia .box-materiais .materiais-box img {
         width: 98px;
         height: 139px;
         float: left;
         margin-right: 10px;
-      }
+    }
 }
-@media(max-width: 450px){
+
+@media(max-width: 450px) {
     .input-editais {
-  float: right;
-  position: relative;
-  width: 100%
+        float: right;
+        position: relative;
+        width: 100%
+    }
+    .detalhes-curso .box-seguidor .button.button-stable {
+        width: 100%;
+        margin: 10px 0 0;
+        position: relative
+    }
+    .detalhes-curso .box-seguidor .button.button-stable i {
+        margin: 0 auto;
+        position: absolute;
+        left: -127px;
+        right: 0;
+        top: 12px;
+    }
 }
+
+@media (max-width: 412px) {
+    #resolucao .box-resultado p.text-gray {
+        font-size: 3vw;
+        letter-spacing: -1px;
+    }
+    #resolucao .box-resultado p.text-gray b {
+        font-size: 3vw;
+        letter-spacing: -1px;
+    }
 }
-@media (max-width: 376px){
-  .mapa-concursos .box-area .btn{
-    width: 100% !important;
-    margin: 0 !important
-  }
-  .mapa-concursos .box-area p{
-    width: 100%;
-    position: relative !important;
-  }
-  .professor .avaliacao-alunos ul li {
-  display: inline-block;
-  width: 100%
+
+@media (max-width: 376px) {
+    .list .half {
+        width: 100% !important;
+    }
+    .list button i {
+        display: none;
+    }
+    .box-button {
+        width: 100% !important;
+    }
+    .mapa-concursos .box-area .btn {
+        width: 100% !important;
+        margin: 0 !important
+    }
+    .mapa-concursos .box-area p {
+        width: 100%;
+        position: relative !important;
+    }
+    .professor .avaliacao-alunos ul li {
+        display: inline-block;
+        width: 100%
+    }
+    ul.desafios li {
+        width: 100%;
+    }
+    .box-conq {
+        float: left;
+        width: 100%;
+    }
+    .bibliografia .box-materiais .materiais-box img {
+        width: 150px;
+        height: 200px;
+        margin: 10px auto;
+        float: none;
+        display: block;
+    }
+    .materiais-box p {
+        width: 100%;
+        text-align: center
+    }
+    .materiais-box button {
+        width: 100% !important;
+        margin-top: 3px;
+    }
 }
-  ul.desafios li{
-    width: 100%;
-  }
-  .box-conq {
-    float: left;
-    width: 100%;
-  }
-  .bibliografia .box-materiais .materiais-box img{
-    width: 150px;
-    height: 200px;
-    margin: 10px auto;
-    float: none;
-    display: block;
-  }
-  .materiais-box p{
-    width: 100%;
-    text-align: center
-  }
-  .materiais-box button{
-      width: 100% !important;
-      margin-top: 3px;
-  }
+
+@media(min-width: 534px) {
+    .box-interesse .box-desempenho {
+        width: 33.33333%;
+    }
+}
+
+@media(max-width: 533px) {
+    .box-interesse .box-desempenho {
+        width: 100%;
+    }
+    .box-interesse .box-desempenho .box-white p {
+        text-align: center
+    }
+    .box-interesse .box-desempenho .box-white .num-desempenho {
+        width: 24%;
+    }
+}
+
+@media(max-width: 515px) {
+    .box-desafio.half {
+        width: 253px !important;
+        text-align: center;
+        margin: 10px auto !important;
+        float: none;
+        display: block !important
+    }
+    .box-desafio .box-seguidor .user-details {
+        padding: 0;
+        width: 253px;
+        margin: 0 auto;
+        float: none;
+    }
+    .box-desafio .box-seguidor .remove {
+        float: none;
+    }
+    .box-desafio .box-seguidor .feed-details .list-seguidores {
+        position: relative
+    }
+    .sprite-desfazer_pq {
+        background-position: -470px -417px;
+        height: 20px;
+        width: 19px;
+        position: absolute;
+        float: none;
+        left: -116px;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 515px) and (max-width: 800px) {
+    .box-desafio.half {
+        width: 45%;
+    }
+}
+
+@media(min-width: 800px) {
+    .box-desafio.half {
+        width: 253px !important;
+    }
+}
+
+@media (max-width: 382px) {
+    .question-content button {
+        width: 100%;
+    }
 }

@@ -14,7 +14,7 @@
 
     <ul class="desafios clearfix rede">
       <li class="ativos">
-        <a ng-click="changeTab('concurseiros')" ng-class="{active: tabActive == 'concurseiros'}">
+        <a class="desativado" ng-click="changeTab('concurseiros')" ng-class="{active: tabActive == 'concurseiros'}">
           <i class="sprite sprite5 sprite-btn_concurseiro"></i>
           Concurseiros<br />
           <span class="usr-info">(1.250)</span>
@@ -36,12 +36,14 @@
       </li>
     </ul>
 
-    <div class="box-feed shadow clearfix des active padding" id="ativos" ng-show="tabActive == 'concurseiros'">
+    <div class="box-feed shadow clearfix des active padding" id="ativos" ng-show="tabActive == 'concurseiros'" style="text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;">
       <div class="search minha-rede">
         <input placeholder="Procurar" type="text">
         <i class="sprite sprite-lupa"></i>
       </div>
-      <div class="box-desafio half">
+      <div class="box-desafio half clearfix">
         <div class="box-seguidor">
           <div class="feed-details clearfix">
               <div class="user-details peq" style="position: relative">
@@ -70,13 +72,13 @@
                 <span><b>3.555</b> pessoas conectadas</span>
                 <span><b>1.110</b> amigos em comum</span>
                 <span><b>2.200</b> publicações</span>
-              </div>
               <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
+              </div>
           </div>
         </div>
       </div>
 
-      <div class="box-desafio half no-margin">
+      <div class="box-desafio half no-margin clearfix">
         <div class="box-seguidor">
           <div class="feed-details clearfix">
               <div class="user-details peq" style="position: relative">
@@ -105,13 +107,13 @@
                 <span><b>3.555</b> pessoas conectadas</span>
                 <span><b>1.110</b> amigos em comum</span>
                 <span><b>2.200</b> publicações</span>
+                <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
               </div>
-              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
           </div>
         </div>
       </div>
 
-      <div class="box-desafio half">
+      <div class="box-desafio half clearfix">
         <div class="box-seguidor">
           <div class="feed-details clearfix">
               <div class="user-details peq" style="position: relative">
@@ -140,13 +142,13 @@
                 <span><b>3.555</b> pessoas conectadas</span>
                 <span><b>1.110</b> amigos em comum</span>
                 <span><b>2.200</b> publicações</span>
+                <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
               </div>
-              <i class="sprite sprite-desfazer_pq"></i><span class="remove">desfazer amizade</span>
           </div>
         </div>
       </div>
 
-      <div class="box-desafio half no-margin">
+      <div class="box-desafio half no-margin clearfix">
         <div class="box-seguidor">
           <div class="feed-details clearfix">
               <div class="user-details peq" style="position: relative">
@@ -181,6 +183,7 @@
           </div>
         </div>
       </div>
+      <div class="stretch"></div>
     </div>
     <!-- concurseiros -->
 

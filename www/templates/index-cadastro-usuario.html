@@ -1,187 +1,211 @@
 <ion-view title="Home" hide-nav-bar="true" id="boatos" class="pg-interna">
-  <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle" style="top: 0 !important; background-color: #1e9ec5;">
-    <style>
-      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: #696969 !important;
-        font-size: 15px !important;
-      }
-      ::-moz-placeholder { /* Firefox 19+ */
-        color: #696969 !important;
-        font-size: 15px !important;
-      }
-      :-ms-input-placeholder { /* IE 10+ */
-        color: #696969 !important;
-        font-size: 15px !important;
-      }
-      :-moz-placeholder { /* Firefox 18- */
-        color: #696969 !important;
-        font-size: 15px !important;
-      }
-      .content-input{
-        width: 100%;
-            margin: 0px 0 20px !important;
-    padding: 0 !important;
-      }
-      .form-login{
-        padding: 30px;
-      }
-      .content-input input[type="text"], .content-input input[type="password"]{
-        margin: 0 !important;
-        position: relative !important;
-        width: 100%;
-        top: 0;
-        right: 0;
-        text-align: left;
-        padding: 10px;
-            height: 42px;
-    background-color: #f2f2f2;
-    border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
-      }
-      button{
-        padding: 10px;
-        border: 0;
-        background-color: #004570  ;
-        width: 100%;
-        border-radius: 3px;
-        text-transform: uppercase;
-        color: #fff;
-        font-weight: bold;
-        -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
-      }
-      .btn-facebook{
-        width: 100%;
-        margin-top: 5px;
-        height: 42px;
-            background-position: -652px -350px;
-    padding-left: 0px !important;
-      }
-      .cadastro{
-        width: 100%;
-      }
-      .content-cadastro{
-        background-color: #fff;
-      }
-      .content-cadastro input[type="text"]{
-        width: 100%;
-        margin: 5px 0 !important;
-        background-color: #f1f1f1;
-      }
-      .alert{
-        width: 100%
-      }
-      button{
-        width: 100% !important;
-      }
-      .no-cadastro a{
-        padding: 16px 10px 1px 16px !important;
-
-      }
-      .not-user{
-        font-size: 11px
-      }
-      .no-cadastro a.active{
-        background-image: none
-      }
-      .menu-cadastro ul li{
-        width: 33.333%
-      }
-      .menu-cadastro ul li a{
-        min-height: 70px;
-        width: 100%
-      }
-    </style>
-    <i class="sprite sprite-logo-interna center" style="margin-top: 100px;"></i>
-    <div class="form-login clearfix full">
-      <div class="cadastro">
-      <nav class="menu-cadastro clearfix">
-        <ul class="menu-cadastro clearfix">
-          <li class="no-cadastro">
-            <a href="#" class="active">
-              <span class="not-user">Ainda não é um e-concurseiro?</span>
-            </a>
-          </li>
-          <li class="professores">
-            <a href="#" class="">
+    <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle" style="top: 0 !important; background-color: #1e9ec5;">
+        <style>
+             ::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                color: #696969 !important;
+                font-size: 15px !important;
+            }
+            
+             ::-moz-placeholder {
+                /* Firefox 19+ */
+                color: #696969 !important;
+                font-size: 15px !important;
+            }
+            
+             :-ms-input-placeholder {
+                /* IE 10+ */
+                color: #696969 !important;
+                font-size: 15px !important;
+            }
+            
+             :-moz-placeholder {
+                /* Firefox 18- */
+                color: #696969 !important;
+                font-size: 15px !important;
+            }
+            
+            .content-input {
+                width: 100%;
+                margin: 0px 0 20px !important;
+                padding: 0 !important;
+            }
+            
+            .form-login {
+                padding: 30px;
+            }
+            
+            .content-input input[type="text"],
+            .content-input input[type="password"] {
+                margin: 0 !important;
+                position: relative !important;
+                width: 100%;
+                top: 0;
+                right: 0;
+                text-align: left;
+                padding: 10px;
+                height: 42px;
+                background-color: #f2f2f2;
+                border-radius: 3px;
+                -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+            }
+            
+            button {
+                padding: 10px;
+                border: 0;
+                background-color: #004570;
+                width: 100%;
+                border-radius: 3px;
+                text-transform: uppercase;
+                color: #fff;
+                font-weight: bold;
+                -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+                box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+            }
+            
+            .btn-facebook {
+                width: 100%;
+                margin-top: 5px;
+                height: 42px;
+                background-position: -652px -350px;
+                padding-left: 0px !important;
+            }
+            
+            .cadastro {
+                width: 100%;
+            }
+            
+            .content-cadastro {
+                background-color: #fff;
+            }
+            
+            .content-cadastro input[type="text"] {
+                width: 100%;
+                margin: 5px 0 !important;
+                background-color: #f1f1f1;
+            }
+            
+            .alert {
+                width: 100%
+            }
+            
+            button {
+                width: 100% !important;
+            }
+            
+            .no-cadastro a {
+                padding: 16px 10px 1px 16px !important;
+            }
+            
+            .not-user {
+                font-size: 2vw;
+            }
+            
+            .no-cadastro a.active {
+                background-image: none
+            }
+            
+            .menu-cadastro ul li {
+                width: 33.333%
+            }
+            
+            .menu-cadastro ul li a {
+                min-height: 67px;
+                width: 100%;
+                font-size: 2vw;
+                text-align: center;
+            }
+        </style>
+        <i class="sprite sprite-logo-interna center" style="margin-top: 100px;"></i>
+        <div class="form-login clearfix full">
+            <div class="cadastro">
+                <nav class="menu-cadastro clearfix">
+                    <ul class="menu-cadastro clearfix">
+                        <li class="no-cadastro">
+                            <a href="#" class="active">
+                                <span class="not-user">Ainda não é um e-concurseiro?</span>
+                            </a>
+                        </li>
+                        <li class="professores">
+                            <a href="#" class="">
               Professores
             </a>
-          </li>
-          <li class="anunciantes">
-            <a href="#" class="">
+                        </li>
+                        <li class="anunciantes">
+                            <a href="#" class="">
               Anunciantes
             </a>
-          </li>
-        </ul>
-      </nav>
+                        </li>
+                    </ul>
+                </nav>
 
-      <!-- Div acesso usuarios -->
-      <div class="content-cadastro clearfix" id="no-cadastro" style="display: block;">
-        <span class="acesso-gratuito">Acesso <b>100% gratuito</b> para os usuários</span>
-        <form>
-          <fieldset>
-            <input type="text" class="name" placeholder="Nome" style="    margin-bottom: 10px !important;">
-            <input type="text" class="email" placeholder="E-mail">
-            <input type="text" class="senha" placeholder="Senha">
-            <input type="text" class="senha" placeholder="Repetir senha">
-            <input type="text" class="uf" placeholder="UF">
-            <input type="text" class="cidade" placeholder="Cidade">
-            <input type="text" class="nascimento" placeholder="Nascimento">
-            <div class="option-group sexo">
-              <span class="block left">Sexo</span>
-              <ul class="payment-methods clearfix left">
-                <li class="payment-method certo clearfix">
-                  <input name="payment_methods" type="radio" id="certo">
-                  <label for="certo"><span class="block left">F</span><i class="sprite sprite4 sprite-radio_button"></i></label>
-                </li>
-                <li class="payment-method errado clearfix">
-                  <input name="payment_methods" type="radio" id="errado">
-                  <label for="errado"><span class="block left">M</span><i class="sprite sprite4 sprite-radio_button"></i></label>
-                </li>
-              </ul>
-            </div>
-          </fieldset>
-          <span class="alert">
+                <!-- Div acesso usuarios -->
+                <div class="content-cadastro clearfix" id="no-cadastro" style="display: block;">
+                    <span class="acesso-gratuito">Acesso <b>100% gratuito</b> para os usuários</span>
+                    <form>
+                        <fieldset>
+                            <input type="text" class="name" placeholder="Nome" style="    margin-bottom: 10px !important;">
+                            <input type="text" class="email" placeholder="E-mail">
+                            <input type="text" class="senha" placeholder="Senha">
+                            <input type="text" class="senha" placeholder="Repetir senha">
+                            <input type="text" class="uf" placeholder="UF">
+                            <input type="text" class="cidade" placeholder="Cidade">
+                            <input type="text" class="nascimento" placeholder="Nascimento">
+                            <div class="option-group sexo">
+                                <span class="block left">Sexo</span>
+                                <ul class="payment-methods clearfix left">
+                                    <li class="payment-method certo clearfix">
+                                        <input name="payment_methods" type="radio" id="certo">
+                                        <label for="certo"><span class="block left">F</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                                    </li>
+                                    <li class="payment-method errado clearfix">
+                                        <input name="payment_methods" type="radio" id="errado">
+                                        <label for="errado"><span class="block left">M</span><i class="sprite sprite4 sprite-radio_button"></i></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </fieldset>
+                        <span class="alert">
             Ao clicar em CADASTRAR, você assume que leu e concorda com os nossos <a href="#" class="link-destaque">Termos de Uso.</a>
           </span>
-          <button class="btn btn-cadastras btn-oceanblue">CADASTRAR</button>
-        </form>
-      </div>
+                        <button class="btn btn-cadastras btn-oceanblue">CADASTRAR</button>
+                    </form>
+                </div>
 
-      <!-- Div acesso professores -->
-      <div class="content-cadastro clearfix" id="professores" style="display: none;">
-        <div class="div-professores1" style="display: none;">
-          <span class="acesso-professores">O e-concurseiro dispõe de cadastro especial para professores, permitindo a sua interação com os alunos e a divulgação dos seus cursos, livros e aulas.<br><br>
+                <!-- Div acesso professores -->
+                <div class="content-cadastro clearfix" id="professores" style="display: none;">
+                    <div class="div-professores1" style="display: none;">
+                        <span class="acesso-professores">O e-concurseiro dispõe de cadastro especial para professores, permitindo a sua interação com os alunos e a divulgação dos seus cursos, livros e aulas.<br><br>
   &nbsp;
             Se você é professor e deseja fazer parte da rede social dos concursos públicos, preencha o formulário a seguir e nossa equipe pedagógica fará a análise do seu cadastro para liberar o acesso como professor.<br><br>
 
             Até a liberação, você poderá acessar como usuário padrão da rede.<br><br>
   &nbsp;
             <span class="text-destaque">O acesso de professores é 100% gratuito.</span></span>
-          <form>
-            <button class="btn btn-oceanblue btn-avancar-professores center full">Avançar</button>
-          </form>
-        </div>
+                        <form>
+                            <button class="btn btn-oceanblue btn-avancar-professores center full">Avançar</button>
+                        </form>
+                    </div>
 
 
-        <form style="" class="form-professores">
-          <fieldset>
-            <input type="text" class="name" placeholder="Nome">
-            <input type="text" class="email" placeholder="Email">
-            <input type="text" class="email" placeholder="Matérias">
-            <input type="text" class="email" placeholder="Instituições onde ensina">
-            <input type="text" class="email" placeholder="Sites">
-            <input type="text" class="email" placeholder="Livros publicados">
-          </fieldset>
-          <button class="btn btn-cadastras btn-oceanblue">ENVIAR</button>
-        </form>
-      </div>
+                    <form style="" class="form-professores">
+                        <fieldset>
+                            <input type="text" class="name" placeholder="Nome">
+                            <input type="text" class="email" placeholder="Email">
+                            <input type="text" class="email" placeholder="Matérias">
+                            <input type="text" class="email" placeholder="Instituições onde ensina">
+                            <input type="text" class="email" placeholder="Sites">
+                            <input type="text" class="email" placeholder="Livros publicados">
+                        </fieldset>
+                        <button class="btn btn-cadastras btn-oceanblue">ENVIAR</button>
+                    </form>
+                </div>
 
-      <!-- Div acesso anunciantes -->
-      <div class="content-cadastro clearfix" id="anunciantes" style="display: none;">
-        <div class="div-anunciantes1" style="display: none;">
-          <span class="acesso-professores">Cursos online ou presenciais, editoras, livrarias especializadas ou consultorias...<br><br>
+                <!-- Div acesso anunciantes -->
+                <div class="content-cadastro clearfix" id="anunciantes" style="display: none;">
+                    <div class="div-anunciantes1" style="display: none;">
+                        <span class="acesso-professores">Cursos online ou presenciais, editoras, livrarias especializadas ou consultorias...<br><br>
 
   Seja qual for a linha de atuaçãoda sua instituição, o e-concurseiro é o melhor canal para consolidar sua marca atingindo diretamente o público-alvo.<br><br>
 
@@ -190,33 +214,33 @@ box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1);
 
 
 
-  <span class="bold">Faça um tour <a href="#" class="link-destaque">aqui</a> sem necessidade de cadastro e veja como sua marca será exibida.</span><br><br>
+                        <span class="bold">Faça um tour <a href="#" class="link-destaque">aqui</a> sem necessidade de cadastro e veja como sua marca será exibida.</span><br><br>
 
 
 
-  <span class="link-destaque">Deseja ver sua marca firmada entre os concurseiros de todo o país? O que está esperando?</span></span>
-          <form>
-            <button class="btn btn-oceanblue btn-avancar-anunciantes center full">Avançar</button>
-          </form>
+                        <span class="link-destaque">Deseja ver sua marca firmada entre os concurseiros de todo o país? O que está esperando?</span></span>
+                        <form>
+                            <button class="btn btn-oceanblue btn-avancar-anunciantes center full">Avançar</button>
+                        </form>
+                    </div>
+
+                    <form class="form-anunciantes" style="">
+                        <fieldset>
+                            <input type="text" class="name" placeholder="Nome da Instituição">
+                            <input type="text" class="email" placeholder="Site">
+                            <input type="text" class="senha" placeholder="Responsável">
+                            <input type="text" class="senha" placeholder="Telefone para contato">
+                            <input type="text" class="email" placeholder="Email">
+                            <input type="text" class="email" placeholder="CNPJ">
+                            <input type="text" class="email" placeholder="Endereço Comercial">
+                        </fieldset>
+                        <button class="btn btn-cadastras btn-oceanblue">ENVIAR</button>
+                    </form>
+
+                </div>
+
+            </div>
         </div>
 
-        <form class="form-anunciantes" style="">
-          <fieldset>
-            <input type="text" class="name" placeholder="Nome da Instituição">
-            <input type="text" class="email" placeholder="Site">
-            <input type="text" class="senha" placeholder="Responsável">
-            <input type="text" class="senha" placeholder="Telefone para contato">
-            <input type="text" class="email" placeholder="Email">
-            <input type="text" class="email" placeholder="CNPJ">
-            <input type="text" class="email" placeholder="Endereço Comercial">
-          </fieldset>
-          <button class="btn btn-cadastras btn-oceanblue">ENVIAR</button>
-        </form>
-
-      </div>
-
-    </div>
-    </div>
-    
-  </ion-content>
+    </ion-content>
 </ion-view>

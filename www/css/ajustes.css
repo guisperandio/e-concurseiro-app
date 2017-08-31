@@ -1,2098 +1,2629 @@
 @font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 100;
-  src: url('../fonts/Muli-ExtraLight.ttf');
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Muli-ExtraLight.ttf');
 }
+
 @font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/Muli-Light.ttf');
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Muli-Light.ttf');
 }
+
 @font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Muli.ttf');
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Muli.ttf');
 }
+
 @font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/Muli-SemiBold.ttf');
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Muli-SemiBold.ttf');
 }
+
 @font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/Muli-Bold.ttf');
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Muli-Bold.ttf');
 }
+
 #wrapper-interna #content-left {
-  margin-left: 0 !important;
-  width: 252px !important;
+    margin-left: 0 !important;
+    width: 252px !important;
 }
 
 #wrapper-interna #content-right {
-  margin-right: 0 !important;
-  width: 294px !important;
+    margin-right: 0 !important;
+    width: 294px !important;
 }
+
 #perfil .usr-alert {
-  font-size: 10px !important;
-  height: 19px !important;
-  left: 52px !important;
-  padding: 2px 3px 5px !important;
-  text-align: center !important;
-  width: 19px !important;
+    font-size: 10px !important;
+    height: 19px !important;
+    left: 52px !important;
+    padding: 2px 3px 5px !important;
+    text-align: center !important;
+    width: 19px !important;
 }
+
 #perfil .menu-name {
-  margin-top: 10px !important;
+    margin-top: 10px !important;
 }
+
 #mensagem .usr-alert {
-  font-size: 10px !important;
-  height: 19px !important;
-  left: 52px !important;
-  padding: 2px 3px 5px !important;
-  text-align: center !important;
-  width: 19px !important;
+    font-size: 10px !important;
+    height: 19px !important;
+    left: 52px !important;
+    padding: 2px 3px 5px !important;
+    text-align: center !important;
+    width: 19px !important;
 }
+
 #mensagem .menu-name {
-  margin-top: 10px !important;
+    margin-top: 10px !important;
 }
+
 .publicacao h4 {
-  font-size: 14px !important;
+    font-size: 14px !important;
 }
+
 .btn-gray {
-  color: #696969;
+    color: #696969;
 }
+
 .expand:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 .box-denuncia .denuncia {
-  font: 400 12px 'Muli';
-  padding-top: 7px;
+    font: 400 12px 'Muli';
+    padding-top: 7px;
 }
 
 #published-avancado label select {
-  padding: 9px;
+    padding: 9px;
 }
+
 #content-right .btn-ok {
-  padding: 1px 12px;
+    padding: 1px 12px;
 }
+
 #content-right .btn-papo {
-  padding: 4px 14px;
+    padding: 4px 14px;
 }
+
 #content-right .anuncio .name-anunciantes {
-  font: 500 12px 'Muli';
+    font: 500 12px 'Muli';
 }
+
 #content-right .anuncio .site-anunciante {
-  margin-bottom: 2px;
-  display: block;
+    margin-bottom: 2px;
+    display: block;
 }
+
 .papo #content-left {
-  margin-left: 10px !important;
+    margin-left: 10px !important;
 }
+
 .papo #content-left .profile-img {
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .papo #content-middle {
-  margin: 0;
+    margin: 0;
 }
+
 .overlay .box-feed {
-  display: block;
-  left: 0;
-  margin: 23px auto !important;
-  position: absolute;
-  right: 0;
-  top: 30px;
+    display: block;
+    left: 0;
+    margin: 23px auto !important;
+    position: absolute;
+    right: 0;
+    top: 30px;
 }
+
 .box-button.half .btn {
-  padding: 0 24px;
+    padding: 0 24px;
 }
+
 .user-details ul li a.perfil-porcentagem {
-  font: 500 18px 'Muli';
+    font: 500 18px 'Muli';
 }
+
 ul.desafios li a {
-  font: 500 13px 'Muli';
+    font: 500 13px 'Muli';
 }
+
 .edital .sprite-pdf {
-  font: 500 15px 'Muli';
+    font: 500 15px 'Muli';
 }
+
 .edital-info span.ano {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .box-interesse p {
-  text-align: justify;
+    text-align: justify;
 }
+
 .interesse {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
 .interesse .sprite-close_gray {
-  top: 5px !important;
+    top: 5px !important;
 }
+
 #expand-list li a {
-  margin-right: 5px;
+    margin-right: 5px;
 }
+
 .sprite-lupa {
-  background-position: -94px -277px;
+    background-position: -94px -277px;
 }
+
 .search input {
-  border: 0;
-  padding: 7px 7px 7px 12px;
+    border: 0;
+    padding: 7px 7px 7px 12px;
 }
+
 .box-area {
-  padding: 10px;
-  background-color: #fff;
-  margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px 0;
 }
+
 .box-area .btn {
-  margin-left: -10px;
+    margin-left: -10px;
 }
+
 .box-area p {
-  font: 500 18px 'Muli';
-  color: #00ca18;
-  line-height: 1.1;
-  margin: 0;
+    font: 500 18px 'Muli';
+    color: #00ca18;
+    line-height: 1.1;
+    margin: 0;
 }
+
 .box-area .content {
-  margin: 20px 0;
+    margin: 20px 0;
 }
+
 .box-area ul li a {
-  color: #004570;
-  margin-bottom: 5px;
-  font: 500 14px 'Muli';
+    color: #004570;
+    margin-bottom: 5px;
+    font: 500 14px 'Muli';
 }
+
 .box-area ul li a .num-vagas {
-  color: #696969;
-  font: 400 11px 'Muli';
+    color: #696969;
+    font: 400 11px 'Muli';
 }
+
 .box-area .ver-todos {
-  font: 500 14px 'Muli';
+    font: 500 14px 'Muli';
 }
+
 .box-area .p-div {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .box-area .p-div .span-title {
-  text-transform: uppercase;
-  font: 500 14px 'Muli';
+    text-transform: uppercase;
+    font: 500 14px 'Muli';
 }
+
 .box-area .p-div .span-desc {
-  color: #1e9ec5;
-  font: 500 13px 'Muli';
+    color: #1e9ec5;
+    font: 500 13px 'Muli';
 }
+
 .area-conc {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .area-conc h6 {
-  padding: 0;
-  float: none;
-  text-align: center;
+    padding: 0;
+    float: none;
+    text-align: center;
 }
+
 .area-conc .num-concursos span {
-  text-transform: none;
-  margin-top: -3px !important;
-  display: block;
+    text-transform: none;
+    margin-top: -3px !important;
+    display: block;
 }
+
 .container_16.papo {
-  padding-top: 77px;
+    padding-top: 77px;
 }
+
 .pag-option .btn {
-  margin: 0 0.5px;
+    margin: 4px 0.5px;
 }
+
 .margin-min .btn {
-  margin: 0 8px !important;
+    margin: 0 8px !important;
 }
-.papo > .grid_4 .anuncio .banner-patrocinio {
-  height: 280px;
+
+.papo>.grid_4 .anuncio .banner-patrocinio {
+    height: 280px;
 }
-.papo > .grid_12 .anuncio .banner-patrocinio {
-  height: 110px;
+
+.papo>.grid_12 .anuncio .banner-patrocinio {
+    height: 110px;
 }
+
 .professor .novo-curso .box-top .box-title .title-publicacao {
-  font: 500 18px 'Muli';
+    font: 500 18px 'Muli';
 }
+
 .margin-btns .btn {
-  margin: 0 21px;
+    margin: 0 21px;
 }
+
 .margin-btns-pq .btn {
-  margin: 0 8px !important;
+    margin: 0 8px !important;
 }
+
 .expand-big li a {
-  font: 500 17px 'Muli' !important;
-  color: #16678e !important;
+    font: 500 17px 'Muli' !important;
+    color: #16678e !important;
 }
-.papo.container_16 > #content-right {
-  width: 180px !important;
+
+.papo.container_16>#content-right {
+    width: 180px !important;
 }
+
 .professor .box-top .box-title .title-publicacao {
-  font: 500 16px 'Muli';
+    font: 500 16px 'Muli';
 }
+
 .expirados {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .overlay button .sprite-youtube {
-  filter: saturate(0) brightness(10);
+    filter: saturate(0) brightness(10);
 }
+
 .overlay .video-btns {
-  top: 10px;
+    top: 10px;
 }
+
 .box-button .btn {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .site-info ul li {
-  margin: 0 17.6px;
+    margin: 0 17.6px;
 }
+
 .menu-topo {
-  display: block;
-  float: left;
-  margin: 21px 0 0 46px;
+    display: block;
+    float: left;
+    margin: 21px 0 0 46px;
 }
+
 .anuncio.small .text-anunciantes {
-  font: 400 11px 'Muli' !important;
-  color: #696969;
+    font: 400 11px 'Muli' !important;
+    color: #696969;
 }
+
 header h1.logo-interna a {
-  margin-top: 7px;
+    margin-top: 7px;
 }
+
 .professor .box-top .box-title .title-publicacao {
-  margin-top: 8px;
+    margin-top: 8px;
 }
+
 .box-denuncia .denuncia {
-  padding-top: 3px;
+    padding-top: 3px;
 }
+
 #expand-list.expand-big li a {
-  border-right: 0;
-  position: relative;
-  margin-right: 13px;
+    border-right: 0;
+    position: relative;
+    margin-right: 13px;
 }
+
 #expand-list.expand-big li:last-child a:after {
-  display: none;
+    display: none;
 }
+
 #expand-list.expand-big li a:after {
-  border: 1px solid #16678e;
-  height: 16px;
-  width: 0;
-  display: block;
-  position: absolute;
-  background-color: #000;
-  right: -3px;
-  content: '';
-  top: 6px;
+    border: 1px solid #16678e;
+    height: 16px;
+    width: 0;
+    display: block;
+    position: absolute;
+    background-color: #000;
+    right: -3px;
+    content: '';
+    top: 6px;
 }
+
 header {
-  -webkit-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
-  box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
+    box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.39);
 }
+
 .overlay {
-  z-index: 1002;
+    z-index: 1002;
 }
+
 .price-actions .btn {
-  font: 500 12px 'Muli' !important;
-  margin-bottom: 4px;
-  line-height: 1 !important;
+    margin-bottom: 4px;
+    line-height: 1 !important;
+    padding: 15px 10px;
+    position: relative;
 }
-.price-actions .btn.bgr-darkgreen {
-  font: 500 18px 'Muli' !important;
+
+.price-actions .btn.bgr-darkgreen,
+.price-actions .btn.bgr-blue {
+    font: 500 18px 'Muli' !important;
 }
+
+.price-actions .btn.bgr-blue .sprite-youtube_red {
+    top: 19px;
+}
+
+.price-actions .btn.bgr-blue .sprite-materias {
+    top: 26px;
+}
+
 .price-actions .btn.bgr-blue .sprite-materias,
 .price-actions .btn.bgr-blue .sprite-youtube_red {
-  margin-top: 2px;
-  margin-right: 10px;
+    position: absolute;
 }
+
 .price-actions .btn.bgr-blue .smallcaps {
-  color: #fff;
-  display: block;
+    color: #fff;
+    display: block;
 }
+
 .white-icon {
-  filter: saturate(0) brightness(10);
+    filter: saturate(0) brightness(10);
 }
+
 .smallcaps {
-  text-transform: none !important;
+    text-transform: none !important;
 }
+
 .none {
-  display: none;
+    display: none;
 }
+
 .overlay .box-feed {
-  z-index: 1003;
+    z-index: 1003;
 }
+
 .desc-title {
-  font: 500 17px 'Muli' !important;
+    font: 500 17px 'Muli' !important;
 }
+
 .publicacao h4 {
-  font: 500 20px 'Muli';
+    font: 500 20px 'Muli';
 }
+
 .bgr-mestre {
-  background-color: #004570;
+    background-color: #004570;
 }
+
 h4 .sprite-youtube_excla {
-  left: 81px;
-  top: 4px;
+    left: 81px;
+    top: 4px;
 }
+
 #content-middle .publicacao .publish-options,
 #content-middle .publicacao textarea,
 input {
-  border-color: #cccccc;
+    border-color: #cccccc;
 }
+
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
+
 .interacoes .alert-icon,
 .interacoes .alert-msg {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 .usr-img {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .alterar-foto {
-  width: 100%;
-  font: 500 10px 'Muli';
-  background-color: #555;
-  padding: 3px 0 25px;
-  position: relative;
-  top: 42px;
-  display: block;
-  text-align: center;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  display: none;
-  cursor: pointer;
+    width: 100%;
+    font: 500 10px 'Muli';
+    background-color: #555;
+    padding: 3px 0 25px;
+    position: relative;
+    top: 42px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    cursor: pointer;
 }
+
 #content-left .usuario:hover .alterar-foto,
 .pag-option .usuario:hover .alterar-foto {
-  display: block;
+    display: block;
 }
-.financeiro .select-option {
-  width: 144px;
-}
-.financeiro .same-line {
-  width: 150px;
-}
-table.table-professor tr.linha {
-  background-color: #f1f1f1;
-}
-table.table-professor tr.odd {
-  background-color: #d4d3d3 !important;
-}
-table.table-professor tr.linha:hover {
-  background-color: #1e9ec5 !important;
-}
-table.table-professor tr.linha:hover td {
-  color: #fff;
-}
-table.table-professor tr {
-  height: 34px;
-}
-.box-concurso .detalhes {
-  font: 500 13px 'Muli' !important;
-}
-.cursos {
-  margin-top: 19px;
-}
-.ebook {
-  margin-top: 8px;
-}
-.tipos-curso .payment-method label {
-  background-color: #f1f1f1;
-  width: 100%;
-  left: -1px;
-}
-.tipos-curso .payment-method label span{
-  min-width: 33%;
-  display: block;
-}
-.option-group.tipos-curso {
-  width: 100%;
-  padding: 0;
-}
-.tipos-curso .payment-methods {
-  width: 100%;
-}
-.tipos-curso .payment-method {
-  width: 100%;
-  margin-bottom: 4px
-}
-.box-interesse .box-input {
-  margin-right: 30px;
-}
-.radio-padrao {
-  width: 100%;
-  margin-left: 0;
-}
-.radio-padrao ul {
-  width: 100%;
-  margin-bottom: 0;
-  padding-top: 0px;
-}
-.radio-padrao ul li label {
-  background-color: #f1f1f1;
-  left: -1px;
-}
-.radio-padrao ul.double li {
-  width: 50%;
-}
-.box-interesse textarea.text-area {
-  width: 100%;
-}
-.terco {
-  width: 40% !important;
-}
-.avaliacao-big ul {
-  float: left;
-}
-.professor .avaliacao-big ul li a .avaliacao-name {
-  text-transform: uppercase;
-  color: #004570;
-}
-.professor .avaliacao-big ul li a {
-  width: 70px;
-  margin-right: 52px;
-}
-.professor.gd .avaliacao-alunos ul li a .avaliacao-nota {
-  padding: 12px;
-  background-color: #fff;
-}
-.professor.gd .avaliacao-alunos ul li a .avaliacao-nota span {
-  background-color: transparent;
-}
-.professor.gd .avaliacao-alunos ul li a .avaliacao-nota.geral {
-  background-color: #004570;
-}
-.professor.gd .avaliacao-alunos ul li a .avaliacao-nota.geral span {
-  background-color: transparent;
-}
-.professor .avaliacao-alunos ul li a .avaliacao-nota {
 
-  background-color: transparent;
+.financeiro .select-option {
+    width: 144px;
 }
+
+.financeiro .same-line {
+    width: 150px;
+}
+
+table.table-professor tr.linha {
+    background-color: #f1f1f1;
+}
+
+table.table-professor tr.odd {
+    background-color: #d4d3d3 !important;
+}
+
+table.table-professor tr.linha:hover {
+    background-color: #1e9ec5 !important;
+}
+
+table.table-professor tr.linha:hover td {
+    color: #fff;
+}
+
+table.table-professor tr {
+    height: 34px;
+}
+
+.box-concurso .detalhes {
+    font: 500 13px 'Muli' !important;
+}
+
+.cursos {
+    margin-top: 19px;
+}
+
+.ebook {
+    margin-top: 8px;
+}
+
+.tipos-curso .payment-method label {
+    background-color: #f1f1f1;
+    width: 100%;
+    left: -1px;
+}
+
+.tipos-curso .payment-method label span {
+    min-width: 33%;
+    display: block;
+}
+
+.option-group.tipos-curso {
+    width: 100%;
+    padding: 0;
+}
+
+.tipos-curso .payment-methods {
+    width: 100%;
+}
+
+.tipos-curso .payment-method {
+    width: 100%;
+    margin-bottom: 4px
+}
+
+.box-interesse .box-input {
+    margin-right: 30px;
+}
+
+.radio-padrao {
+    width: 100%;
+    margin-left: 0;
+}
+
+.radio-padrao ul {
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 0px;
+}
+
+.radio-padrao ul li label {
+    background-color: #f1f1f1;
+    left: -1px;
+}
+
+.radio-padrao ul.double li {
+    width: 50%;
+}
+
+.box-interesse textarea.text-area {
+    width: 100%;
+}
+
+.terco {
+    width: 40% !important;
+}
+
+.avaliacao-big ul {
+    float: left;
+}
+
+.professor .avaliacao-big ul li a .avaliacao-name {
+    text-transform: uppercase;
+    color: #004570;
+}
+
+.professor .avaliacao-big ul li a {
+    width: 70px;
+    margin-right: 52px;
+}
+
+.professor.gd .avaliacao-alunos ul li a .avaliacao-nota {
+    padding: 12px;
+    background-color: #fff;
+}
+
+.professor.gd .avaliacao-alunos ul li a .avaliacao-nota span {
+    background-color: transparent;
+}
+
+.professor.gd .avaliacao-alunos ul li a .avaliacao-nota.geral {
+    background-color: #004570;
+}
+
+.professor.gd .avaliacao-alunos ul li a .avaliacao-nota.geral span {
+    background-color: transparent;
+}
+
+.professor .avaliacao-alunos ul li a .avaliacao-nota {
+    background-color: transparent;
+}
+
 .professor .avaliacao-alunos ul li a .avaliacao-nota span {
-  background-color: #ececec;
-  font: 500 17px 'Muli';
+    background-color: #ececec;
+    font: 500 17px 'Muli';
 }
+
 .professor .avaliacao-alunos ul li a .avaliacao-nota.aceitacao span {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .professor .avaliacao-alunos ul li a .avaliacao-nota.geral {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .professor .avaliacao-alunos ul li a .avaliacao-nota.geral span {
-  background-color: #1e9ec5;
+    background-color: #1e9ec5;
 }
+
 .one-line {
-  vertical-align: middle;
-  display: table-cell;
-  padding: 7.5px 0;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 7.5px 0;
 }
+
 .aceitacao-prof .menu-name {
-  margin: 40px 0 0 84px !important;
-  font: 500 15px 'Muli';
-  color: #004570;
+    margin: 40px 0 0 84px !important;
+    font: 500 15px 'Muli';
+    color: #004570;
 }
+
 .comment-aluno {
-  padding: 10px;
-  background-color: #1e9ec5;
-  margin-top: 10px;
+    padding: 10px;
+    background-color: #1e9ec5;
+    margin-top: 10px;
 }
+
 .comment-aluno p {
-  color: #fff;
-  margin: 3px 0;
-  text-transform: uppercase;
-  font: 400 13px 'Muli';
+    color: #fff;
+    margin: 3px 0;
+    text-transform: uppercase;
+    font: 400 13px 'Muli';
 }
+
 .comment-aluno p.margin-b b {
-  margin: 0 20px;
+    margin: 0 20px;
 }
+
 .comentario-avaliacao {
-  padding: 10px;
-  background-color: #fff;
+    padding: 10px;
+    background-color: #fff;
 }
+
 .comentario-avaliacao p {
-  margin-top: 0;
-  color: #696969;
+    margin-top: 0;
+    color: #696969;
 }
+
 .btn-concurso .btn-text,
 .btn-papo .btn-text {
-  font-size: 17px;
+    font-size: 17px;
 }
+
 #content-right .btn-ok {
-  padding: 1px 9px;
+    padding: 1px 9px;
 }
+
 #expand-list.expand-font-menor li a {
-  margin-right: 4px;
-  font: 500 12px 'Muli' !important;
+    margin-right: 4px;
+    font: 500 12px 'Muli' !important;
 }
+
 #expand-list.expand-font-menor li a::after {
-  border: 1px solid #16678e;
-  height: 10px;
-  width: 0;
-  display: block;
-  position: absolute;
-  background-color: #000;
-  right: 2px;
-  content: '';
-  top: 5px;
+    border: 1px solid #16678e;
+    height: 10px;
+    width: 0;
+    display: block;
+    position: absolute;
+    background-color: #000;
+    right: 2px;
+    content: '';
+    top: 5px;
 }
+
 .span-div {
-  margin-right: 45px;
+    margin-right: 45px;
 }
+
 .span-div .menu-name {
-  margin: 5px 0 0 31px;
-  display: block;
-  width: 100px;
-  text-transform: uppercase;
-  font: 500 13px 'Muli';
-  color: #1e9ec5;
+    margin: 5px 0 0 31px;
+    display: block;
+    width: 100px;
+    text-transform: uppercase;
+    font: 500 13px 'Muli';
+    color: #1e9ec5;
 }
+
 .box-videos {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .nav-user.nav-professor li a {
-  width: 127.5px;
+    width: 127.5px;
 }
+
 .desafios .expirados {
-  margin-top: 0 !important;
+    margin-top: 0 !important;
 }
+
 .btn-pagina .menu-alert {
-  top: 12px;
+    top: 12px;
 }
+
 .container_16 .grid_14 {
-  width: 840px;
+    width: 840px;
 }
+
 .menu-orientacoes {
-  height: 123px;
+    height: 123px;
 }
+
 .app-pages {
-  padding-top: 71px;
+    padding-top: 71px;
 }
+
 .box-app .bigtitle {
-  font: 500 14px 'Muli';
+    font: 500 14px 'Muli';
 }
+
 span.graytitle {
-  font: 500 13px 'Muli';
+    font: 500 13px 'Muli';
 }
+
 .bgr-gray {
-  background-color: #eaeaea !important;
+    background-color: #eaeaea !important;
 }
+
 .bgr-gray .bigtitle {
-  color: #696969;
+    color: #696969;
 }
+
 p.normal,
 p.warning {
-  font: 500 14px 'Muli';
-  line-height: 1.1;
+    font: 500 14px 'Muli';
+    line-height: 1.1;
 }
+
 .ciclos {
-  background-size: contain;
-  min-height: 580px;
+    background-size: contain;
+    min-height: 580px;
 }
+
 .app-header {
-  height: 71px;
+    height: 71px;
 }
+
 .app-header .container_16 {
-  padding-top: 5px;
+    padding-top: 5px;
 }
+
 .app-header .usuario {
-  top: 5px !important;
-  right: 400px !important;
-  left: inherit !important;
+    top: 5px !important;
+    right: 400px !important;
+    left: inherit !important;
 }
+
 .app-header .usr-name {
-  color: #fff;
-  position: absolute;
-  right: 230px;
-  top: 13px;
-  font: 500 17px 'Muli';
+    color: #fff;
+    position: absolute;
+    right: 230px;
+    top: 13px;
+    font: 500 17px 'Muli';
 }
+
 .app-header .user-details ul {
-  position: absolute;
-  top: 25px;
-  right: 47px;
+    position: absolute;
+    top: 25px;
+    right: 47px;
 }
+
 .app-header .user-details ul li a {
-  filter: saturate(0) brightness(10);
+    filter: saturate(0) brightness(10);
 }
+
 .app-header .menu-topo {
-  top: 25px;
+    top: 25px;
 }
+
 .bgr-green2 {
-  background-color: #90b92e !important;
+    background-color: #90b92e !important;
 }
+
 .sprite-ranking {
-  background-position: -444px -445px;
-  width: 39px;
-  height: 35px;
+    background-position: -444px -445px;
+    width: 39px;
+    height: 35px;
 }
+
 .btn-ranking {
-  padding: 4px 95px 4px 27px;
-  margin: 30px 0;
+    padding: 4px 95px 4px 27px;
+    margin: 30px 0;
 }
+
 .btn-ranking .menu-name {
-  position: relative;
-  top: 8px;
-  left: 39px;
-  font: 500 16px 'Muli';
+    position: relative;
+    top: 8px;
+    left: 39px;
+    font: 500 16px 'Muli';
 }
+
 .btn-clearblue {
-  background-color: #13819f !important;
+    background-color: #13819f !important;
 }
+
 .box-menu-app .btn {
-  margin-bottom: 82px;
+    margin-bottom: 82px;
 }
 
 .border-blue {
-  border: 4px solid #004570 !important;
+    border: 4px solid #004570 !important;
 }
+
 .grid_3 .sprite-pdf {
-  position: absolute;
-  top: -30px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
+
 .container_16 .grid_3.relative {
-  width: 188px;
+    width: 188px;
 }
+
 h1.bluetitle.center-text {
-  font: 500 30px 'Muli';
-  color: #1a678f;
+    font: 500 30px 'Muli';
+    color: #1a678f;
 }
+
 .sprite-ciclos_app {
-  margin-bottom: 20px !important;
+    margin-bottom: 20px !important;
 }
+
 .box-interesse label,
 p.normal {
-  color: #397b9e !important;
+    color: #397b9e !important;
 }
+
 p.warning {
-  color: #ff0200 !important;
+    color: #ff0200 !important;
 }
+
 .input-time.bgr-oceanblue {
-  color: #fff !important;
+    color: #fff !important;
 }
+
 .time-label {
-  width: 207px !important;
-  margin-left: -41px;
+    width: 207px !important;
+    margin-left: -41px;
 }
+
 .label-gd .box-interesse label {
-  font: 500 16px 'Muli';
+    font: 500 16px 'Muli';
 }
+
 .detail-materia .sprite-plus {
-  margin: 8px 0 9px 39px;
+    margin: 8px 0 9px 39px;
 }
+
 .smalldesc {
-  color: #696969;
+    color: #696969;
 }
+
 .definicao-materias.table-professor tr.linha td,
 .definicao-materias.table-professor tr.linha td label {
-  color: #fff !important;
+    color: #fff !important;
 }
+
 table.table-professor.definicao-materias tr.linha.gray {
-  background-color: #aaa !important;
+    background-color: #aaa !important;
 }
+
 .sprite-editar_gray {
-  background-position: -100px -152px;
-  width: 22px;
-  height: 19px;
-  margin: 0 auto;
-  float: inherit;
+    background-position: -100px -152px;
+    width: 22px;
+    height: 19px;
+    margin: 0 auto;
+    float: inherit;
 }
+
 .sprite-alert_red {
-  background-position: -70px -151px;
-  width: 22px;
-  height: 19px;
-  margin: 0 auto;
-  float: inherit;
+    background-position: -70px -151px;
+    width: 22px;
+    height: 19px;
+    margin: 0 auto;
+    float: inherit;
 }
+
 .linha-blue th {
-  background-color: #1a678f;
+    background-color: #1a678f;
 }
+
 .container_16 .box-interesse .grid_4 {
-  width: 292px !important;
+    width: 292px !important;
 }
+
 .border-black td {
-  border-color: #000 !important;
+    border-color: #000 !important;
 }
+
 .squares td {
-  border-radius: 0 !important;
-  border-color: #888888;
+    border-radius: 0 !important;
+    border-color: #888888;
 }
+
 .box-dadm ul {
-  margin-left: 4px;
+    margin-left: 4px;
 }
 
 .box-app .smalltitle {
-  font: 400 12px 'Muli';
+    font: 400 12px 'Muli';
 }
+
 .box-app .filtros-selecionados {
-  width: 200px !important;
+    width: 200px !important;
 }
+
 .box-app .box-campo label {
-  width: 140px !important;
-  text-align: left;
-  font: 400 12px 'Muli';
-  color: #696969 !important;
+    width: 140px !important;
+    text-align: left;
+    font: 400 12px 'Muli';
+    color: #696969 !important;
 }
-.box-resultado > div:first-child {
-  width: 675px;
+
+.box-resultado>div:first-child {
+    width: 675px;
 }
+
 .box-resultados {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .box-resultados .box-resultado {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .box-resultados .box-resultado .bluetitle {
-  text-transform: none;
-  font: 400 14px 'Muli';
-  margin-bottom: 3px;
+    text-transform: none;
+    font: 400 14px 'Muli';
+    margin-bottom: 3px;
 }
+
 .box-resultados .box-resultado .desc-stats {
-  margin-bottom: -5px;
+    margin-bottom: -5px;
 }
+
 .box-resultados .box-resultado .desc-stats .bluetitle {
-  font: 400 12px 'Muli' !important;
+    font: 400 12px 'Muli' !important;
 }
+
 .question-details {
-  position: absolute;
-  top: 48px;
+    position: absolute;
+    top: 48px;
 }
+
 .anuncio-app .graytitle,
 .question-details .graytitle {
-  float: none;
-  padding: 0 !important;
+    float: none;
+    padding: 0 !important;
 }
+
 .anuncio-app .anuncio-box {
-  font: 400 18px 'Muli';
+    font: 400 18px 'Muli';
 }
+
 .comments .bigtitle {
-  font: 500 14px 'Muli';
-  color: #1a678f;
-  text-transform: uppercase;
+    font: 500 14px 'Muli';
+    color: #1a678f;
+    text-transform: uppercase;
 }
+
 .comments {
-  margin-top: 45px;
+    margin-top: 45px;
 }
+
 .comments ul.desafios li a {
-  width: 152px;
-  padding: 14px 0px 14px 29px;
+    width: 152px;
+    padding: 14px 0px 14px 29px;
 }
+
 .comments ul.desafios li a .menu-name {
-  color: #696969;
-  position: relative;
-  top: 3px;
-  left: 0px;
-  font: 400 9px 'Muli';
+    color: #696969;
+    position: relative;
+    top: 3px;
+    left: 0px;
+    font: 400 9px 'Muli';
 }
+
 .comments .user-details {
-  padding: 7px 0;
+    padding: 7px 0;
 }
+
 .comments .user-details .usr-name {
-  text-align: left;
-  float: left;
-  font: 500 11px 'Muli' !important;
-  top: 6px;
-  position: relative;
+    text-align: left;
+    float: left;
+    font: 500 11px 'Muli' !important;
+    top: 6px;
+    position: relative;
 }
+
 .comments .box-msg {
-  position: relative;
+    position: relative;
 }
+
 .comments .box-msg .user-details ul {
-  float: left;
-  width: 103px !important;
-  margin-left: 10px;
+    float: left;
+    width: 103px !important;
+    margin-left: 10px;
 }
+
 .comments .box-msg .feed-info {
-  position: absolute;
-  top: 25px;
-  right: -102px;
+    position: absolute;
+    top: 25px;
+    right: -102px;
 }
+
 .comments .box-msg .feed-info .publish-up {
-  color: #1a678f;
-  font: 400 10px 'Muli';
+    color: #1a678f;
+    font: 400 10px 'Muli';
 }
+
 .comments .box-msg .msg-text {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .box-app p.p-title {
-  font: 400 24px 'Muli';
+    font: 400 24px 'Muli';
 }
+
 .div-p {
-  width: 622px;
+    width: 622px;
 }
+
 .input-bg {
-  margin: -2px 0 0 10px;
-  background-color: #f1f1f1;
-  font: 400 12px 'Muli';
-  width: 313px !important;
+    margin: -2px 0 0 10px;
+    background-color: #f1f1f1;
+    font: 400 12px 'Muli';
+    width: 313px !important;
 }
+
 .filtros-selecionados ul li i {
-  margin: 4px 0 0 15px;
+    margin: 4px 0 0 15px;
 }
+
 .filtros-selecionados .graytitle {
-  padding: 10px 0;
-  font: 400 14px 'Muli';
+    padding: 10px 0;
+    font: 400 14px 'Muli';
 }
+
 .box-app .type-curso li input {
-  margin: 0;
+    margin: 0;
 }
+
 .box-app .type-curso li label {
-  font: 400 14px 'Muli';
-  margin-left: 10px;
+    font: 400 14px 'Muli';
+    margin-left: 10px;
 }
+
 .box-app .type-curso li label.label-tamanho {
-  width: 23px;
+    width: 23px;
 }
+
 .box-app .type-curso li label.label-grande {
-  width: 315px;
+    width: 315px;
 }
+
 .app-pages .box-content.mensagens {
-  border-color: #e1e1e1;
-  background-color: #fff;
+    border-color: #e1e1e1;
+    background-color: #fff;
 }
+
 .msg-text {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .app-pages .box-content.mensagens .right-content {
-  max-height: 395px;
-  min-height: 395px;
+    max-height: 395px;
+    min-height: 395px;
 }
+
 .h2-resultado {
-  font: 500 15px 'Muli' !important;
-  margin-bottom: -20px !important;
-  margin-top: 35px !important;
+    font: 500 15px 'Muli' !important;
+    margin-bottom: -20px !important;
+    margin-top: 35px !important;
 }
+
 .box-app input.input-search {
-  background-position: 354px -273px;
+    background-position: 354px -273px;
 }
+
 input {
-  padding: 7px 10px;
+    padding: 7px 10px;
 }
+
 .sub-campo .select-option {
-  margin-left: 27px;
+    margin-left: 27px;
 }
+
 .sub-campo .input-filtro {
-  width: 300px !important;
+    width: 300px !important;
 }
+
 .publicacao .select-option select.sprite-seta2_option {
-  width: 101px !important;
-  background-position: -1399px 0 !important;
-  padding: 10px 6px !important;
+    width: 101px !important;
+    background-position: -1399px 0 !important;
+    padding: 10px 6px !important;
 }
+
 .anuncio-app .anuncio-box {
-  padding: 22px 47px;
+    padding: 22px 47px;
 }
+
 .concurseiro-stats span b {
-  color: #1e9ec5;
-  font: 300 19px 'Muli';
+    color: #1e9ec5;
+    font: 300 19px 'Muli';
 }
+
 table.table-ranking tr.topo {
-  background-color: #1a678f !important;
+    background-color: #1a678f !important;
 }
+
 table.table-ranking tr.linha.odd:hover,
 table.table-ranking tr.linha.odd {
-  background-color: #e9e9e9 !important;
+    background-color: #e9e9e9 !important;
 }
+
 table.table-ranking tr.linha.odd:hover td,
 table.table-ranking tr.linha.odd td {
-  color: #1a678f;
+    color: #1a678f;
 }
+
 table.table-ranking tr.linha {
-  border-bottom: 0;
-  border-top: 2px solid #fff;
+    border-bottom: 0;
+    border-top: 2px solid #fff;
 }
+
 table.table-ranking tr.linha.minha-posicao,
 table.table-ranking tr.linha.minha-posicao:hover {
-  background-color: #b5e0ed !important;
+    background-color: #b5e0ed !important;
 }
+
 table.table-ranking tr.linha:hover,
 table.table-ranking tr.linha {
-  background-color: #dbdbdb !important;
+    background-color: #dbdbdb !important;
 }
+
 table.table-ranking tr.linha:hover td,
 table.table-ranking tr.linha td {
-  color: #1a678f;
+    color: #1a678f;
 }
+
 .app-header {
-  background-color: #004570 !important;
+    background-color: #004570 !important;
 }
+
 .user-details.peq ul li {
-  float: left;
-  margin-right: 6px;
+    float: left;
+    margin-right: 6px;
 }
+
 .icons-comment {
-  margin-top: 5px;
+    margin-top: 5px;
 }
+
 .icons-comment li {
-  margin-right: 8px;
+    margin-right: 8px;
 }
+
 .box-comment {
-  position: relative;
+    position: relative;
 }
+
 .box-comment .sprite-image {
-  border: 0;
-  position: absolute;
-  top: 36px;
-  right: 42px;
+    border: 0;
+    position: absolute;
+    top: 36px;
+    right: 42px;
 }
+
 .box-comment .sprite-seta {
-  position: absolute;
-  top: 44px;
-  right: 21px;
+    position: absolute;
+    top: 44px;
+    right: 21px;
 }
+
 .box-comment .feed {
-  line-height: 1.4;
+    line-height: 1.4;
 }
+
 .box-button span b {
-  font: 500 8px 'Muli';
-  display: block;
-  margin-top: -3px;
+    font: 500 8px 'Muli';
+    display: block;
+    margin-top: -3px;
 }
+
 table .user-details.usr-table h3 {
-  margin-left: 10px;
-  margin-top: 17px;
+    margin-left: 10px;
+    margin-top: 17px;
 }
+
 table .user-details.usr-table ul {
-  position: relative;
-  top: 21px;
+    position: relative;
+    top: 21px;
 }
+
 .menu-trilha {
-  background-position: -1237px -238px;
-  height: 150px;
-  width: 192px;
+    background-position: -1237px -238px;
+    height: 150px;
+    width: 192px;
 }
+
 .bgr-materias {
-  background-color: #0a4478 !important;
+    background-color: #0a4478 !important;
 }
+
 .border-materias {
-  border-left-color: #0a4478 !important;
+    border-left-color: #0a4478 !important;
 }
+
 .bgr-total {
-  background-color: #1866ab !important;
+    background-color: #1866ab !important;
 }
+
 .border-total {
-  border-left-color: #1866ab !important;
+    border-left-color: #1866ab !important;
 }
+
 .bgr-horas {
-  background-color: #0092ce !important;
+    background-color: #0092ce !important;
 }
+
 .border-horas {
-  border-left-color: #0092ce !important;
+    border-left-color: #0092ce !important;
 }
+
 .bgr-teoria {
-  background-color: #769d00 !important;
+    background-color: #769d00 !important;
 }
+
 .border-teoria {
-  border-left-color: #769d00 !important;
+    border-left-color: #769d00 !important;
 }
+
 .bgr-revisao {
-  background-color: #e5b700 !important;
+    background-color: #e5b700 !important;
 }
+
 .border-revisao {
-  border-left-color: #e5b700 !important;
+    border-left-color: #e5b700 !important;
 }
+
 .bgr-questao {
-  background-color: #ff8400 !important;
+    background-color: #ff8400 !important;
 }
+
 .border-questao {
-  border-left-color: #ff8400 !important;
+    border-left-color: #ff8400 !important;
 }
+
 .box-resumo .detail-left {
-  padding: 10px 76px 10px 23px;
+    padding: 10px 76px 10px 23px;
 }
+
 .table-professor.background-white tr.topo th {
-  font: 500 12px 'Muli';
-  color: #1a678f !important;
+    font: 500 12px 'Muli';
+    color: #1a678f !important;
 }
+
 .box-resumo .bluetitle {
-  font: 500 14px 'Muli' !important;
-  color: #1a678f !important;
+    font: 500 14px 'Muli' !important;
+    color: #1a678f !important;
 }
+
 .num_cento {
-  width: 80px;
-  height: 58px;
-  border-radius: 80px;
-  background-color: #fff;
-  position: absolute;
-  top: 13px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 1001;
-  padding-top: 25px;
-  font: 500 23px 'Muli';
-  text-align: center;
+    width: 80px;
+    height: 58px;
+    border-radius: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1001;
+    padding-top: 25px;
+    font: 500 23px 'Muli';
+    text-align: center;
 }
+
 .grafico-porcentagem {
-  width: 107px;
-  height: 107px;
-  border-radius: 110px;
-  background-color: #e1e1e1;
-  display: table;
-  position: relative;
-  overflow: hidden;
+    width: 107px;
+    height: 107px;
+    border-radius: 110px;
+    background-color: #e1e1e1;
+    display: table;
+    position: relative;
+    overflow: hidden;
 }
+
 .cento_25 {
-  width: 54px;
-  height: 54px;
-  position: absolute;
-  z-index: 1000;
-  background-color: #9acd00;
-  top: 0;
-  right: 0;
-  border-radius: 0px 71px 0px 10px;
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #9acd00;
+    top: 0;
+    right: 0;
+    border-radius: 0px 71px 0px 10px;
 }
+
 .div-compartilhar span {
-  color: #0092ce;
-  font: 400 12px 'Muli';
+    color: #0092ce;
+    font: 400 12px 'Muli';
 }
+
 .div-compartilhar ul.redes-sociais li a {
-  width: 25px;
-  height: 25px;
-  text-indent: -9999px;
-  margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    margin-right: 5px;
 }
+
 .div-compartilhar ul.redes-sociais li .sprite-facebook {
-  background-position: -1271px -193px;
+    background-position: -1271px -193px;
 }
+
 .div-compartilhar ul.redes-sociais li .sprite-twitter {
-  background-position: -1299px -193px;
+    background-position: -1299px -193px;
 }
+
 .div-compartilhar ul.redes-sociais li .sprite-in {
-  background-position: -1327px -193px;
+    background-position: -1327px -193px;
 }
+
 .div-compartilhar ul.redes-sociais li .sprite-google {
-  background-position: -1355px -193px;
+    background-position: -1355px -193px;
 }
+
 .professor .avaliacao-alunos ul li a .avaliacao-nota {
-  width: 100%;
+    width: 100%;
 }
-.item-select:after{
-  display: none
+
+.item-select:after {
+    display: none
 }
-.item-select select{
-  margin-bottom: 0;
-  direction: ltr;
+
+.item-select select {
+    margin-bottom: 0;
+    direction: ltr;
 }
+
 .tituloDetalhesCurso {
-  font: 500 24px 'Muli' !important;
+    font: 500 24px 'Muli' !important;
 }
+
 .conteudoPapiro p {
-  font: 400 15px 'Muli';
+    font: 400 15px 'Muli';
 }
+
 .topoLinha1 div {
-  font: 500 20px 'Muli';
+    font: 500 20px 'Muli';
 }
+
 .visaoAluno2 {
-  background-color: #f1f1f1 !important;
+    background-color: #f1f1f1 !important;
 }
+
 .visaoAluno2 .publicacao {
-  position: relative;
-  top: 113px;
-  left: 254px;
+    position: relative;
+    top: 113px;
+    left: 254px;
 }
+
 .visaoAluno2 .publicacao .select-option select {
-  padding: 6px 8px !important;
-  background-position: -733px -446px !important;
+    padding: 6px 8px !important;
+    background-position: -733px -446px !important;
 }
+
 .visaoAluno2 .sprite-seta {
-  top: 563px;
-  left: 280px;
+    top: 563px;
+    left: 280px;
 }
+
 .esperandoMsg {
-  top: 96px;
-  color: #004570;
-  font: 500 24px 'Muli';
+    top: 96px;
+    color: #004570;
+    font: 500 24px 'Muli';
 }
+
 .assinar {
-  top: 150px !important;
+    top: 150px !important;
 }
+
 .opcaoArquivo {
-  top: -121px !important;
+    top: -121px !important;
 }
+
 .opcaoArquivo .option-group {
-  width: 403px;
+    width: 403px;
 }
+
 .opcaoArquivo .option-group .payment-method {
-  max-width: 180px;
+    max-width: 180px;
 }
+
 .opcaoArquivo .option-group .payment-method label {
-  margin-left: -1px;
-  width: 180px;
-  background-color: #f1f1f1;
+    margin-left: -1px;
+    width: 180px;
+    background-color: #f1f1f1;
 }
+
 .opcaoArquivo .option-group .payment-method label span {
-  color: #1e9ec5;
-  font: 500 20px 'Muli';
+    color: #1e9ec5;
+    font: 500 20px 'Muli';
 }
+
 .opcaoArquivo .option-group .payment-method label i {
-  position: relative;
-  top: 5px;
-  margin-right: 3px;
-  margin-left: 0;
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
+    margin-left: 0;
 }
+
 .aluno1 {
-  width: 994px !important;
+    width: 994px !important;
 }
+
 .menuAulas a,
 .menuForum a {
-  font: 200 24px 'Muli' !important;
+    font: 200 24px 'Muli' !important;
 }
+
 .sprite6 {
-  background-image: url('../img/spritesheet_6.png') !important;
+    background-image: url('../img/spritesheet_6.png') !important;
 }
+
 .cursos-price {
-  position: relative;
-  top: -27px;
+    position: relative;
+    top: -27px;
 }
+
 .cursos-price .btn .menu-name {
-  position: relative;
-  top: 4px;
+    position: relative;
+    top: 4px;
 }
+
 .sprite6.sprite-pagina {
-  width: 25px;
-  height: 30px;
-  background-position: -429px -449px;
-  margin-right: 9px;
+    width: 25px;
+    height: 30px;
+    background-position: -429px -449px;
+    margin-right: 9px;
 }
+
 .foto .usuario.small {
-  width: 78px !important;
-  height: 78px;
-  border: 6px solid #1e9ec5;
-  float: left;
-  margin-right: 9px;
+    width: 78px !important;
+    height: 78px;
+    border: 6px solid #1e9ec5;
+    float: left;
+    margin-right: 9px;
 }
+
 .foto .usuario.small .usr-img {
-  width: 66px;
-  height: 66px;
-  left: 0px;
-  right: -27px;
-  top: 0px;
+    width: 66px;
+    height: 66px;
+    left: 0px;
+    right: -27px;
+    top: 0px;
 }
+
 .detalheProfessorExpand .avaliacaoLista .item {
-  margin: 10px auto;
+    margin: 10px auto;
 }
+
 .detalheProfessorExpand .avaliacaoLista .aceitacao {
-  margin: 10px 4px;
+    margin: 10px 4px;
 }
+
 .estatisticas-app ul.desafios li a {
-  padding: 22px 33px 22px 33px !important;
-  color: #1a678f;
-  border-right: 1px solid #fff;
+    padding: 22px 33px 22px 33px !important;
+    color: #1a678f;
+    border-right: 1px solid #fff;
 }
+
 .estatisticas-app #box-estatistica {
-  margin-top: 0;
-  padding: 20px;
+    margin-top: 0;
+    padding: 20px;
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas {
-  position: relative;
-  margin-bottom: 5px;
+    position: relative;
+    margin-bottom: 5px;
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas .bluetitle {
-  text-align: left;
-  font: 400 14px 'Muli';
+    text-align: left;
+    font: 400 14px 'Muli';
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas hr {
-  position: absolute;
-  border-color: #1f91cb;
-  border-bottom: 1px solid #1f91cb;
-  width: 400px;
-  top: 12px;
-  right: 31px;
+    position: absolute;
+    border-color: #1f91cb;
+    border-bottom: 1px solid #1f91cb;
+    width: 400px;
+    top: 12px;
+    right: 31px;
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas .sprite-seta_blue {
-  position: absolute;
-  top: 5px;
-  right: 2px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas .detail-materia {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .estatisticas-app #box-estatistica .box-estatisticas .detail-materia .detail-left,
 .estatisticas-app #box-estatistica .box-estatisticas .detail-materia .detail-right {
-  font: 400 14px 'Muli';
+    font: 400 14px 'Muli';
 }
+
 #estatisticas-app_right {
-  padding-top: 20px;
+    padding-top: 20px;
 }
+
 #estatisticas-app_right .btn-questoes {
-  width: 195px !important;
-  line-height: 1.3;
+    width: 195px !important;
+    line-height: 1.3;
 }
+
 #estatisticas-app_right .btn-questoes .menu-name {
-  line-height: 1.3;
+    line-height: 1.3;
 }
+
 #estatisticas-app_right .btn-ranking_concurseiros {
-  width: 195px;
-  padding: 7.7px 10px;
-  line-height: 1.3;
+    width: 195px;
+    padding: 7.7px 10px;
+    line-height: 1.3;
 }
+
 #estatisticas-app_right .btn-ranking_concurseiros .menu-name {
-  line-height: 1.3;
+    line-height: 1.3;
 }
+
 #estatisticas-app_right .box-infos {
-  width: 195px;
-  position: relative;
-  margin-bottom: 20px;
+    width: 195px;
+    position: relative;
+    margin-bottom: 20px;
 }
+
 #estatisticas-app_right .box-infos .btn {
-  font: 500 17px 'Muli';
-  line-height: 1.2;
+    font: 500 17px 'Muli';
+    line-height: 1.2;
 }
+
 #estatisticas-app_right .box-infos .container_circle {
-  width: 160px;
-  height: 160px;
-  background-color: #0a4478;
-  border-radius: 180px;
-  margin: 0 auto;
-  position: relative;
+    width: 160px;
+    height: 160px;
+    background-color: #0a4478;
+    border-radius: 180px;
+    margin: 0 auto;
+    position: relative;
 }
+
 #estatisticas-app_right .box-infos .container_circle .dados_container {
-  width: 130px;
-  height: 130px;
-  background-color: #fff;
-  border-radius: 140px;
-  margin: 0 auto;
-  position: relative;
-  top: 15px;
-  text-align: center;
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 140px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    text-align: center;
 }
+
 #estatisticas-app_right .box-infos .container_circle .dados_container .dado {
-  font-size: 41px;
-  position: absolute;
-  top: 35px;
-  left: 0;
-  right: 0;
-  z-index: 1001;
+    font-size: 41px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 1001;
 }
+
 #estatisticas-app_right .box-infos .container_circle .dados_container .line-division {
-  display: block;
-  height: 1px;
-  background-color: #fff;
-  width: 100%;
-  z-index: 1000;
-  position: absolute;
-  top: 70px;
-  width: 160px;
-  left: -15px;
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    top: 70px;
+    width: 160px;
+    left: -15px;
 }
+
 #estatisticas-app_right .box-infos .container_circle .arrow-down {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 17px solid #1e9ec5;
-  position: absolute;
-  bottom: -16px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 17px solid #1e9ec5;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
+
 .bgr-green_acertos {
-  background-color: #7dc900 !important;
+    background-color: #7dc900 !important;
 }
+
 .bgr-red_erros {
-  background-color: #d70604 !important;
+    background-color: #d70604 !important;
 }
+
 .bgr-blue_desempenho {
-  background-color: #42aece !important;
+    background-color: #42aece !important;
 }
+
 .border-green_acertos {
-  border-left-color: #7dc900 !important;
+    border-left-color: #7dc900 !important;
 }
+
 .border-red_erros {
-  border-left-color: #d70604 !important;
+    border-left-color: #d70604 !important;
 }
+
 .border-blue_desempenho {
-  border-left-color: #42aece !important;
+    border-left-color: #42aece !important;
 }
+
 .deg180 {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
+
 .expand-app li a {
-  font: 400 14px 'Muli' !important;
-  margin-right: 10px !important;
-  border-right-color: #1a678f !important;
-  color: #1a678f !important;
-  letter-spacing: 0 !important;
+    font: 400 14px 'Muli' !important;
+    margin-right: 10px !important;
+    border-right-color: #1a678f !important;
+    color: #1a678f !important;
+    letter-spacing: 0 !important;
 }
+
 #wifi {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f1f1f1
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1
 }
+
 #wifi:after {
-  left: 82%;
+    left: 82%;
 }
+
 #wifi p {
-  font: 500 15px 'Muli' !important;
-  color: #1a678f !important;
-  padding-top: 13px;
+    font: 500 15px 'Muli' !important;
+    color: #1a678f !important;
+    padding-top: 13px;
 }
+
 #wifi .intro-text {
-  padding: 20px;
+    padding: 20px;
 }
+
 #wifi ul li a .menu-name {
-  font: 500 12px 'Muli' !important;
-  color: #1a678f !important;
+    font: 500 12px 'Muli' !important;
+    color: #1a678f !important;
 }
-.box-expand > ul > li > a {
-  padding: 10px 20px;
-  background-color: #fff;
-  margin: 0px 0;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
+
+.box-expand>ul>li>a {
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: 0px 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
 }
-.box-expand > ul > li:nth-child(odd) > a {
+
+.box-expand>ul>li:nth-child(odd)>a {
     background: #eaeaea;
 }
-.box-expand > ul > li:nth-child(even) > a {
+
+.box-expand>ul>li:nth-child(even)>a {
     background: #f1f1f1;
 }
-.box-expand > ul > li > a .data-publicacao {
-  font: 400 12px 'Muli';
-  position: relative;
-  top: 1px;
+
+.box-expand>ul>li>a .data-publicacao {
+    font: 400 12px 'Muli';
+    position: relative;
+    top: 1px;
 }
+
 #index .btn-facebook.sprite {
-  background-position: -652px -350px;
-  padding-left: 42px !important;
+    background-position: -652px -350px;
+    padding-left: 42px !important;
 }
+
 #index .btn-tour {
-  font: 400 14px 'Muli' !important;
-  color: #004570;
-  width: 225px;
+    font: 400 14px 'Muli' !important;
+    color: #004570;
+    width: 225px;
 }
+
 #index .wlc-concurseiro {
-  margin-top: 40px;
+    margin-top: 40px;
 }
+
 #index .wlc-concurseiro h2 {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
+
 #index .wlc-concurseiro p {
-  font: 300 15px 'Muli';
-  line-height: 1.1;
+    font: 300 15px 'Muli';
+    line-height: 1.1;
 }
+
 #index .wlc-concurseiro p b {
-  font: 600 15px 'Muli';
+    font: 600 15px 'Muli';
 }
+
 #index .wlc-concurseiro .site-info ul {
-  position: relative;
+    position: relative;
 }
+
 #index .dotted-line {
-  width: 58px;
-  height: 1px;
-  border-bottom: 5px dotted #004570;
-  display: block;
-  position: absolute;
-  top: 27px;
-  left: 89px;
+    width: 58px;
+    height: 1px;
+    border-bottom: 5px dotted #004570;
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 89px;
 }
+
 #index ul.menu-cadastro li a {
-  font: 400 12px 'Muli';
-  padding: 10px 18.2px;
-  min-height: 52px;
+    font: 400 12px 'Muli';
+    padding: 10px 18.2px;
+    min-height: 52px;
 }
+
 #index .professores a {
-  background-position: 29px -65px !important;
+    background-position: 29px -65px !important;
 }
+
 #index .anunciantes a {
-  background-position: 29px -154px !important;
+    background-position: 29px -154px !important;
 }
+
 #index .content-cadastro {
-  padding-top: 22px;
+    padding-top: 22px;
 }
+
 #index .content-cadastro .acesso-gratuito {
-  margin-bottom: 10px;
-  font: 300 16px 'Muli';
+    margin-bottom: 10px;
+    font: 300 16px 'Muli';
 }
+
 #index .content-cadastro .acesso-gratuito b {
-  font-size: 16px;
+    font-size: 16px;
 }
+
 #index .content-cadastro input[type="text"] {
-  padding: 12px 10px;
+    padding: 12px 10px;
 }
+
 #index .content-cadastro .option-group.sexo {
-  width: 130px;
-  position: relative;
-  top: 9px;
+    width: 130px;
+    position: relative;
+    top: 9px;
 }
+
 #index .content-cadastro form .btn-cadastras {
-  padding: 15px 10px;
-  font-weight: 500;
+    padding: 15px 10px;
+    font-weight: 500;
 }
+
 #content-left .user-details .usr-name {
-  font: 500 18px 'Muli';
+    font: 500 18px 'Muli';
 }
+
 #content-left .user-details .usr-nivel {
-  font: 400 14px 'Muli';
+    font: 400 14px 'Muli';
 }
+
 #content-left .user-menu ul li a i {
-  position: relative;
-  top: 0;
+    position: relative;
+    top: 0;
 }
+
 #content-left .user-menu ul li a i.sprite-favoritos {
-  top: 2px;
+    top: 2px;
 }
+
 #content-left .user-menu ul li a i.sprite-minha_rede {
-  top: 1px;
+    top: 1px;
 }
+
 #content-left .user-menu ul li a i.sprite-minha_rede {
-  top: 1px;
+    top: 1px;
 }
+
 #content-left .user-menu ul li a i.sprite-indicacoes {
-  top: 6px;
+    top: 6px;
 }
+
 #content-left .user-menu ul li a i.sprite-info_boatos {
-  top: 5px;
+    top: 5px;
 }
+
 #content-left .user-menu ul li a i.sprite-dicas {
-  top: 1px;
+    top: 1px;
 }
+
 #content-left .user-menu ul li a i.sprite-mapas {
-  top: 0px;
+    top: 0px;
 }
+
 #content-left .user-menu ul li a i.sprite-provas {
-  top: 2px;
+    top: 2px;
 }
+
 #content-left .user-menu ul li a i.sprite-editais {
-  top: 3px;
+    top: 3px;
 }
+
 #content-left .user-menu ul li a i.sprite-sucesso {
-  top: 5px;
+    top: 5px;
 }
+
 #content-left .user-menu ul li a i.sprite-motivacao {
-  top: 1px;
+    top: 1px;
 }
+
 #content-left .user-menu ul li a i.sprite-descontrair {
-  top: 2px;
+    top: 2px;
 }
+
 #content-left .user-menu ul li a .menu-name {
-  padding: 4px 0 0 35px !important;
+    padding: 4px 0 0 35px !important;
 }
+
 #content-middle .anuncio h4 {
-  font-weight: 500;
-  margin-bottom: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
+
 #content-middle .anuncio p {
-  margin-bottom: 30px;
-  line-height: 1.3;
+    margin-bottom: 30px;
+    line-height: 1.3;
 }
+
 #content-middle ul.desafios li a {
-  padding: 39px 16px 19px !important;
+    padding: 39px 16px 19px !important;
 }
+
 #content-middle #ativos .btn.half {
-  width: 120px;
+    width: 120px;
 }
+
 #content-middle .box-interesses .box-interesse .sprite-plus {
-  position: absolute;
-  right: 0px;
-  top: 34px;
+    position: absolute;
+    right: 0px;
+    top: 34px;
 }
+
 #content-middle .box-msg .box-comment .sprite-image {
-  border: 0;
-  position: absolute;
-  top: 1px;
-  right: 26px;
+    border: 0;
+    position: absolute;
+    top: 1px;
+    right: 26px;
 }
+
 #content-middle .box-msg .box-comment .sprite-seta {
-  position: absolute;
-  top: 9px;
-  right: 5px;
+    position: absolute;
+    top: 9px;
+    right: 5px;
 }
+
 #content-middle .feed-details .user-details .user-stats {
-  margin-left: 20px;
-  padding-top: 17px;
-  font: 400 12px 'Muli';
+    margin-left: 20px;
+    padding-top: 17px;
+    font: 400 12px 'Muli';
 }
+
 #content-middle .feed-details .user-details .user-stats b {
-  font: 500 17px 'Muli';
-  color: #1a678f;
+    font: 500 17px 'Muli';
+    color: #1a678f;
 }
+
 #content-middle .feed-text .text-nvl {
-  font: 500 15px 'Muli';
-  color: #696969;
-  margin-bottom: 20px;
+    font: 500 15px 'Muli';
+    color: #696969;
+    margin-bottom: 20px;
 }
+
 #content-middle .feed-text .text-pub {
-  font-size: 15px;
+    font-size: 15px;
 }
+
 #content-middle .feed-text .text-pub b {
-  font-size: 24px;
-  color: #1a678f;
+    font-size: 24px;
+    color: #1a678f;
 }
+
 #content-middle .feed-text .text-pub-default {
-  font-size: 15px;
+    font-size: 15px;
 }
+
 #content-middle .feed-text .text-pub-default b {
-  color: #1a678f;
-  font-size: 15px;
+    color: #1a678f;
+    font-size: 15px;
 }
+
 #content-middle .feed-text .box-conq p {
-  color: #696969;
+    color: #696969;
 }
+
 #content-middle .feed-text .box-conq p b {
-  color: #2c6ba4;
+    color: #2c6ba4;
 }
+
 .data-publicacao-list {
-  left: 77px;
-  top: 35px;
-  font: 300 12px 'Muli';
+    left: 77px;
+    top: 35px;
+    font: 300 12px 'Muli';
 }
+
 .tipo-lista-feed .box-title i {
-  min-width: 52px;
-  min-height: 52px;
+    min-width: 52px;
+    min-height: 52px;
 }
+
 .tipo-lista-feed .title-publicacao {
-  margin-top: 3px !important;
+    margin-top: 3px !important;
 }
+
 .artigo .usuario {
-  left: -7px;
+    left: -7px;
 }
+
 .artigo h3.usr-name {
-  left: 55px !important;
-position: absolute;
-top: -1px;
+    left: 55px !important;
+    position: absolute;
+    top: -1px;
 }
+
 .artigo span.title-publicacao {
-  margin-left: 0 !important;
-  position: relative;
-  left: 12px;
+    margin-left: 0 !important;
+    position: relative;
+    left: 12px;
 }
+
 .pub-papo.tipo-lista-feed .box-title .title-publicacao {
-  text-transform: none;
-  color: #ffea00;
-  font: 500 14px 'Muli';
+    text-transform: none;
+    color: #ffea00;
+    font: 500 14px 'Muli';
 }
+
 .pub-papo.tipo-lista-feed .box-title .papo-title {
-  font: 400 14px 'Muli' !important;
+    font: 400 14px 'Muli' !important;
 }
+
 #published-avancado .sprite-close_blue {
-  top: -13px;
+    top: -13px;
 }
+
 #published-avancado #passo2 {
-  display: none;
+    display: none;
 }
+
 #published-avancado #passo2 .title-avancado {
-  width: 440px;
+    width: 440px;
 }
+
 #published-avancado #passo2 .botoes {
-  padding: 12px;
-  font-size: 11px;
-  color: #696969;
-  font-style: italic;
-  margin: 10px 0;
-  border: 1px solid #eaeaea;
+    padding: 12px;
+    font-size: 11px;
+    color: #696969;
+    font-style: italic;
+    margin: 10px 0;
+    border: 1px solid #eaeaea;
 }
+
 #published-avancado #passo2 .text-avancado {
-  min-width: 529px;
-  max-width: 529px;
-  min-height: 199px;
-  width: 519px;
-  height: 160px;
-  font-size: 12px;
-  color: #696969;
-  margin-bottom: 20px;
+    min-width: 529px;
+    max-width: 529px;
+    min-height: 199px;
+    width: 519px;
+    height: 160px;
+    font-size: 12px;
+    color: #696969;
+    margin-bottom: 20px;
 }
+
 #published-avancado #passo2 .alert-avancado {
-  font: 400 18px 'Muli';
-  line-height: 1.2;
-  font-style: italic;
+    font: 400 18px 'Muli';
+    line-height: 1.2;
+    font-style: italic;
 }
+
 .box-lista-professor {
-  position: relative;
+    position: relative;
 }
+
 .box-lista-professor.expandido {
-  margin-top: 5px;
-  padding: 10px;
+    margin-top: 5px;
+    padding: 10px;
 }
+
 .box-lista-professor.expandido .info-numbers {
-  position: relative !important;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100% !important;
-  margin-bottom: 10px;
+    position: relative !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100% !important;
+    margin-bottom: 10px;
 }
+
 .box-lista-professor.expandido .avaliacao-alunos ul li a {
-  min-width: 67px;
+    min-width: 67px;
 }
+
 .box-lista-professor.expandido .text-info h5 .menu-name {
-  margin-left: 10px;
-  text-transform: none;
-  font: 500 15px 'Muli';
-  color: #1a678f;
+    margin-left: 10px;
+    text-transform: none;
+    font: 500 15px 'Muli';
+    color: #1a678f;
 }
+
 .box-lista-professor.expandido .text-info p {
-  font: 300 12px 'Muli';
-  color: #1e9ec5;
-  line-height: 1.2;
+    font: 300 12px 'Muli';
+    color: #1e9ec5;
+    line-height: 1.2;
 }
+
 .box-lista-professor .channel-info {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
+
 .box-lista-professor .channel-info .usr-name {
-  text-align: left;
-  margin-left: 83px;
-  margin-top: -2px;
-  font: 500 18px 'Muli' !important;
+    text-align: left;
+    margin-left: 83px;
+    margin-top: -2px;
+    font: 500 18px 'Muli' !important;
 }
+
 .box-lista-professor .channel-info .usr-nivel {
-  text-align: left;
-  margin-left: 84px;
-  margin-top: -2px;
-  font-size: 13px;
+    text-align: left;
+    margin-left: 84px;
+    margin-top: -2px;
+    font-size: 13px;
 }
+
 .box-lista-professor .channel-info .attribuicoes {
-  position: relative;
-  left: 15px;
-  font-size: 14px;
-  top: -5px;
+    position: relative;
+    left: 15px;
+    font-size: 14px;
+    top: -5px;
 }
+
 .box-lista-professor .channel-info .attribuicoes .menu-name {
-  font: 400 12px 'Muli' !important;
+    font: 400 12px 'Muli' !important;
 }
+
 .box-lista-professor .pag-option {
-  background-color: transparent !important;
-  margin-bottom: 20px !important;
+    background-color: transparent !important;
+    margin-bottom: 20px !important;
 }
+
 .box-lista-professor .sprite-plus_gd,
 .box-lista-professor .sprite-minus_gd {
-  position: absolute !important;
-  left: 0 !important;
-  right: 0 !important;
-  margin: 0 auto;
-  bottom: -15px !important;
-  top: initial !important;
-  z-index: 10;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto;
+    bottom: -15px !important;
+    top: initial !important;
+    z-index: 10;
 }
+
 .box-desafio {
-  margin: 0 30px;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid #eaeaea
 }
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
 .box-desafio.half {
-  width: 49%;
-  margin: 0  3px 0 0!important;
+    width: 49%;
+    margin: 0 !important;
+    display: inline-block;
+    float: none !important;
 }
+
 .box-desafio .box-seguidor {
-  margin: 20px 0 !important;
-  width: 100%;
+    margin: 20px 0 !important;
+    width: 100%;
 }
+
 .box-desafio .box-seguidor .feed-details .user-details .usuario {
-  position: absolute;
-  top: -4px;
-  left: 4px;
+    position: absolute;
+    top: -4px;
+    left: 4px;
 }
+
 .box-desafio .box-seguidor .feed-details .user-details h3.usr-name {
-  margin-left: 85px !important;
+    margin-left: 85px !important;
 }
+
 .box-desafio .box-seguidor .feed-details .user-details ul {
-  margin: 34px auto 0!important;
-  width: inherit !important;
-  text-align: center;
+    margin: .2em 0 0 84px;
+    width: 100% !important;
+    text-align: left;
 }
+
 .box-seguidor .user-details.peq ul li {
     float: inherit;
     margin-right: 6px;
     display: inline-block;
 }
+
 .box-desafio .box-seguidor .feed-details .list-seguidores {
-  margin: 10px 0 2px 0 !important;
+    margin: 10px 0 2px 0 !important;
 }
+
 .box-desafio .box-seguidor .feed-details .btn {
-  padding: 2px 13px;
-  font: 500 10px 'Muli';
-  position: inherit;
-  min-width: 80px;
-  margin-right: 0 !important;
-  right: 33px;
+    padding: 2px 13px;
+    font: 500 10px 'Muli';
+    position: inherit;
+    min-width: 80px;
+    margin-right: 0 !important;
+    right: 33px;
 }
+
 .box-desafio .box-seguidor .feed-details .btn.btn-aceitar {
-  bottom: 96px;
-  background-color: #95b75d;
+    bottom: 96px;
+    background-color: #95b75d;
 }
+
 .box-desafio .box-seguidor .feed-details .btn.btn-ignorar {
-  bottom: 72px;
-  background-color: #c41313;
+    bottom: 72px;
+    background-color: #c41313;
 }
+
 .box-desafio .box-seguidor .remove {
-  font: 500 11px 'Muli';
-  color: #c41313;
-  display: block;
-  float: left;
-  margin-top: 3px;
+    font: 500 11px 'Muli';
+    color: #c41313;
+    display: block;
+    float: left;
+    margin-top: 3px;
 }
+
 .minha-rede {
-  margin: 14px 0;
-  position: relative;
-  width: 100%;
-  text-align: center;
+    margin: 14px 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
+
 .minha-rede input {
-  width: 340px;
-  margin: 0 auto !important;
-  border: 1px solid #ccc;
+    width: 340px;
+    margin: 0 auto !important;
+    border: 1px solid #ccc;
 }
+
 .minha-rede .sprite-lupa {
-  width: 27px;
-  height: 27px;
-  background-position: -232px -279px;
-  position: absolute;
-  top: 6px;
-  left: 309px;
-  filter: saturate(4) grayscale(1);
+    width: 27px;
+    height: 27px;
+    background-position: -232px -279px;
+    position: absolute;
+    top: 6px;
+    left: 309px;
+    filter: saturate(4) grayscale(1);
 }
+
 .minha-rede .btn {
-  position: absolute;
-  top: 1px;
-  right: 32px;
-  font-size: 12px;
-  padding: 7px 10px;
+    position: absolute;
+    top: 1px;
+    right: 32px;
+    font-size: 12px;
+    padding: 7px 10px;
 }
+
 .desafios.rede li a {
-  padding: 13px 34px 30px 80.5px !important;
-  position: relative;
-  font: 500 11px 'Muli';
+    padding: 13px 34px 30px 80.5px !important;
+    position: relative;
+    font: 500 11px 'Muli';
 }
+
 .desafios.rede li a .usr-info {
-  position: absolute;
-font-size: 11px;
-left: 1px;
-right: 0;
-margin: 0 auto;
-min-width: 37px;
-display: block;
-max-width: 37px;
-color: #1e9ec5;
-top: 52px;
+    position: absolute;
+    font-size: 11px;
+    left: 1px;
+    right: 0;
+    margin: 0 auto;
+    min-width: 37px;
+    display: block;
+    max-width: 37px;
+    color: #1e9ec5;
+    top: 52px;
 }
+
 .desafios.rede li a .usr-info-ballon {
-  position: absolute;
-  font-size: 11px;
-  right: 10px;
-  top: 21px;
-  padding: 2px 4px;
-  background-color: #1e9ec5;
-  border-radius: 28px;
-  color: #fff;
-  width: 22px;
+    position: absolute;
+    font-size: 11px;
+    right: 10px;
+    top: 21px;
+    padding: 2px 4px;
+    background-color: #1e9ec5;
+    border-radius: 28px;
+    color: #fff;
+    width: 22px;
 }
+
 .desafios.rede li a.active {
-  color: #1e9ec5;
+    color: #1e9ec5;
 }
+
 .desafios.rede li a.desativado i {
-  filter: grayscale(1);
+    filter: grayscale(1);
 }
+
+.desafios.rede li a.desativado.active i {
+    filter: grayscale(0);
+}
+
 .desafios.rede li a i {
-  position: absolute;
-  left: 0 !important;
-  right: 0;
-  margin: 0 auto;
+    position: absolute;
+    left: 0 !important;
+    right: 0;
+    margin: 0 auto;
 }
+
 .desafios.rede li a i.sprite-btn_solicitacoes {
-  top: 4px;
+    top: 4px;
 }
+
 .anuncio h4 {
-  color: #1a678f !important;
+    color: #1a678f !important;
 }
+
 .anuncio .name-anunciantes,
 .anuncio .site-anunciante {
-  color: #1e9ec5 !important;
+    color: #1e9ec5 !important;
 }
+
 .anuncio .text-anunciantes {
-  color: #696969 !important;
+    color: #696969 !important;
 }
+
 .novo-curso .box-title {
-  margin-top: -1px !important;
+    margin-top: -1px !important;
 }
+
 .novo-curso .box-title .title-publicacao {
-  margin-top: 8px !important;
-  margin-left: 10px !important;
+    margin-top: 8px !important;
+    margin-left: 10px !important;
 }
+
 .btn-cursos {
-  background-color: #74bb00 !important;
+    background-color: #74bb00 !important;
 }
+
 .mapa-concursos .box-area p {
-  color: #4ca92b;
-  text-transform: uppercase;
-  font: 500 15px 'Muli';
+    color: #4ca92b;
+    text-transform: uppercase;
+    font: 500 15px 'Muli';
 }
+
 .mapa-concursos .box-area p b {
-  font: 500 22px 'Muli';
-  line-height: 1.1;
+    font: 500 22px 'Muli';
+    line-height: 1.1;
 }
+
 .mapa-concursos .box-area p.p-div .span-div {
-  margin-right: 36px;
-  min-width: 179px;
+    margin-right: 36px;
+    min-width: 179px;
 }
+
 .mapa-concursos .box-area p.p-div .span-div.download-edital {
-  min-width: 100px !important;
+    min-width: 100px !important;
 }
+
 .mapa-concursos .box-area p.p-div .span-title {
-  font: 500 16px 'Muli' !important;
+    font: 500 16px 'Muli' !important;
 }
+
 .mapa-concursos .box-area p.p-div .span-desc {
-  text-transform: none !important;
-  line-height: 1.1;
-  display: block;
-  font: 400 12px 'Muli' !important;
+    text-transform: none !important;
+    line-height: 1.1;
+    display: block;
+    font: 400 12px 'Muli' !important;
 }
+
 .mapa-concursos .box-area .btn {
-  font: 500 22px 'Muli';
+    font: 500 22px 'Muli';
 }
+
 .mapa-concursos .btn-cursos_disp {
-  font: 500 16px 'Muli' !important;
+    font: 500 16px 'Muli' !important;
 }
+
 .mapa-concursos .box-concurso.area-conc {
-  padding: 16px 10px !important;
-  margin-bottom: 35px !important;
+    padding: 16px 10px !important;
+    margin-bottom: 35px !important;
 }
+
 .mapa-concursos .box-concurso.area-conc .num-concursos b {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 .mapa-concursos .box-concurso.area-conc .num-concursos span {
-  margin-top: -7px !important;
+    margin-top: -7px !important;
 }
+
 .mapa-concursos .box-concurso.box-concurso2 {
-  padding: 4px 10px !important;
+    padding: 4px 10px !important;
 }
+
 .mapa-concursos .box-concurso.box-concurso2 h6 {
-  padding-top: 17px;
-  padding-bottom: 17px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
+
 .no-margin-top {
-  margin-top: 0 !important;
+    margin-top: 0 !important;
 }
+
 .no-margin-bottom {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
+
 .div-interesses .box-interesse .title-interesse {
-  font: 500 14px 'Muli' !important;
+    font: 500 14px 'Muli' !important;
 }
+
 .div-interesses .box-interesse p {
-  font: 400 13px 'Muli' !important;
-  color: #696969 !important;
+    font: 400 13px 'Muli' !important;
+    color: #696969 !important;
 }
-fieldset{
-  border: 0
+
+fieldset {
+    border: 0
 }
+
 .input-editais .input-edital {
-  width: 157px;
+    width: 157px;
 }
+
 .input-editais .caracteres {
-  bottom: -20px;
-position: absolute;
-right: 10px;
-color: #696969;
+    bottom: -20px;
+    position: absolute;
+    right: 10px;
+    color: #696969;
 }
-.input-editais .btn{
-  position: absolute;
+
+.input-editais .btn {
+    position: absolute;
     right: 0;
     top: 19px;
 }
+
 .medalhas .menu-alert {
-  padding: 3px 9px 13px 9px !important;
-  top: -6px;
+    padding: 3px 9px 13px 9px !important;
+    top: -6px;
 }
+
 #user-view .usr-name {
-  font: 500 21px 'Muli' !important;
-  margin-left: 142px !important;
+    font: 500 21px 'Muli' !important;
+    margin-left: 142px !important;
 }
+
 #user-view .user-details ul {
-  margin-left: 142px !important;
+    margin-left: 142px !important;
 }
+
 .pub-papo .box-top .box-title .title-publicacao {
-  font: 500 18px 'Muli' !important;
+    font: 500 18px 'Muli' !important;
+    bottom: 0;
+    height: 31px;
+    margin: auto;
 }
+
 .e-book #e-books .book li a i {
-  position: absolute;
+    position: absolute;
 }
+
 .e-book #e-books .book li a i.sprite-tutorial {
-  left: 13px;
+    left: 13px;
 }
+
 .e-book #e-books .book li a .book-desc {
-  left: 44px;
+    left: 44px;
 }
+
 .publish-options .sprite-plus_pq {
-  margin-top: 7px;
+    margin-top: 7px;
 }
+
 .name-perfil {
-  font: 500 24px 'Muli';
-  color: #1a678f;
-  text-transform: uppercase;
+    font: 500 24px 'Muli';
+    color: #1a678f;
+    text-transform: uppercase;
 }
+
 .content-right-fixed {
-  position: fixed;
-  top: -434px;
+    position: fixed;
+    top: -434px;
 }
+
 .meus-cursos-avaliacoes ul li a {
-  width: 128px !important;
-  margin-right: 14px !important;
+    width: 128px !important;
+    margin-right: 14px !important;
 }
+
 .meus-cursos-avaliacoes ul li a .avaliacao-nota {
-  width: 104px !important;
-  text-align: center !important;
-  padding: 23px 12px !important;
+    width: 104px !important;
+    text-align: center !important;
+    padding: 23px 12px !important;
 }
+
 .meus-cursos-avaliacoes ul li a .avaliacao-nota span {
-  margin: 0 auto !important;
-  display: block !important;
-  font: 500 30px 'Muli' !important;
-  margin-top: -10px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    font: 500 30px 'Muli' !important;
+    margin-top: -10px !important;
 }
+
 .grid_100 .img-topo {
-  border-bottom: 4px solid #1e9ec5;
+    border-bottom: 4px solid #1e9ec5;
 }
+
 .img-topo:hover .sprite-cam_icon_gd {
-  display: block;
+    display: block;
 }
+
 .detalhes-curso .feed-text .curso-desc {
-  margin-top: 20px;
+    margin-top: 20px;
 }
+
 .detalhes-curso .feed-text .curso-desc .box-cursos .nome-option .curso-title {
-  color: #1a678f;
-  font: 500 15px 'Muli';
+    color: #1a678f;
+    font: 500 15px 'Muli';
 }
+
 .detalhes-curso .feed-text .curso-desc .box-cursos .details span {
-  color: #1a678f;
+    color: #1a678f;
 }
+
 .overlay .bigtitle {
-  font: 500 14px 'Muli' !important;
+    font: 500 14px 'Muli' !important;
 }
+
 .meus-eventos .box-input input[type="text"] {
-  text-align: center;
+    text-align: center;
 }
+
 .arq_add {
-  position: relative;
-  top: -12px;
-  left: 22px;
+    position: relative;
+    top: -12px;
+    left: 22px;
 }
+
 .arq_add .sprite-close_gray {
-  position: relative;
-  top: 18px;
-  left: 10px;
+    position: relative;
+    top: 18px;
+    left: 10px;
 }
+
 .porcentagem {
-  width: 174px;
-  position: absolute;
-  right: -269px;
-  top: 75px;
+    width: 174px;
+    position: absolute;
+    right: -269px;
+    top: 75px;
 }
+
 .porcentagem .qtd_per {
-  position: absolute;
-  font: 400 11px 'Muli' !important;
-  color: #b3b3b3;
-  top: 3px;
-  right: -28px;
+    position: absolute;
+    font: 400 11px 'Muli' !important;
+    color: #b3b3b3;
+    top: 3px;
+    right: -28px;
 }
+
 .financeiro input {
-  padding: 12px 10px;
+    padding: 12px 10px;
 }
+
 .no-padding-top {
-  padding-top: 0 !important;
+    padding-top: 0 !important;
 }
+
 .margin-bottom-pq {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-.artigo .usuario.small .usr-img{
-  width: 52px;
+
+.artigo .usuario.small .usr-img {
+    width: 52px;
     height: 52px;
     left: -10px;
     right: 0;
     top: -3px;
     margin: 0 auto;
 }
-.top{
-  position: relative;
+
+.top {
+    position: relative;
 }
 
-.top p{
-  position: absolute;
-right: 0;
-top: 10px;
-}
-.more-details .menu-name{
-  font-size: 10px
-}
-.btn-perfil.active{
-  background-color: #207892;
-  color: #fff;
-}
-.info-medal .usr-img-status{
-  top: -9px;
-}
-.info-medal .usr-img{
-  height: 57px;
-  width: 58px;
-}
-.medalhas .title-publicacao{
-  top: 8px !important;
-  left: 0px !important;
-}
-.medalhas .msg-total{
-  right: -7px !important;
-  top: 22px !important;
-}
-.medalhas .status-bar-container{
-  right: 0;
-  left: 10px;
+.top p {
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
 
-#msg-pessoas .usr-img-status{
-  margin: 0 auto;
-  float: none;
+.more-details .menu-name {
+    font-size: 10px
 }
-#visao-professor .channel-info .usr-name{
-  text-align: left;
+
+.btn-perfil.active {
+    background-color: #207892;
+    color: #fff;
+}
+
+.info-medal .usr-img-status {
+    top: -9px;
+}
+
+.info-medal .usr-img {
+    height: 57px;
+    width: 58px;
+}
+
+.medalhas .title-publicacao {
+    top: 8px !important;
+    left: 0px !important;
+}
+
+.medalhas .msg-total {
+    right: -7px !important;
+    top: 22px !important;
+}
+
+.medalhas .status-bar-container {
+    right: 0;
+    left: 10px;
+}
+
+#msg-pessoas .usr-img-status {
+    margin: 0 auto;
+    float: none;
+}
+
+#visao-professor .channel-info .usr-name {
+    text-align: left;
     position: relative;
     left: 75px;
     top: -30px;
     font-size: 19px;
 }
-#visao-professor .channel-info .usr-nivel{
-  position: relative;
-text-align: left;
-top: -35px;
-left: 75px;
+
+#visao-professor .channel-info .usr-nivel {
+    position: relative;
+    text-align: left;
+    top: -35px;
+    left: 75px;
 }
-#visao-professor .channel-info .attribuicoes .menu-name{
-  position: relative;
-  top: 3px;
-  left: 10px;
+
+#visao-professor .channel-info .attribuicoes .menu-name {
+    position: relative;
+    top: 3px;
+    left: 10px;
 }
-#visao-professor .channel-info > i{
-  position: absolute;
-  bottom: -12px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 1999;
+
+#visao-professor .channel-info>i {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1999;
 }
-#visao-professor .channel-info{
-  margin-bottom: 15px;
+
+#visao-professor .channel-info {
+    margin-bottom: 15px;
 }
-#visao-professor .channel-info .attribuicoes{
-  display: block;
-      position: relative;
-      top: -14px;
+
+#visao-professor .channel-info .attribuicoes {
+    display: block;
+    position: relative;
+    top: -14px;
 }
+
 #visao-professor .pag-option .btn {
     margin: 10px 0% !important;
 }
-#visao-professor .pag-option .btn .alert-icon{
-  top: 10px;
-  right: 3px;
+
+#visao-professor .pag-option .btn .alert-icon {
+    top: 10px;
+    right: 3px;
 }
-.visao-visitante .box-top .box-title span.title-publicacao{
-  top: 8px;
-  left: 3px;
-  font-size: 16px;
+
+.visao-visitante .box-top .box-title span.title-publicacao {
+    top: 8px;
+    left: 3px;
+    font-size: 16px;
 }
-.item.item-radio{
-  border: 0;
-  margin-bottom: 3px
+
+.item.item-radio {
+    border: 0;
+    margin-bottom: 3px
 }
-.item-radio .radio-icon{
-  padding: 7px 14px 14px 14px
+
+.item-radio .radio-icon {
+    padding: 7px 14px 14px 14px
 }
