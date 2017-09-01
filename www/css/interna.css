@@ -2825,7 +2825,8 @@ ul.areas li a:hover .sprite-tik_gray {
     color: #ffffff;
     display: block;
     float: left;
-    margin-top: 5px;
+    width: 100%;
+    margin-top: 10px;
     text-align: center;
     line-height: 1.1;
 }
@@ -2858,7 +2859,7 @@ ul.areas li a:hover .sprite-tik_gray {
 }
 
 div.amigos-comum a {
-    right: 0;
+    right: 20px;
     top: 0;
     width: 142px !important;
 }

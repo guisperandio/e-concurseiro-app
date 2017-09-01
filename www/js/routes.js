@@ -608,9 +608,19 @@ angular.module('app.routes', [])
     templateUrl: 'templates/index-cadastro-professor.html',
     controller: 'ctrlPadrao'
   })
+  .state('index-cadastro-professor-avancar', {
+    url: '/index-cadastro-professor-avancar',
+    templateUrl: 'templates/index-cadastro-professor-avancar.html',
+    controller: 'ctrlPadrao'
+  })
   .state('index-cadastro-anunciantes', {
     url: '/index-cadastro-anunciantes',
     templateUrl: 'templates/index-cadastro-anunciantes.html',
+    controller: 'ctrlPadrao'
+  })
+  .state('index-cadastro-anunciantes-avancar', {
+    url: '/index-cadastro-anunciantes-avancar',
+    templateUrl: 'templates/index-cadastro-anunciantes-avancar.html',
     controller: 'ctrlPadrao'
   })
 $urlRouterProvider.otherwise('principal')

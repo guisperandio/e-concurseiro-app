@@ -312,15 +312,16 @@ input {
 .menu-cadastro ul li a.active {
   background-color: #ffffff !important;
 }
+
 .menu-cadastro ul li a {
-  background-image: url('../img/sprites.png');
+  
   background-position: 0 0;
   background-repeat: no-repeat;
   border-left: 1px solid #eaeaea;
   border-top: 1px solid #eaeaea;
   display: block;
   float: left;
-  min-height: 49px;
+  
   padding: 10px;
 }
 .menu-cadastro ul li:last-child a {
@@ -337,37 +338,70 @@ input {
   color: #1f91cb;
 }
 .not-user {
-  clear: both;
   display: block;
   float: left;
-  font-size: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+  width: calc(100%);
 }
+.no-cadastro{
+        width: 100% !important;
+    }
+    .professores, .anunciantes{
+        width: 50% !important;
+    }
 .destaque-cadastro {
-  clear: both;
   color: #696969;
   display: block;
   float: left;
   font-size: 15px;
+  margin-left: 10px;
+  margin-top: -6px;
+  width: calc(100%);
+}
+.menu-cadastro ul li a i{
+  background-image: url('../img/sprites.png');
+  float: none;
+  margin: 0 auto;
+}
+.menu-cadastro ul li a{
+  text-align: center;
+}
+.content-cadastro input[type="text"]{
+  padding-right: 0
+}
+.sprite-no-cadastro{
+   background-position: -15px -10px !important;
+    width: 35px;
+    height: 34px;
+    position: absolute;
+    left: -213px;
+    right: 0px;
+}
+.sprite-professores{
+  background-position: -7px -75px !important;
+      width: 50px;
+    height: 31px;
+}
+.sprite-anunciantes{
+    background-position: -7px -160px !important;
+    width: 55px;
+    height: 34px;
 }
 .professores a {
-  background-position: 23px -69px !important;
   display: block;
-  min-height: 0 !important;
-  padding-top: 40px !important;
+  min-height: 74px !important;
   text-transform: uppercase;
 }
-.professores a.active {
-  background-position: 23px -312px !important;
+.professores a.active i{
+  background-position: -7px -319px !important;
 }
 .anunciantes a {
-  background-position: 23px -154px !important;
   display: block;
-  min-height: 0 !important;
-  padding-top: 40px !important;
   text-transform: uppercase;
 }
-.anunciantes a.active {
-  background-position: 23px -238px !important;
+.anunciantes a.active i{
+  background-position: -7px -244px !important;
 }
 ul.menu-cadastro li a {
   background-color: #ededed;

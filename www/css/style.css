@@ -87,7 +87,7 @@
   color: #696969;
 }
 .label-textarea{
-  width: 312px;
+width: calc(100% - 14px);
 margin: 0 !important;
 position: relative;
 top: -13px;

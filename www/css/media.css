@@ -61,14 +61,24 @@
         font-size: 3vw;
         letter-spacing: -1px;
     }
+    
 }
 
 @media (max-width: 376px) {
     .list .half {
         width: 100% !important;
     }
-    .list button i {
-        display: none;
+    .list button i{
+        margin: auto;
+        position: absolute !important;
+        left: 0 !important;
+        right: 0;
+        top: 0 !important;
+        bottom: 0;
+    }
+    .list button.border-bottom {
+        text-indent: -9999px;
+        position: relative;
     }
     .box-button {
         width: 100% !important;
@@ -174,5 +184,14 @@
 @media (max-width: 382px) {
     .question-content button {
         width: 100%;
+    }
+}
+
+@media (max-width: 318px){
+    .sprite-no-cadastro{
+        display: none;
+    }
+    .not-user, .destaque-cadastro{
+        margin-left: 0
     }
 }
