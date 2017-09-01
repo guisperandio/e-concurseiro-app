@@ -2454,10 +2454,12 @@ fieldset {
 .detalhes-curso .feed-text .curso-desc .box-cursos .nome-option .curso-title {
     color: #1a678f;
     font: 500 15px 'Muli';
+        width: calc(100% - 190px);
 }
 
 .detalhes-curso .feed-text .curso-desc .box-cursos .details span {
     color: #1a678f;
+    display: inline-block;
 }
 
 .overlay .bigtitle {
