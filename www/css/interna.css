@@ -4540,7 +4540,7 @@ span.bluetitle {
     font-size: 15px !important;
     margin-left: 13px !important;
     text-align: left !important;
-    width: 240px !important;
+    width: calc(100% - 60px) !important;
     position: relative;
     top: 7px;
 }
