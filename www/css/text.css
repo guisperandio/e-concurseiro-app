@@ -314,7 +314,7 @@ input {
 }
 
 .menu-cadastro ul li a {
-  
+  font-size: 10px;
   background-position: 0 0;
   background-repeat: no-repeat;
   border-left: 1px solid #eaeaea;

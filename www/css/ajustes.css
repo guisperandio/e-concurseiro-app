@@ -1927,8 +1927,8 @@ table .user-details.usr-table ul {
 }
 
 .data-publicacao-list {
-    left: 77px;
-    top: 35px;
+    left: 56px;
+    top: 23px;
     font: 300 12px 'Muli';
 }
 
@@ -2266,8 +2266,7 @@ table .user-details.usr-table ul {
 }
 
 .novo-curso .box-title .title-publicacao {
-    margin-top: 8px !important;
-    margin-left: 10px !important;
+    margin-top: 4px !important;
 }
 
 .btn-cursos {
@@ -2392,6 +2391,7 @@ fieldset {
     bottom: 0;
     height: 31px;
     margin: auto;
+    top: -17px;
 }
 
 .e-book #e-books .book li a i {

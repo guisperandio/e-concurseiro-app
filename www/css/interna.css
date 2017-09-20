@@ -130,7 +130,14 @@ span.text {
 .bgr-yellow {
     background-color: #fde101 !important;
 }
-
+.bgr-yellow .title-publicacao, .bgr-yellow .data-publicacao-list{
+    color: #004570 !important;
+}
+.professor .novo-curso .box-content h3 {
+    color: #1e9ec5;
+    font-size: 17px;
+    text-align: center;
+}
 .bgr-darkyellow {
     background-color: #ffa800 !important;
 }
@@ -785,7 +792,7 @@ span.text {
     font-size: 12px;
     font-weight: bold;
     margin: 0;
-    min-height: 39px;
+    min-height: 40px;
     text-transform: uppercase;
     width: 100%;
     margin-bottom: 5px;
@@ -1330,7 +1337,7 @@ h5 {
 }
 
 .professor .box-feed:not(.novo-curso) .box-top {
-    height: 30px;
+    height: 54px;
     padding: 5px 15px 13px;
 }
 
@@ -2265,7 +2272,7 @@ ul.areas li a:hover .sprite-tik_gray {
 
 .data-publicacao-list {
     color: #ffffff;
-    display: none;
+    display: block;
     font-size: 13px;
     font-weight: normal;
     left: 69px;
