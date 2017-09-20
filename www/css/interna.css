@@ -86,7 +86,6 @@ header h1.logo-interna a {
 
 .right {
     float: right !important;
-    margin-right: 10px;
 }
 
 .left {
@@ -757,13 +756,27 @@ span.text {
     top: 0;
     width: 20px;
 }
-
+.bibliografia  .btn{
+    margin-right: 0
+}
+.avaliacao{
+    position: relative;
+    min-height: 155px;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    color: #ffb400;
+    font-size: 18px;
+}
 #published-indicacao input.interesses {
     display: block;
     float: left;
     margin-bottom: 0px;
-    width: calc(100% - 51px);
+    width: calc(100% - 51px) !important;
     padding: 10px;
+    margin-right: 8px
 }
 
 #published-indicacao .input-editais label:before {
@@ -1975,9 +1988,19 @@ h5 {
     width: 70px;
     margin: 0 auto;
     position: relative;
-    left: -35px;
+    left: -56px;
 }
-
+.mymsg{
+    min-height: 150px;
+}
+.mymsg textarea{
+    padding: 10px;
+    width: calc(100% - 100px);
+    position: absolute;
+    right: 10px;
+    height: 120px;
+    top: 10px;
+}
 .edital-info {
     display: block;
     margin-top: 22px;
@@ -2445,7 +2468,10 @@ ul.areas li a:hover .sprite-tik_gray {
 }
 
 .box-content.medals .status-bar-container {
-    width: 265px;
+    width: calc(100% - 158px);
+    margin: 0 auto;
+    left: -11px;
+    top: 21px;
 }
 
 .msg-text {
@@ -3121,10 +3147,8 @@ ul.desafios li:last-child a {
 }
 
 .info-medal .status-bar-container {
-    width: 194px;
+    width: calc(100% - 160px);
     position: absolute;
-    right: 0;
-    left: -36px;
     margin: 18px auto;
 }
 
@@ -3137,19 +3161,8 @@ ul.desafios li:last-child a {
     text-align: center;
     width: 100%;
 }
-
-.medalhas_conquistadas i {
-    display: inline-block;
-    float: none;
-    margin-left: 26px;
-    margin-right: 26px;
-    margin-top: 10px;
-}
-
-.social .status-bar-container {
-    position: relative;
-    top: 20px;
-    width: 261px !important;
+.medalhas .status{
+    margin-bottom: 45px;
 }
 
 .bgr-mental {
@@ -3369,8 +3382,8 @@ ul.desafios li:last-child a {
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
-    margin: 32px auto !important;
-    width: 95% !important
+    margin: 32px 6px !important;
+    width: 92% !important;
 }
 
 .box-concurso h6 {
@@ -3379,7 +3392,7 @@ ul.desafios li:last-child a {
     display: block;
     float: left;
     text-transform: uppercase;
-    width: 100%;
+    width: calc(100% - 110px);
     margin-top: 0;
     margin-bottom: 0px !important;
     font-size: 15px;
@@ -3721,9 +3734,9 @@ ul.desafios li:last-child a {
     display: block;
     height: 72px;
     position: absolute;
-    right: -13px;
+    right: -18px;
     text-align: center;
-    top: -7px;
+    top: -4px;
     vertical-align: middle;
     width: 72px;
 }
@@ -3928,7 +3941,7 @@ ul.desafios li:last-child a {
     text-transform: uppercase;
 }
 
-.box-cursos .nome-option .disponibilidade {
+.box-cursos .details .disponibilidade {
     font-size: 12px;
     font-weight: bold;
     margin-right: 30px;
@@ -3936,12 +3949,12 @@ ul.desafios li:last-child a {
     text-transform: uppercase;
 }
 
-.box-cursos .nome-option .disponibilidade.disp-ok {
-    color: #00aa0c;
+.box-cursos .details .disponibilidade.disp-ok {
+    color: #00aa0c !important;
 }
 
-.box-cursos .nome-option .disponibilidade.disp-late {
-    color: #e30613;
+.box-cursos .details .disponibilidade.disp-late {
+    color: #e30613 !important;
 }
 
 .box-cursos .nome-option .options>div {
@@ -4124,7 +4137,7 @@ i.icon-white {
 
 .text-obs {
     color: #a0a0a0;
-    font-size: 11px;
+    font-size: 10px;
     left: 15px;
     position: relative;
     text-transform: uppercase;

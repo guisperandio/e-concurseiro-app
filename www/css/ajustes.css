@@ -1179,16 +1179,22 @@ table.table-ranking tr.linha td {
 .box-comment .sprite-image {
     border: 0;
     position: absolute;
-    top: 36px;
+    bottom: 23px;
     right: 42px;
 }
-
+.medalhas  .data-publicacao-list{
+    display: none;
+}
 .box-comment .sprite-seta {
     position: absolute;
-    top: 44px;
+    bottom: 26px;
     right: 21px;
 }
-
+#visualizar_usuario .nav-user li.amigos-comum{
+    width: 100% !important;
+    position: relative !important;
+    top: 56px !important;
+}
 .box-comment .feed {
     line-height: 1.4;
 }
@@ -2552,7 +2558,7 @@ fieldset {
 }
 
 .medalhas .msg-total {
-    right: -7px !important;
+    right: 3px !important;
     top: 22px !important;
 }
 

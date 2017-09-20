@@ -19,10 +19,13 @@
 
         <span class="label">Concursos</span>
         <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+        <button class="btn bgr-oceanblue">OK</button>
         <span class="label">Matérias</span>
         <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+        <button class="btn bgr-oceanblue">OK</button>
         <span class="label">Buscar um material específico</span>
         <input type="text"  placeholder="Texto sendo digitado" class="interesses"/>
+        <button class="btn bgr-oceanblue">OK</button>
       </div>
 
       <div class="box-indicacoes clearfix padding">
@@ -40,14 +43,37 @@
           Nome do professor
         </p>
         <button class="btn bgr-oceanblue full">Referências de professores/autores</button>
-        <span class="select-title">LISTAR POR:</span>
-        <select class="no-margin-bottom">
-          <option value="">TODOS</option>
-        </select>
-        <span class="select-title">ORDENAR POR:</span>
-        <select class="no-margin-top">
-          <option value="">Avaliação Média</option>
-        </select>
+        <div class="box-interesse clearfix full left no-margin-bottom">
+          <span class="title-text">LISTAR:</span>
+          <ul id="expand-list" class="clearfix no-margin">
+            <li>
+              <a href="#" class="expand active">TODOS</a>
+            </li>
+            <li>
+              <a href="#" class="list expand">CURSOS EM PDF</a>
+            </li>
+            <li>
+              <a href="#" class="list expand">LIVROS</a>
+            </li>
+            <li>
+              <a href="#" class="list expand">VIDEOAULAS</a>
+            </li>
+          </ul>
+        </div>
+        <div class="box-interesse clearfix full right no-margin-bottom" style="margin-bottom: 10px !important;">
+          <span class="title-text">ORDENAR POR:</span>
+          <ul id="expand-list" class="clearfix no-margin">
+            <li>
+              <a href="#" class="expand">AVALIAÇÃO MÉDIA</a>
+            </li>
+            <li>
+              <a href="#" class="list expand">PONTUAÇÃO</a>
+            </li>
+            <li>
+              <a href="#" class="list expand">INDICAÇÕES</a>
+            </li>
+          </ul>
+        </div>
         <div class="materiais-boxes clearfix left">
           <div class="materiais-box clearfix">
             <img class="list-materiais img-professor" />
@@ -56,11 +82,17 @@
               <b>Matérias:</b> Direito Tributário, Legislação Tributária Federal<br />
               <b>Vínculos:</b> Atitude concursos, Editora Ferreira
             </p>
-            <p class="avaliacao full center-text">
+            <div class="avaliacao">
               <b>AVALIAÇÕES:</b> 45.000<br />
+              <div class="rating left" style="    position: absolute;
+    top: -11px;
+    left: 145px;">
+                <span style="font-size: 22px">☆</span><span style="font-size: 22px">☆</span><span style="font-size: 22px">☆</span><span style="font-size: 22px">☆</span><span style="font-size: 22px">☆</span>
+              </div>
               <b>Pontuação:</b> 45.000<br />
+
               <b>Indicações:</b> 45.000<br />
-            </p>
+            </div>
             <button class="btn bgr-gray  fnt-darkgray full margin-top no-margin-right">VER AVALIAÇÕES</button>
             <button class="btn btn-clear fnt-green full no-margin-right">Geroge Firmino está em nossa rede!</button>
             <button class="btn btn-clear fnt-yellow full no-margin-right">VISITAR FANPAGE</button>

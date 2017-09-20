@@ -4,6 +4,14 @@
       pulling-text="Solte para atualizar..."
       on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
     </ion-refresher>
+    <style>
+      .porcentagem {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 5px;
+}
+    </style>
     <div class="grid_12 no-margin">
       <div class="grid_100">
         <i class="ion-arrow-left-c" ng-click="myGoBack()" ng-controller="scripts"></i>
@@ -80,9 +88,9 @@
         <div class="box-interesse">
           <div class="box-feed clearfix">
               <fieldset>
-                  <div class="box-input">
+                  <div class="box-input full">
                       <span class="bigtitle">Nome do Evento</span>
-                      <input type="text" class="nome-evento" />
+                      <input type="text" class="nome-evento" style="width: 100%"/>
                   </div>
                   <div class="box-input">
                       <span class="bigtitle">Data</span>

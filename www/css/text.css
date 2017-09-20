@@ -788,7 +788,7 @@ footer {
     position: relative;
     top: -61px;
     width: 147px;
-    left: 94px;
+    left: 68px;
     margin: 0 auto;
     float: none;
 }
@@ -1764,7 +1764,7 @@ right: -6px;
   width: 740px !important;
 }
 .sprite-papo_concurseiro {
-  background-image: url("http://localhost/concurseiro/img/logo-interna.jpg");
+  background-image: url("../img/logo-interna.jpg");
   display: block;
   float: left;
   height: 47px;
@@ -2077,4 +2077,94 @@ top: -2px;
 }
 .bgr-lightred{
   background-color: #ffd8da;
+}
+
+.i-medalhas{
+  width: 33.33%;
+  min-height: 150px;
+  background-size: contain;
+  display: block;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center center
+}
+.i-bonecos{
+  width: 85px;
+  min-height: 100px;
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center
+}
+.i-bonecos.boneco1{
+  background-image: url('../img/medalhas/boneco1.png');
+}
+.i-bonecos.boneco2{
+  background-image: url('../img/medalhas/boneco2.png');
+}
+.i-bonecos.boneco3{
+  background-image: url('../img/medalhas/boneco3.png');
+}
+.i-bonecos.boneco4{
+  background-image: url('../img/medalhas/boneco4.png');
+}
+.i-bonecos.boneco5{
+  background-image: url('../img/medalhas/boneco5.png');
+}
+.i-bonecos.boneco6{
+  background-image: url('../img/medalhas/boneco6.png');
+}
+.i-bonecos.boneco7{
+  background-image: url('../img/medalhas/boneco7.png');
+}
+.i-bonecos.boneco8{
+  background-image: url('../img/medalhas/boneco8.png');
+}
+.i-bonecos.boneco9{
+  background-image: url('../img/medalhas/boneco9.png');
+}
+.i-medalhas.sprite-social_medal1{
+  background-image: url('../img/medalhas/sprite-social_medal1.png');
+}
+.i-medalhas.sprite-social_medal2{
+  background-image: url('../img/medalhas/sprite-social_medal2.png');
+}
+.i-medalhas.sprite-social_medal3{
+  background-image: url('../img/medalhas/sprite-social_medal3.png');
+}
+.i-medalhas.sprite-social_medal4{
+  background-image: url('../img/medalhas/sprite-social_medal4.png');
+}
+.i-medalhas.sprite-social_medal5{
+  background-image: url('../img/medalhas/sprite-social_medal5.png');
+}
+.i-medalhas.sprite-social_medal6{
+  background-image: url('../img/medalhas/sprite-social_medal6.png');
+}
+.i-medalhas.sprite-social_medal7{
+  background-image: url('../img/medalhas/sprite-social_medal7.png');
+}
+.i-medalhas.sprite-social_medal8{
+  background-image: url('../img/medalhas/sprite-social_medal8.png');
+}
+.i-medalhas.sprite-social_medal9{
+  background-image: url('../img/medalhas/sprite-social_medal9.png');
+}
+.i-medalhas.sprite-social_medal10{
+  background-image: url('../img/medalhas/sprite-social_medal10.png');
+}
+.i-medalhas.sprite-social_medal11{
+  background-image: url('../img/medalhas/sprite-social_medal11.png');
+}
+.i-medalhas.sprite-social_medal12{
+  background-image: url('../img/medalhas/sprite-social_medal12.png');
+}
+.i-medalhas.sprite-social_medal13{
+  background-image: url('../img/medalhas/sprite-social_medal13.png');
+}
+.i-medalhas.sprite-social_medal14{
+  background-image: url('../img/medalhas/sprite-social_medal14.png');
+}
+.i-medalhas.sprite-social_medal15{
+  background-image: url('../img/medalhas/sprite-social_medal15.png');
 }
