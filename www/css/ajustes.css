@@ -1203,6 +1203,13 @@ table.table-ranking tr.linha td {
     font: 500 8px 'Muli';
     display: block;
     margin-top: -3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 10px;
 }
 
 table .user-details.usr-table h3 {

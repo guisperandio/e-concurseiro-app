@@ -812,6 +812,7 @@ span.text {
 }
 
 .box-button>span {
+    position: relative;
     display: block;
     font: 500 8px 'Muli';
     padding: 3px 0px;

@@ -140,13 +140,8 @@
     .box-button {
         width: 25% !important;
     }
-    .box-button .btn i{
-        float: none;
-        margin: 0 auto;
-    }
-    .box-button .btn span{
-        display: none;
-    }
+    
+    
     .mapa-concursos .box-area .btn {
         width: 100% !important;
         margin: 0 !important
@@ -188,7 +183,15 @@
         width: 33.33333%;
     }
 }
-
+@media(max-width: 450px){
+    .box-button .btn span{
+        display: none;
+    }
+    .box-button .btn i{
+        float: none;
+        margin: 0 auto;
+    }
+}
 @media(max-width: 533px) {
     .box-interesse .box-desempenho {
         width: 100%;
