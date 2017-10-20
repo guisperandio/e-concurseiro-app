@@ -2386,7 +2386,7 @@ fieldset {
 }
 
 .medalhas .menu-alert {
-    padding: 3px 9px 13px 9px !important;
+    padding: 1px 9px 13px 9px !important;
     top: -6px;
 }
 
@@ -2641,4 +2641,8 @@ fieldset {
 
 .item-radio .radio-icon {
     padding: 7px 14px 14px 14px
+}
+
+.pub-papo .box-approve .box-button{
+    width: 50% !important;
 }
