@@ -2643,6 +2643,8 @@ fieldset {
     padding: 7px 14px 14px 14px
 }
 
-.pub-papo .box-approve .box-button{
-    width: 50% !important;
+
+
+.pg-mensagem .box-title .data-publicacao-list{
+    display: none
 }
