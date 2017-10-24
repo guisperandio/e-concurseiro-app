@@ -1,4 +1,4 @@
-<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante">
+<ion-view title="Visão Professor" hide-nav-bar="false" id="visao-professor" class="pg-interna visao-visitante visao-vst">
     <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
         <ion-refresher pulling-text="Solte para atualizar..." on-refresh="doRefresh()" pulling-icon="ion-android-arrow-down">
         </ion-refresher>
@@ -85,7 +85,7 @@
 
                 <div class="box-feed shadow clearfix">
                     <div class="box-top bgr-oceanblue">
-                        <span class="box-title clearfix"><span class="title-publicacao">Material Gratuito &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;00/00/0000</span><span class="data-publicacao-list">00/00/0000</span></span>
+                        <span class="box-title clearfix"><i class="sprite sprite2 sprite-papo_concurseiro"></i><span class="title-publicacao">Material Gratuito</span><span class="data-publicacao-list papo-title">00/00/0000</span></span>
                         <i class="sprite sprite3 sprite-open_white expand-publish"></i>
                     </div>
                     <div class="box-content">
@@ -111,21 +111,20 @@
                     </div>
                     <div class="box-approve clearfix">
                         <div class="box-button button-aprovar quarter">
-                            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
+                  <button class="btn btn-ok btn-aprova"><i class="sprite sprite-aprovar"></i><span class="menu-name">Aprovar</span></button>
 
-                        </div>
-                        <div class="box-button button-reprovar quarter">
-                            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
+              </div>
+              <div class="box-button button-reprovar quarter">
+                  <button class="btn btn-danger btn-reprovar"><i class="sprite sprite-reprovar"></i><span class="menu-name">Reprovar</span></button>
 
-                        </div>
-                        <div class="box-button button-share quarter">
-                            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
+              </div>
+              <div class="box-button button-share quarter">
+                  <button class="btn btn-blue btn-share"><i class="sprite sprite-share"></i><span class="menu-name">Compartilhar</span></button>
 
-                        </div>
-                        <div class="box-button button-comment quarter">
-                            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
-
-                        </div>
+              </div>
+              <div class="box-button button-comment quarter">
+                  <button class="btn btn-alert btn-comment"><i class="sprite sprite-comentar"></i><span class="menu-name">Comentar</span></button>
+              </div>
                     </div>
                     <div class="publish-details-list">
                         <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
@@ -134,43 +133,40 @@
                     </div>
                 </div>
 
-                <div class="box-feed shadow clearfix special-border">
-                    <div class="box-top bgr-oceanblue">
-                        <span class="box-title clearfix"><span class="title-publicacao">AULÃO AO VIVO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;00/00/0000</span><span class="data-publicacao-list">00/00/0000</span></span>
-                        <i class="sprite sprite3 sprite-open_white expand-publish"></i>
-                    </div>
-                    <div class="box-content">
-                        <div class="feed-text clearfix">
-                            <h2>Titulo da publicação, caso exista</h2>
-                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/ueRm3WgSNRA" frameborder="0" allowfullscreen style="margin-bottom: 20px"></iframe>
-                            <p class="feed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac.
-                                Nam ut nisl egestas, lacinia elit ut, pharetra arcu. Integer vitae nibh imperdiet, ornare magna eget, rutrum leo. Duis sollicitudin, sapien nec facilisis fringilla, magna nunc ultricies purus, maximus feugiat risus sapien
-                                in tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In laoreet mi nulla, sit amet condimentum metus aliquet vel. Vivamus odio mi, varius vitae lacus et, posuere pulvinar purus. Nunc mattis risus et
-                                commodo scelerisque.
-                            </p>
-                            <span class="expand">expandir</span>
-                        </div>
-                        <div class="feed-tags">
-                            <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
-                        </div>
-                    </div>
-                    <div class="box-approve">
-                        <div class="box-button button-share half">
-                            <button class="btn btn-blue btn-share"><i class="sprite sprite-share"></i>Compartilhar</button>
-                            <span><b>1.200 Aprovaram</b></span>
-                        </div>
-                        <div class="box-button button-comment half">
-                            <button class="btn btn-alert btn-comment"><i class="sprite sprite-comentar"></i>Comentar</button>
-                            <span><b>1.200 Aprovaram</b></span>
-                        </div>
-                    </div>
-                    <div class="publish-details-list papo-list">
-                        <span class="details-container">00/00/0000</span>
-                        <span class="desapprove-list"><i class="sprite sprite3 sprite-compartilhar_blue"></i>1.234</span>
-                        <span class="desapprove-list"><i class="sprite sprite3 sprite-chat_blue"></i>1.234</span>
-                    </div>
-                </div>
+                <div class="box-feed shadow clearfix pub-papo">
+        <div class="box-top bgr-oceanblue">
+          <span class="box-title clearfix"><i class="sprite sprite2 sprite-papo_concurseiro"></i><span class="title-publicacao">Aulão ao vivo</span><span class="data-publicacao-list papo-title">00/00/0000</span></span>
+
+        </div>
+        <div class="box-content">
+          <div class="feed-text clearfix">
+            <h2>Titulo da publicação, caso exista</h2>
+            <iframe width="100%" height="250" src="https://www.youtube.com/embed/ueRm3WgSNRA" frameborder="0" allowfullscreen style="margin-bottom: 20px"></iframe>
+            <p class="feed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales semper mauris, eget commodo sapien luctus sit amet. Integer vel justo mollis, pellentesque risus nec, congue enim. Mauris cursus rhoncus lectus, cursus aliquam nibh venenatis ac. Nam ut nisl egestas, lacinia elit ut, pharetra arcu. Integer vitae nibh imperdiet, ornare magna eget, rutrum leo. Duis sollicitudin, sapien nec facilisis fringilla, magna nunc ultricies purus, maximus feugiat risus sapien in tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In laoreet mi nulla, sit amet condimentum metus aliquet vel. Vivamus odio mi, varius vitae lacus et, posuere pulvinar purus. Nunc mattis risus et commodo scelerisque.
+            </p>
+            <span class="expand">expandir</span>
+          </div>
+          <div class="feed-tags">
+            <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
+          </div>
+        </div>
+        <div class="box-approve clearfix">
+          <div class="box-button button-share half">
+              <button class="btn btn-blue btn-share"><i class="sprite sprite-share"></i><span class="menu-name">Compartilhar</span></button>
+              <span><b>1.200 Aprovaram</b></span>
+          </div>
+          <div class="box-button button-comment half">
+              <button class="btn btn-alert btn-comment"><i class="sprite sprite-comentar"></i><span class="menu-name">Comentar</span></button>
+              <span><b>1.200 Aprovaram</b></span>
+          </div>
+        </div>
+        <div class="publish-details-list papo-list">
+          <span class="details-container">00/00/0000</span>
+          <span class="desapprove-list"><i class="sprite sprite3 sprite-compartilhar_blue"></i>1.234</span>
+          <span class="desapprove-list"><i class="sprite sprite3 sprite-chat_blue"></i>1.234</span>
+        </div>
+      </div>
 
                 <div class="box-feed shadow clearfix novo-curso">
                     <div class="box-top bgr-yellow">

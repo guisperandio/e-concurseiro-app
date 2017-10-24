@@ -369,7 +369,7 @@ header {
 
 .price-actions .btn.bgr-darkgreen,
 .price-actions .btn.bgr-blue {
-    font: 500 18px 'Muli' !important;
+    font: 500 15px 'Muli' !important;
 }
 
 .price-actions .btn.bgr-blue .sprite-youtube_red {
@@ -2156,6 +2156,7 @@ table .user-details.usr-table ul {
     min-width: 80px;
     margin-right: 0 !important;
     right: 33px;
+    margin-top: 10px
 }
 
 .box-desafio .box-seguidor .feed-details .btn.btn-aceitar {
@@ -2166,6 +2167,7 @@ table .user-details.usr-table ul {
 .box-desafio .box-seguidor .feed-details .btn.btn-ignorar {
     bottom: 72px;
     background-color: #c41313;
+    float: right;
 }
 
 .box-desafio .box-seguidor .remove {

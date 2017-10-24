@@ -145,7 +145,7 @@ function ($scope, $stateParams) {
     // angular.element(document.querySelector('#'+idProf)).addClass('TESTE');
   };
 }])
-.controller('scripts', ['$scope', '$stateParams', '$ionicHistory', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
+.controller('scripts', ['$scope', '$stateParams', '$ionicHistory',  // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
 // You can include any angular dependencies as parameters for this function
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams, $ionicHistory) {
@@ -169,6 +169,20 @@ function ($scope, $stateParams, $ionicHistory) {
   $scope.abrirPesquisa = function(){
     $scope.pesquisa = 'aberta';
   }
+
+
+  $( document ).ready(function() {
+    $('#page1').bind('DOMSubtreeModified', function(e) {
+      if (e.target.innerHTML.length > 0) {
+        lPosition = $('.icon-msg').offset();
+        console.log(lPosition)
+        if(lPosition){
+          $('.alert-icon').css({ 'left': lPosition.left + 20 }) 
+        }
+      }
+    });
+    
+  });
 }])
 .controller('ctrlPadrao',['$scope', '$stateParams', function($scope, $stateParams){
     //controller padrão para as telas que não tem nenhuma função

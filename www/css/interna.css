@@ -3605,6 +3605,7 @@ ul.desafios li:last-child a {
 .price-actions .valor-curso {
     display: block;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .price-actions .btn {
@@ -4219,7 +4220,7 @@ table.table-professor tr {
 table.table-professor tr th {
     color: #696969;
     height: 100%;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
     vertical-align: middle;
 }
@@ -4677,4 +4678,21 @@ span.bluetitle {
 
 .d-tabela .linha .collumn b.title {
     font-size: 15px;
+}
+.visao-vst .data-publicacao-list{
+    top: 18px;
+    left: 55px
+}
+.visao-vst .box-top .box-title span.title-publicacao{
+    top: -18px !important; 
+    left: 55px !important;
+    margin: auto;
+    display: block;
+    height: 31px;
+    bottom: 0;
+}
+
+.visao-vst .novo-curso .box-title span.title-publicacao{
+    margin-left: 0 !important;
+    top: -3px !important
 }

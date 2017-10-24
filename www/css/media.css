@@ -80,10 +80,11 @@
         display: block    
     }
     .rating{
-            position: absolute;
+        position: absolute;
         top: 87px !important;
-        left: 148px !important;
+        left: 0 !important;
         width: 100% !important;
+        text-align: center;
     }
     .list .half {
         width: 100% !important;
