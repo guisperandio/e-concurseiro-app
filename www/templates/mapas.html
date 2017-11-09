@@ -18,16 +18,14 @@ Você também poderá postar seus mapas mentais. Basta clicar no botão abaixo.
         <input type="text" placeholder="Insira um título para sua publicação (opcional)" class="maps-input"/>
         <textarea class="maps-text"></textarea>
       </div>
-      <div class="right-content right no-margin">
+      <div class="right-content right no-margin" style="min-height: 180px !important">
         <div class="upload clearfix upload-mapa">
-
-          <i class="sprite sprite3 sprite-arraste"></i>
           <div class="upload-option clearfix">
             <i class="sprite sprite3 sprite-procurar"></i>
             <button class="btn btn-oceanblue left half btn-anexar">Anexar</button>
           </div>
-          <i class="sprite sprite-pdf_pq" style="margin-top: 11px;margin-right: 8px;filter: grayscale(1) saturate(18) brightness(1);"></i>
-          <span class="nome-arquivo left">Edital.PDF</span>
+          <i class="sprite sprite-pdf_pq" style="margin-top: 16px;margin-right: 8px;filter: grayscale(1) saturate(18) brightness(1);"></i>
+          <span class="nome-arquivo left" style="margin-top: 21px">Edital.PDF</span>
 
         </div>
 
@@ -66,7 +64,7 @@ Você também poderá postar seus mapas mentais. Basta clicar no botão abaixo.
             <span class="usr-img" style="background-image: url('img/user.png');"></span>
           </div>
           <div class="user-details peq">
-            <h3 class="usr-name">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
+            <h3 class="usr-name" ui-sref="visualizar_professor">George Firmino <i class="sprite sprite-plus_pq right"></i></h3>
             <ul class="clearfix">
               <li>
                 <a href="#" class="sprite sprite5 sprite-user_icon_pq">Perfil</a>
@@ -83,7 +81,6 @@ Você também poderá postar seus mapas mentais. Basta clicar no botão abaixo.
             </ul>
           </div>
           <div class="feed-info">
-
             <span class="publish-accepted">Esta publicação tem 98,5% de aceitação.</span>
           </div>
         </div>
@@ -102,26 +99,34 @@ Você também poderá postar seus mapas mentais. Basta clicar no botão abaixo.
           <span>TAGS: bibliografia, Auditor Fiscal, Direito Administrativo</span>
         </div>
       </div>
-      <div class="box-approve">
+      <div class="box-approve clearfix">
         <div class="box-button button-aprovar quarter">
-            <button class="btn btn-ok btn-aprova"><span class="menu-name">Aprovar</span></button>
-            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+          <button class="btn btn-ok btn-aprova"><i class="sprite sprite-aprovar"></i>
+            <span class="menu-name">Aprovar</span>
+          </button>
         </div>
         <div class="box-button button-reprovar quarter">
-            <button class="btn btn-danger btn-reprovar"><span class="menu-name">Reprovar</span></button>
-            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+          <button class="btn btn-danger btn-reprovar"><i class="sprite sprite-reprovar"></i>
+            <span class="menu-name">Reprovar</span>
+          </button>
         </div>
         <div class="box-button button-share quarter">
-            <button class="btn btn-blue btn-share"><span class="menu-name">Compartilhar</span></button>
-            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+          <button class="btn btn-blue btn-share"><i class="sprite sprite-share"></i>
+            <span class="menu-name">Compartilhar</span>
+          </button>
         </div>
         <div class="box-button button-comment quarter">
-            <button class="btn btn-alert btn-comment"><span class="menu-name">Comentar</span></button>
-            <span class="clearfix">Você e <b>1.200 Aprovaram</b></span>
+          <button class="btn btn-alert btn-comment"><i class="sprite sprite-comentar"></i>
+            <span class="menu-name">Comentar</span>
+          </button>
         </div>
       </div>
       <div class="publish-details-list">
-        <span class="details-container">por <b>George Firmino</b> - <span class="perfil">Professor</span> - <span class="nivel"> Nível 10</span> - <span class="porcentagem">75%</span></span>
+        <span class="details-container">por <b>George Firmino</b> -
+          <span class="perfil">Professor</span> -
+          <span class="nivel"> Nível 10</span> -
+          <span class="porcentagem">75%</span>
+        </span>
         <span class="desapprove-list"><i class="sprite sprite3 sprite-close_blue2"></i>1.234</span>
         <span class="desapprove-list"><i class="sprite sprite3 sprite-accepted_blue"></i>1.234</span>
       </div>

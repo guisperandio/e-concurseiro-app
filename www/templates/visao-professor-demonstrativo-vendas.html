@@ -16,8 +16,8 @@
           <h3 class="usr-name">George Firmino</h3>
           <span class="usr-nivel">Nível 5</span>
           <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-materias"></i><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
-          <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
-          <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+<!--           <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
+          <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i> -->
           <div class="box-lista-professor clearfix expandido professor no-padding" ng-show="profId == 'prof-0' && profExpand == 'true'">
             <div class="info-numbers clearfix">
                 <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
@@ -124,7 +124,9 @@
               <div class="left same-line select-div">
                   <span class="title-interesse">Mês</span>
                   <div class="select-option">
-                      <select class="sprite4 sprite-seta_option" style="background-position: -752px -440px">
+                      <select class="sprite4 sprite-seta_option" style="background-position: -752px -440px; -webkit-appearance: none !important;
+    -moz-appearance: none;
+    appearance: none;">
                           <option>
                               MÊS
                           </option>
@@ -137,7 +139,7 @@
               <div class="left same-line select-div">
                   <span class="title-interesse">Mês</span>
                   <div class="select-option">
-                      <select class="sprite4 sprite-seta_option" style="background-position: -752px -440px">
+                      <select class="sprite4 sprite-seta_option" style="background-position: -752px -440px; -webkit-appearance: none !important;">
                           <option>
                               MÊS
                           </option>

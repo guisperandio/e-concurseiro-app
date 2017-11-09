@@ -10,13 +10,13 @@
   <!-- cordova script (this will be a 404 during development) -->
   <script src="cordova.js"></script>
   <!-- compiled css output -->
-  <link href="css/ionic.app.css" rel="stylesheet">
-  <link href="css/text.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/interna.css" rel="stylesheet">
-  <link href="css/ajustes.css" rel="stylesheet">
-  <link href="css/ciclos.css" rel="stylesheet">
-  <link href="css/media.css" rel="stylesheet">
+  <link href="css/ionic.app.min.css" rel="stylesheet">
+  <link href="css/text.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="css/interna.min.css" rel="stylesheet">
+  <link href="css/ajustes.min.css" rel="stylesheet">
+  <link href="css/ciclos.min.css" rel="stylesheet">
+  <link href="css/media.min.css" rel="stylesheet">
   <style type="text/css">
   .platform-ios .manual-ios-statusbar-padding {
     padding-top: 20px;
@@ -54,11 +54,13 @@
   }
 
   </style>
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/routes.js"></script>
-  <script src="js/directives.js"></script>
-  <script src="js/services.js"></script>
+  <script src="js/app.min.js"></script>
+  <script src="js/controllers.min.js"></script>
+  <script src="js/routes.min.js"></script>
+  <script src="js/directives.min.js"></script>
+  <script src="js/services.min.js"></script>
+  <script src="js/autosize.min.js"></script>
+  
   <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
 </head>
 
@@ -95,12 +97,13 @@
         <ion-side-menu side="right" id="side-menu21" ng-include="" src="'templates/menu.html'" class="side-menu">
           <!-- <ion-header-bar class="bar-stable">
           </ion-header-bar> -->
-          <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-right">
+          <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-right" >
           </ion-content>
         </ion-side-menu>
       </ion-side-menus>
     </div>
   </div>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -14,8 +14,8 @@
                     <h3 class="usr-name">George Firmino</h3>
                     <span class="usr-nivel">Nível 5</span>
                     <span class="attribuicoes clearfix"><i class="sprite sprite2 sprite-materias"></i><span class="menu-name">Direito Tributário, Legislação Tributária, Coaching</span></span>
-                    <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
-                    <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i>
+                    <!-- <i class="sprite sprite5 sprite-minus_gd" ng-show="profExpand == 'true' && profId== 'prof-0'" ng-click='retractProf("prof-0")'></i>
+                    <i class="sprite sprite5 sprite-plus_gd" ng-show="profExpand == 'false' || profId != 'prof-0'" ng-click='expandProf("prof-0")'></i> -->
                     <div class="box-lista-professor clearfix expandido professor no-padding" ng-show="profId == 'prof-0' && profExpand == 'true'">
                         <div class="info-numbers clearfix">
                             <span class="box-number no-padding-left"><b>10.123</b> seguidores</span>
@@ -217,14 +217,17 @@
                         <textarea class="text-area">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie bibendum condimentum. Donec neque urna, hendrerit ut tortor et, vehicula ornare risus. Nullam porta ex venenatis ultricies faucibus. Sed nulla mauris, congue a purus pellentesque, cursus viverra mi. Suspendisse feugiat tristique libero, id sollicitudin purus tincidunt fermentum. </textarea>
                     </div>
                     <div class="box-interesse clearfix">
-                        <button class="btn btn-oceanblue btn-save left full"><i class="sprite sprite-plus_pq icon-white"></i><span class="menu-name">Adicionar Aulas</span></button>
+                        <button class="btn btn-oceanblue btn-save left full" style="position: relative;"><i class="sprite sprite-plus_pq icon-white" style="    position: absolute;
+    left: 0;
+    right: 131px;
+    margin: auto;"></i><span class="menu-name" style="position: relative; left: 20px;">Adicionar Aulas</span></button>
                         <br />
                         <br />
                         <br />
                         <div class="box-aula clearfix full">
                             <span class="bigtitle left">Aula 01</span>
                             <span class="graytitle left">00/00/0000</span>
-                            <div class="box-aula-details" ng-show="details == 'active'">
+                            <div class="box-aula-details">
                                 <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite-excluir_blue right"></i>
@@ -235,7 +238,7 @@
                         <div class="box-aula clearfix full">
                             <span class="bigtitle left">Aula 01</span>
                             <span class="graytitle left">00/00/0000</span>
-                            <div class="box-aula-details" ng-show="details == 'active'">
+                            <div class="box-aula-details" >
                                 <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite-excluir_blue right"></i>
@@ -245,9 +248,8 @@
                         <div class="box-aula clearfix full">
                             <span class="bigtitle left">Aula 01</span>
                             <span class="graytitle left">00/00/0000</span>
-                            <i class="sprite sprite-seta right" ng-click="openMenu($event, 'fechar', 2)" ng-show="menuOpen == 'fechar'" style="transform: rotate(90deg);"></i>
-                            <i class="sprite sprite-seta right" ng-click="openMenu($event, 'abrir', 2)" ng-show="menuOpen == 'abrir'" style="transform: rotate(270deg);"></i>
-                            <div class="box-aula-details" ng-show="menuOpen == 'abrir' && menuId == 2">
+                            
+                            <div class="box-aula-details" >
                                 <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite-excluir_blue right"></i>
@@ -257,9 +259,8 @@
                         <div class="box-aula clearfix full">
                             <span class="bigtitle left">Aula 01</span>
                             <span class="graytitle left">00/00/0000</span>
-                            <i class="sprite sprite-seta right" ng-click="openMenu($event, 'fechar', 3)" ng-show="menuOpen == 'fechar'" style="transform: rotate(90deg);"></i>
-                            <i class="sprite sprite-seta right" ng-click="openMenu($event, 'abrir', 3)" ng-show="menuOpen == 'abrir'" style="transform: rotate(270deg);"></i>
-                            <div class="box-aula-details" ng-show="menuOpen == 'abrir' && menuId == 3">
+
+                            <div class="box-aula-details">
                                 <i class="sprite sprite-pdf_pq"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite2 sprite-ver_videos"><span class="alert-icon">10</span></i>
                                 <i class="sprite sprite-excluir_blue right"></i>
