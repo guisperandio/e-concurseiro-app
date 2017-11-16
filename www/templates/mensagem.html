@@ -28,22 +28,26 @@ $('#textarea').each(function() {
   console.log('textarea height updated');
 });
 clearContents = function(text) {
-  if (text.value == 'Type your message here')
+  if (text.value == 'Digite sua mensagem')
     text.value = '';
 }
 defaultContent = function(text) {
   if (text.value == '')
-    text.value = 'Type your message here';
+    text.value = 'Digite sua mensagem';
 }
 
 </script>
 <ion-view title="Historias" hide-nav-bar="false" id="interesses" class="pg-interna" ng-controller="scripts">
   <div class="absolute" style="bottom: 10px;; z-index: 9999; width: 100%">
-    <textarea name="" id="textarea" cols="30" rows="1" style="outline: 0; border-radius: 20px; border: 1px solid #eaeaea; height: 40px; max-height: 120px; width: calc(100% - 80px);  padding: 10px; left:5px; position: relative; -webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2); float: left; overflow: hidden">Type your message here</textarea>
+    <textarea name="" onfocus="clearContents(this)" onblur="defaultContent(this)" id="textarea" cols="30" rows="1" style="outline: 0; resize: none !important; border-radius: 20px; border: 1px solid #eaeaea; height: 40px; max-height: 120px; width: 97%; box-sizing: border-box; padding: 10px; left:5px; position: relative; -webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2);
+box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.2); float: left; overflow: hidden; color: #696969">Digite sua mensagem</textarea>
     <div class="bottom-buttons btn-pdf" style="    right: 21px;
     bottom: 7px;">
-      <i class="sprite spritesheet-resolucao resolucao-lupa-branca"></i>
+      <i class="sprite sprite-seta white-icon"></i>
+    </div>
+    <div class="bottom-buttons btn-pdf" style="    right: 60px;
+    bottom: 7px;">
+      <i class="sprite sprite-image white-icon"></i>
     </div>
   </div>
   <ion-content padding="false" class="manual-ios-statusbar-padding" id="content-middle">
