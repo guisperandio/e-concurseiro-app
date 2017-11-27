@@ -1141,7 +1141,7 @@ h3.sub-title {
   text-align: center
 }
 
-.tabela-tipo5 .linha .coluna .primeiro {
+.tabela-tab .primeiro {
   color: #3f678c;
   font-size: 18px;
   font-weight: 700;
@@ -1149,7 +1149,7 @@ h3.sub-title {
   top: 17px
 }
 
-.tabela-tipo5 .linha .coluna .user {
+.tabela-tab .user {
   display: block;
   width: 68px;
   height: 68px;
@@ -1159,7 +1159,7 @@ h3.sub-title {
   margin-left: 10px
 }
 
-.tabela-tipo5 .linha .coluna .user .user-img {
+.tabela-tab .user .user-img {
   display: block;
   width: 58px;
   height: 58px;
@@ -1177,20 +1177,21 @@ h3.sub-title {
   border: 3px solid #e8e8e8
 }
 
-.tabela-tipo5 .linha .coluna .name-user {
+.tabela-tab .name-user {
   font: 500 14px 'Muli';
   margin-left: 10px;
   position: relative;
-  top: 22px
+  top: 22px;
+  text-transform: none !important
 }
 
-.tabela-tipo5 .linha .coluna .ciclos-icon {
+.tabela-tab .ciclos-icon {
   margin-left: 10px;
   position: relative;
   top: 24px
 }
 
-.tabela-tipo5 .linha .coluna .user-pct {
+.tabela-tab .user-pct {
   font: 500 11px 'Muli';
   color: #70a73a;
   margin-left: 10px;
@@ -1198,7 +1199,7 @@ h3.sub-title {
   top: 24px
 }
 
-.tabela-tipo5 .linha .coluna .ciclos-add {
+.tabela-tab .ciclos-add {
   margin-left: 10px;
   position: relative;
   top: 20px
@@ -2587,4 +2588,17 @@ h3.greentitle {
 
 .data-inicial{
 	margin-bottom: 20px;
+}
+
+.fa-share-cinza{
+  background-image: url(../img/share-cinza.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fa-share-branco{
+  background-image: url(../img/share-branco.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -1,10 +1,15 @@
-$(document).ready(function() {
+var j = jQuery.noConflict();
+j(document).ready(function() {
+	
 	intervalID = setInterval(
 		function(){ 
-			lPosition = $('.icon-msg').offset();
+			lPosition = j('.icon-msg').offset();
 			if (lPosition) {
-			  $('.alert-icon').css({ 'left': lPosition.left + 20 })
+			  j('.alert-icon').css({ 'left': lPosition.left + 20 })
 			}
+			clearInterval(intervalID);
 		}, 
 	100);
+
+	
 });

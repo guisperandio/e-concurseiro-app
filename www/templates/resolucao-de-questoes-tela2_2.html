@@ -1,137 +1,83 @@
-<ion-view title="ciclos-de-estudos" hide-nav-bar="true" id="resolucao">
+<script>
+  var j = jQuery.noConflict();
+  j(document).ready(function() {
+    minWidth = j(window).width();
+    j('.tab-menu').css("min-width", minWidth);
+  })
+</script>
+<ion-view title="ciclos-de-estudos" hide-nav-bar="true" id="resolucao" class="slidingTab">
   <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="true">
-  <div class="header-ciclos clearfix">
-    <a id="logo-resolucao" class="sprite spritesheet-resolucao resolucao-logo" href="#">resolucao de questoes</a>
-    <i class="sprite spritesheet-ciclos ciclos-info right"></i>
-    <i class="sprite spritesheet-ciclos ciclos-power right"></i>
-  </div>
-
-  <div class="content clearfix">
-
-
-
-    <div class="main-content clearfix padding">
-
-      <h2 class="content-title full block">Caderno de questões <br />Nome do simulado</h2>
-
-
-      <p class="center-text text-app">
-        [nome do usuário], <br /> você concluiu a resolução de 100 questões!
-      </p>
-
-      <div class="box-graphs clearfix">
-        <div class="total-bar clearfix left">
-          <div class="green-bar clearfix left" style="width: 80%;">
-
+    <div class="header-ciclos clearfix">
+      <a id="logo-resolucao" class="sprite spritesheet-resolucao resolucao-logo" href="#">resolucao de questoes</a>
+      <i class="fa fa-share fa-share-branco right" aria-hidden="true" style="font-size: 30px; color: transparent; margin: 10px 0 0 20px"></i>
+      <i class="sprite spritesheet-ciclos ciclos-power right"></i>
+    </div>
+    <div class="content clearfix">
+      <div class="main-content clearfix">
+        <h2 class="content-title full block">Caderno de questões <br />Nome do simulado</h2>
+        <p class="center-text text-app">
+          [nome do usuário],
+          <br /> você concluiu a resolução de 100 questões!
+        </p>
+        <div class="box-graphs clearfix padding">
+          <div class="total-bar clearfix left">
+            <div class="green-bar clearfix left" style="width: 80%;">
+            </div>
+            <div class="red-bar clearfix left" style="width: 20%;">
+            </div>
           </div>
-          <div class="red-bar clearfix left" style="width: 20%;">
-
-          </div>
-
+          <span class="text-green right">80 corretas - 80%</span>
+          <span class="text-red right" style="    margin-right: 4px;">20 erradas - 20%</span>
         </div>
-        <span class="text-green right">80 corretas - 80%</span>
-        <span class="text-red right" style="    margin-right: 4px;">20 erradas - 20%</span>
-
-      </div>
-
-      <div class="clearfix margin-top margin-bottom">
-        <span class="subtitle">Conquistas</span>
-        <p class="text-app text-gray margin-top">
-          1.250<br />
-          Nome da medalha conquistada<br />
-          Nome da medalha 2.
+        <div class="clearfix margin-top margin-bottom padding">
+          <span class="subtitle">Conquistas</span>
+          <p class="text-app text-gray margin-top">
+            1.250
+            <br /> Nome da medalha conquistada
+            <br /> Nome da medalha 2.
+          </p>
+        </div>
+        <div class="clearfix margin-top margin-bottom padding">
+          <span class="subtitle">Cadernos anteriores</span>
+          <p class="text-app text-gray margin-top">
+            00/00/0000 <b>[nome do caderno criado pelo usuário]</b>
+            <br /> 00/00/0000 <b>[nome do caderno criado pelo usuário]
         </p>
       </div>
-
       <div class="clearfix margin-top margin-bottom">
-        <span class="subtitle">Cadernos anteriores</span>
-        <p class="text-app text-gray margin-top">
-          00/00/0000 <b>[nome do caderno criado pelo usuário]</b><br />
-          00/00/0000 <b>[nome do caderno criado pelo usuário]
-        </p>
-      </div>
-
-      <div class="clearfix margin-top margin-bottom">
-        <span class="subtitle">Desempenho por matéria</span>
-        <div class="tabela-tipo2 clearfix margin-top">
-
-          <i class="sprite spritesheet-ciclos ciclos-seta-tabela-esquerda left"></i>
-          <i class="sprite spritesheet-ciclos ciclos-seta-tabela-direita right no-margin"></i>
-          <div class="tabela-container clearfix">
-
-            <div class="linha-topo clearfix fundo-azul">
-              <div class="coluna">
-                Matérias
-              </div>
-              <div class="coluna">
-                Questões
-              </div>
-              <div class="coluna">
-                Teoria
-              </div>
-              <div class="coluna">
-                Horas
-              </div>
+        <span class="subtitle padding">Desempenho por matéria</span>
+        <div class="tabela-tab clearfix margin-top">
+          <div class="tab-linha clearfix">
+            <ul class="tab-menu clearfix">
+              <!-- <li class="tab-menu-item balizador">Matérias</li> -->
+              <li class="tab-menu-item" ng-class="{'active' : tabActive == 'acertos'}"><span>Matérias</span></li>
+              <li class="tab-menu-item" ng-class="{'active' : tabActive == 'questoes'}"><span>Desempenho</span></li>   
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div class="coluna coluna-fixed" id="col-materia">
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
             </div>
-            <div class="linha odd clearfix">
-              <div class="coluna">
-                Português
-              </div>
-              <div class="coluna">
-                20
-              </div>
-              <div class="coluna">
-                10
-              </div>
-              <div class="coluna">
-                20
-              </div>
-            </div>
-            <div class="linha even clearfix">
-              <div class="coluna">
-                MATEMÁTICA FINANCEIRA
-              </div>
-              <div class="coluna">
-                20
-              </div>
-              <div class="coluna">
-                10
-              </div>
-              <div class="coluna">
-                20
-              </div>
-            </div>
-            <div class="linha odd clearfix">
-              <div class="coluna">
-                Português
-              </div>
-              <div class="coluna">
-                20
-              </div>
-              <div class="coluna">
-                10
-              </div>
-              <div class="coluna">
-                20
-              </div>
-            </div>
-            <div class="linha even clearfix">
-              <div class="coluna">
-                MATEMÁTICA FINANCEIRA
-              </div>
-              <div class="coluna">
-                20
-              </div>
-              <div class="coluna">
-                10
-              </div>
-              <div class="coluna">
-                20
-              </div>
+            
+            
+            <div class="coluna coluna-movel" id="desempenho">
+              <div class="linha odd">100/200 = 50%</div>
+              <div class="linha even">100/200 = 50%</div>
+              <div class="linha odd">100/200 = 50%</div>
+              <div class="linha even">100/200 = 50%</div>
+              <div class="linha odd">200/200 = 100%</div>
+              <div class="linha even">200/200 = 100%</div>
             </div>
           </div>
         </div>
       </div>
+
+      
 
     </div>
 

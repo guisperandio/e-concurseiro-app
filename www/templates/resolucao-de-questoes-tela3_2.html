@@ -2,7 +2,7 @@
   <ion-content padding="false" class="manual-ios-statusbar-padding">
     <div class="header-ciclos clearfix">
       <a id="logo-resolucao" class="sprite spritesheet-resolucao resolucao-logo" href="#">resolucao de questoes</a>
-      <i class="sprite spritesheet-ciclos ciclos-info right"></i>
+      <i class="fa fa-share fa-share-branco right" aria-hidden="true" style="font-size: 30px; color: transparent; margin: 10px 0 0 20px"></i>
       <i class="sprite spritesheet-ciclos ciclos-power right"></i>
     </div>
     <div class="content clearfix">
@@ -25,111 +25,112 @@
           <i class="sprite spritesheet-ciclos ciclos-posicao right">13º</i>
         </div>
       </div>
-      <div class="tabela-tipo5 clearfix left">
-        <i class="sprite spritesheet-ciclos ciclos-seta-tabela-esquerda left" style="top: 250px;"></i>
-        <i class="sprite spritesheet-ciclos ciclos-seta-tabela-direita right no-margin" style="top: 250px;"></i>
-        <div class="tabela-container clearfix">
-          <div class="linha-topo clearfix">
-            <div class="coluna">
-              Concurseiro
-            </div>
-            <div class="coluna">
-              Total de horas estudadas
-            </div>
-            <div class="coluna">
-              Horas de Teoria
-            </div>
-            <div class="coluna">
-              Horas
-            </div>
+      <div class="clearfix margin-top margin-bottom" style="margin-top: 50px !important;">
+        <!-- <span class="subtitle padding">Metas Parciais</span> -->
+        <div class="tabela-tab clearfix margin-top tabela11">
+          <div class="tab-linha clearfix">
+            <ul class="tab-menu clearfix">
+              <!-- <li class="tab-menu-item balizador">Matérias</li> -->
+              <li class="tab-menu-item" ng-click="tabClick('t1')" ng-class="{'active' : tabActive == 't1' || tabActive == ''}"><span class="twolines">Total de Horas Estudadas</span></li>
+              <li class="tab-menu-item" ng-click="tabClick('t2')" ng-class="{'active' : tabActive == 't2'}"><span>Horas de Teoria</span></li>
+              <li class="tab-menu-item" ng-click="tabClick('t3')" ng-class="{'active' : tabActive == 't3'}"><span>Horas</span></li>
+            </ul>
           </div>
-          <div class="linha first clearfix">
-            <div class="coluna clearfix">
-              <span class="primeiro left">1º <i class="sprite spritesheet-ciclos ciclos-crown right"></i></span>
-              <div class="user left clearfix">
-                <div class="user-img">
+          <div class="tab-content">
+            <div class="coluna coluna-fixed" id="col-materia" style="width: calc(100% - 116px) !important">
+              <div class="linha odd clearfix fnd-yellow">
+                <span class="primeiro left">1º <i class="sprite spritesheet-ciclos ciclos-crown right"></i></span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
                 </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
               </div>
-              <span class="name-user left">George Firmino</span>
-              <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
-              <span class="user-pct left">75%</span>
-              <i class="sprite spritesheet-ciclos ciclos-add left"></i>
-            </div>
-            <div class="coluna" style="width: 197px;">
-              235
-            </div>
-            <div class="coluna" style="width: 128px;">
-              235
-            </div>
-            <div class="coluna" style="width: 61px;">
-              235
-            </div>
-          </div>
-          <div class="linha even clearfix">
-            <div class="coluna clearfix">
-              <div class="user left clearfix">
-                <div class="user-img">
+              <div class="linha clearfix even">
+                <span class="primeiro left">12º</span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
                 </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
               </div>
-              <span class="name-user left">George Firmino</span>
-              <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
-              <span class="user-pct left">75%</span>
-              <i class="sprite spritesheet-ciclos ciclos-add left"></i>
-            </div>
-            <div class="coluna" style="width: 197px;">
-              20
-            </div>
-            <div class="coluna" style="width: 128px;">
-              10
-            </div>
-            <div class="coluna" style="width: 61px;">
-              20
-            </div>
-          </div>
-          <div class="linha odd clearfix">
-            <div class="coluna clearfix">
-              <div class="user left clearfix">
-                <div class="user-img">
+              <div class="linha clearfix odd">
+                <span class="primeiro left">12º</span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
                 </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
               </div>
-              <span class="name-user left">George Firmino</span>
-              <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
-              <span class="user-pct left">75%</span>
-              <i class="sprite spritesheet-ciclos ciclos-add left"></i>
-            </div>
-            <div class="coluna" style="width: 197px;">
-              20
-            </div>
-            <div class="coluna" style="width: 128px;">
-              10
-            </div>
-            <div class="coluna" style="width: 61px;">
-              20
-            </div>
-          </div>
-          <div class="linha active clearfix">
-            <div class="coluna clearfix">
-              <div class="user left clearfix">
-                <div class="user-img">
+              <div class="linha clearfix even">
+                <span class="primeiro left">12º</span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
                 </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
               </div>
-              <span class="name-user left">George Firmino</span>
-              <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
-              <span class="user-pct left">75%</span>
-              <i class="sprite spritesheet-ciclos ciclos-add left"></i>
+              <div class="linha clearfix odd">
+                <span class="primeiro left">12º</span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
+                </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
+              </div>
+              <div class="linha clearfix even">
+                <span class="primeiro left">12º</span>
+                <div class="user left clearfix">
+                  <div class="user-img">
+                  </div>
+                </div>
+                <span class="name-user left">George Firmino</span>
+                <i class="sprite spritesheet-ciclos ciclos-icon left"></i>
+                <span class="user-pct left">75%</span>
+                <i class="sprite spritesheet-ciclos ciclos-add left"></i>
+              </div>
             </div>
-            <div class="coluna" style="width: 197px;">
-              20
+            <div class="coluna coluna-movel" id="t1" style="width: 116px !important" ng-show="tabActive == 't1' || tabActive == ''">
+              <div class="linha odd fnd-yellow">235</div>
+              <div class="linha even">152</div>
+              <div class="linha odd">152</div>
+              <div class="linha even">152</div>
+              <div class="linha odd">152</div>
+              <div class="linha even">152</div>
             </div>
-            <div class="coluna" style="width: 128px;">
-              10
+            <div class="coluna coluna-movel" id="t2" style="width: 116px !important" ng-show="tabActive == 't2'">
+              <div class="linha odd fnd-yellow">235</div>
+              <div class="linha even">12</div>
+              <div class="linha odd">15</div>
+              <div class="linha even">2</div>
+              <div class="linha odd">12</div>
+              <div class="linha even">2</div>
             </div>
-            <div class="coluna" style="width: 61px;">
-              20
+            <div class="coluna coluna-movel" id="t3" style="width: 116px !important" ng-show="tabActive == 't3'">
+              <div class="linha odd fnd-yellow">235</div>
+              <div class="linha even">152</div>
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+              <div class="linha odd">15</div>
+              <div class="linha even">52</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </ion-content>
 </ion-view>

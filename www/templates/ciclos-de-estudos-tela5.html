@@ -18,167 +18,83 @@
         QUANTIDADE DE HORAS<br /> ESTUDADAS POR SEMANA
       </p>
     </div>
-
-    <div class="tabela-tipo2 clearfix">
-      <div class="tabela-titulo">
-        Matérias do 1º Ciclo
-      </div>
-      <i class="sprite spritesheet-ciclos ciclos-seta-tabela-esquerda left"></i>
-      <i class="sprite spritesheet-ciclos ciclos-seta-tabela-direita right no-margin"></i>
-      <div class="tabela-container clearfix">
-
-        <div class="linha-topo clearfix fundo-azul">
-          <div class="coluna">
-            Matérias
+    <div class="clearfix margin-top margin-bottom">
+        <span class="subtitle padding">Matérias do 1º Ciclo</span>
+        <div class="tabela-tab clearfix margin-top">
+          <div class="tab-linha clearfix">
+            <ul class="tab-menu clearfix">
+              <!-- <li class="tab-menu-item balizador">Matérias</li> -->
+              <li class="tab-menu-item" ng-click="tabClick('t1')" ng-class="{'active' : tabActive == 't1'}"><span>Bloco</span></li>
+              <li class="tab-menu-item" ng-click="tabClick('t2')" ng-class="{'active' : tabActive == 't2'}"><span>Teoria</span></li>
+            </ul>
           </div>
-          <div class="coluna">
-            Blocos
-          </div>
-          <div class="coluna">
-            Teoria
-          </div>
-          <div class="coluna">
-            Horas
-          </div>
-        </div>
-        <div class="linha odd clearfix">
-          <div class="coluna">
-            Português
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha even clearfix">
-          <div class="coluna">
-            MATEMÁTICA FINANCEIRA
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha odd clearfix">
-          <div class="coluna">
-            Português
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha even clearfix">
-          <div class="coluna">
-            MATEMÁTICA FINANCEIRA
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
+          <div class="tab-content">
+            <div class="coluna coluna-fixed" id="col-materia">
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+            </div>
+            <div class="coluna coluna-movel" id="t1" ng-show="tabActive == 't1' || tabActive == ''">
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+            </div>
+            <div class="coluna coluna-movel" id="t2" ng-show="tabActive == 't2'">
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="tabela-tipo2 clearfix tabela-gray">
-      <div class="tabela-titulo">
-        Matérias Seguintes
-      </div>
-      <i class="sprite spritesheet-ciclos ciclos-seta-tabela-esquerda left"></i>
-      <i class="sprite spritesheet-ciclos ciclos-seta-tabela-direita right no-margin"></i>
-      <div class="tabela-container clearfix">
-        <div class="linha-topo clearfix fundo-cinza">
-          <div class="coluna">
-            Matérias
+      <div class="clearfix margin-top margin-bottom" style="margin-top: 50px !important;">
+        <span class="subtitle padding" style="color: #949494">Matérias Seguintes</span>
+        <div class="tabela-tab clearfix margin-top">
+          <div class="tab-linha clearfix">
+            <ul class="tab-menu clearfix" style="background-color: #949494">
+              <!-- <li class="tab-menu-item balizador">Matérias</li> -->
+              <li class="tab-menu-item" ng-click="tabClick2('t3')" ng-class="{'active' : tabActive2 == 't3'}"><span>Bloco</span></li>
+              <li class="tab-menu-item" ng-click="tabClick2('t4')" ng-class="{'active' : tabActive2 == 't4'}"><span>Teoria</span></li> 
+            </ul>
           </div>
-          <div class="coluna">
-            Blocos
-          </div>
-          <div class="coluna">
-            Teoria
-          </div>
-          <div class="coluna">
-            Horas
-          </div>
-        </div>
-        <div class="linha odd clearfix">
-          <div class="coluna">
-            Português
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha even clearfix">
-          <div class="coluna">
-            MATEMÁTICA FINANCEIRA
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha odd clearfix">
-          <div class="coluna">
-            Português
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
-          </div>
-        </div>
-        <div class="linha even clearfix">
-          <div class="coluna">
-            MATEMÁTICA FINANCEIRA
-          </div>
-          <div class="coluna">
-            20
-          </div>
-          <div class="coluna">
-            10
-          </div>
-          <div class="coluna">
-            20
+          <div class="tab-content">
+            <div class="coluna coluna-fixed" id="col-materia">
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+              <div class="linha odd">Português</div>
+              <div class="linha even">Matemática Financeira</div>
+            </div>
+            <div class="coluna coluna-movel" id="t3" ng-show="tabActive2 == 't3' || tabActive2 == ''">
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+              <div class="linha odd">20</div>
+              <div class="linha even">20</div>
+            </div>
+            <div class="coluna coluna-movel" id="t4" ng-show="tabActive2 == 't4'">
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+              <div class="linha odd">10h</div>
+              <div class="linha even">10h</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    
 
 
     <br />
